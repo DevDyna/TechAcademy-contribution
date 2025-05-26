@@ -10,5 +10,7 @@ StartupEvents.registry("item", (event) => {
 });
 
 StartupEvents.registry("block", (event) => {
-  event.create("techacademy:blazerod_block");
+  event.create("techacademy:blazerod_block").item(i=>{
+    i.tooltip({ translate: "item.techacademy.blazeblock.tip" })
+  })
 });
