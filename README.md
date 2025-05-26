@@ -19,7 +19,7 @@ Separare i primi con un nome significativo e i secondi con un nome diverso, tipo
 -----------------------
 
 
-# English :uk::us:
+# English :us:
 ### Description
 
 This repo does not contain, any pack release, any mods, it is only for collaborative development of quests, configs, scripts and mods traking,
