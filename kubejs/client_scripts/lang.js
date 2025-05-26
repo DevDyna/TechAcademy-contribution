@@ -14,6 +14,9 @@ const anyLang = {
     "item.techacademy.ore_dictionary.tooltip2",
     //-------------------------------------------// buttons
     "techacademy.continue_button.key",
+    //-------------------------------------------// easy mods
+    "item.techacademy.easy_villagers.desc",
+    "item.techacademy.easy_piglins.desc",
   ],
   en_us: [
     //-------------------------------------------// compact machines
@@ -30,6 +33,9 @@ const anyLang = {
     "§e§lUseful after updates in case of pack changes at the unification system§r",
     //-------------------------------------------// buttons
     "Continue",
+    //-------------------------------------------// easy mods
+    "Shift-Right Click on a villager to pick-up as item form",
+    "Shift-Right Click on a piglin during you are holding something of gold to pick-up as item form",
   ],
   it_it: [
     // to traslate (?)
@@ -47,9 +53,11 @@ const anyLang = {
     "§e§lUtile dopo gli aggiornamenti, in caso di modifiche del pacchetto nel sistema di unificazione§r",
     //-------------------------------------------// buttons
     "Continua",
+    //-------------------------------------------// easy mods
+    "Shift-Right Click su un villico per prenderlo in forma di item",
+    "Shift-Right Click su un piglin nel mentre hai qualcosa di oro per prenderlo in forma di item",
   ],
 };
-
 
 //Convert all _key traslation keys on virtual lang files to reduce multiple json
 Object.keys(anyLang).forEach((entry) => {
