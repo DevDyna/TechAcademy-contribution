@@ -17,6 +17,8 @@ const anyLang = {
     //-------------------------------------------// easy mods
     "item.techacademy.easy_villagers.desc",
     "item.techacademy.easy_piglins.desc",
+    //-------------------------------------------// blazeblock
+    "item.techacademy.blazeblock.tip",
   ],
   en_us: [
     //-------------------------------------------// compact machines
@@ -36,6 +38,8 @@ const anyLang = {
     //-------------------------------------------// easy mods
     "Shift-Right Click on a villager to pick-up as item form",
     "Shift-Right Click on a piglin during you are holding something of gold to pick-up as item form",
+    //-------------------------------------------// blazeblock
+    "Texture will change on a future for a better version",
   ],
   it_it: [
     // to traslate (?)
@@ -56,6 +60,8 @@ const anyLang = {
     //-------------------------------------------// easy mods
     "Shift-Right Click su un villico per prenderlo in forma di item",
     "Shift-Right Click su un piglin nel mentre hai qualcosa di oro per prenderlo in forma di item",
+    //-------------------------------------------// blazeblock
+    "Questa texture cambierà in futuro in una versione migliore",
   ],
 };
 
