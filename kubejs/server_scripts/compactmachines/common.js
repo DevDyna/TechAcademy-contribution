@@ -24,7 +24,7 @@ const compactsMachines = [
   },
   {
     name: "giant",
-    color: "#43D6CD",
+    color: "#211B2E",
     dimension: { depth: 11, height: 11, width: 11 },
     core: {
       tag: "c:obsidians",
@@ -32,7 +32,7 @@ const compactsMachines = [
   },
   {
     name: "large",
-    color: "#211B2E",
+    color: "#43D6CD",
     dimension: { depth: 9, height: 9, width: 9 },
     core: {
       tag: "c:gems/diamond",
@@ -43,7 +43,7 @@ const compactsMachines = [
     color: "#FBF236",
     dimension: { depth: 7, height: 7, width: 7 },
     core: {
-      tag: "c:gems/diamond",
+      tag: "c:ingots/gold",
     },
   },
   {
@@ -51,7 +51,7 @@ const compactsMachines = [
     color: "#D4D2D2",
     dimension: { depth: 5, height: 5, width: 5 },
     core: {
-      tag: "c:ingots/gold",
+      tag: "c:ingots/iron",
     },
   },
   {

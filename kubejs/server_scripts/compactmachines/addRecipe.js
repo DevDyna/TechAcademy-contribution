@@ -2,34 +2,29 @@
 
 ServerEvents.recipes((event) => {
   compactsMachines.forEach((compactMachine) => {
-    event.custom({
-      type: "minecraft:crafting_shaped",
-      category: "misc",
-      key: {
-        E: {
-          item: "compactmachines:enlarging_module",
-        },
-        P: compactMachine["core"],
-        S: {
-          item: "compactmachines:shrinking_module",
-        },
-        W: {
-          item: "compactmachines:wall",
-        },
-      },
-      pattern: [
+    let output = `compactmachines:new_machine[compactmachines:room_template="compactmachines:${compactMachine["name"]}",compactmachines:machine_color="${compactMachine["color"]}"]`
+    event.shaped(
+      Item.of(output, 1),
+      [
         "WWW",
-        "EPS",
+        "ECS",
         "WWW"
       ],
-      result: {
-        components: {
-          "compactmachines:machine_color": compactMachine["color"],
-          "compactmachines:room_template": `compactmachines:${compactMachine["name"]}`,
-        },
-        count: 1,
-        id: "compactmachines:new_machine",
-      },
-    });
+      {
+        E: {item: "compactmachines:enlarging_module"},
+        C: compactMachine["core"],
+        S: {item: "compactmachines:shrinking_module"},
+        W: {item: "compactmachines:wall"},
+      }
+    ).id(`kjs:compactmachines/${compactMachine["name"]}`);
+
   });
 });
+
+// RecipeViewerEvents.registerSubtypes("item", (event) => {
+//     event.useComponents(
+//       "compactmachines:new_machine",
+//       ["compactmachines:room_template"]
+//     );
+// });
+

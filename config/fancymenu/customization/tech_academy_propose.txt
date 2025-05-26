@@ -39,7 +39,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = {"placeholder":"local","values":{"key":"tech_academy.continue_button.key"}}
+  label = {"placeholder":"local","values":{"key":"techacademy.continue_button.key"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = b9c17134-9d94-418d-9d7c-c0fd339e2ab0-1747613010612
   [loading_requirement_container_meta:b9c17134-9d94-418d-9d7c-c0fd339e2ab0-1747613010612] = [groups:][instances:]

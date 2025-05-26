@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
   // Recipe automatica per ottenere gli item unificati resitutendo l'item corretto
   // seguendo la priority list nei config della almost unified 
-  let auxiliaryItem = `kubejs:ore_dictionary`
+  let auxiliaryItem = `techacademy:ore_dictionary`
 
   event.shapeless(
     Item.of(auxiliaryItem),
