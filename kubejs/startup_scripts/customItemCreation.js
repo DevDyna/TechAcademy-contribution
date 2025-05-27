@@ -5,8 +5,10 @@ StartupEvents.registry("item", (event) => {
     .create("techacademy:ore_dictionary")
     .displayName("Ore Dictionary")
     .maxStackSize(1)
-    .tooltip({ translate: "item.techacademy.ore_dictionary.tooltip1" })
-    .tooltip({ translate: "item.techacademy.ore_dictionary.tooltip2" });
+    .tooltip(Component.translatable("item.techacademy.ore_dictionary.tooltip1"))
+    .tooltip(
+      Component.translatable("item.techacademy.ore_dictionary.tooltip2")
+    );
 });
 
 StartupEvents.registry("block", (event) => {
