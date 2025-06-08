@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replica"
+	group: "6021C862F01F642A"
+	icon: {
+		id: "replication:replicator"
+	}
+	id: "569585FB9CFADBD0"
+	order_index: 12
+	quest_links: [ ]
+	quests: [ ]
+}
