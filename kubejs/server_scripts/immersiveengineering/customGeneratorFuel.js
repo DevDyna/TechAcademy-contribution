@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
     { type: "immersiveengineering:generator_fuel" },
     (recipe) => {
       if (!recipe.getId().includes("kjs:")) {
-        console.log(`${recipe.getId()} removed from diesel generator recipes.`);
+        // console.log(`${recipe.getId()} removed from diesel generator recipes.`);
         event.remove({ id: recipe.getId() });
       } else {
         ieGeneratorFuels.push({
