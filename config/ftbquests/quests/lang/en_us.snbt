@@ -19,6 +19,7 @@
 	chapter.4B91FBE61460CC63.title: "Le Quest"
 	chapter.4F8C1FBE943C4B53.title: "Processing"
 	chapter.5127EAB07A1BA40A.title: "Mekanism"
+	chapter.569585FB9CFADBD0.title: "Replica WIP"
 	chapter.592CF3629B80B6FA.title: "Powah"
 	chapter.7A3DDEC3BE3BE902.title: "Utilità"
 	chapter.7D82DB4905EAC0E4.title: "Grinding"
@@ -66,6 +67,7 @@
 		"&lFormation Plane&r: Questo componente posiziona o lascia cadere automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco."
 	]
 	quest.026404C1E714F6D2.quest_desc: ["In questo capitolo troverai tutti gli strumenti utili per giocare al modpack, indipendentemente dalla mod che li inserisce."]
+	quest.026404C1E714F6D2.quest_subtitle: "Tante piccole cose utili!"
 	quest.026404C1E714F6D2.title: "Utilità"
 	quest.026C148FD7874738.quest_desc: ["Se usata sulle macchine della Mekanism ti permette di farle diventare Factory con più slot"]
 	quest.0277EA11A4261E6E.quest_desc: ["Segui le istruzioni del Coke Oven per questa struttura multiblocco. Non puoi ne prendere ne mettere item in maniera automatica, dovrai creare la Blast avanzata!"]
@@ -182,8 +184,22 @@
 	quest.07EF8759FDE967A0.quest_desc: ["Se posizionato sull'Inventory Connector permette di visualizzare e ricercare gli oggetti in tutti gli inventari adiacenti"]
 	quest.080A9259205AF29D.quest_desc: ["Come il precedente ma più potente!"]
 	quest.084A860C5F782C20.quest_desc: ["Stesso utilizzo delle Crafting Unit base!"]
+	quest.0859A26ADD00E7F0.quest_desc: ["Il Crusher ti permette di ottenere più raw materials (o gemme) dagli ore, ma manche più dust (da poi cuocere) da un singolo raw. (Circa 20% di possibilità di doppio drop)"]
+	quest.0859A26ADD00E7F0.quest_subtitle: "Polverizziamolo!"
 	quest.087CE4A1731BA8CA.quest_desc: ["Esistono diversi modi per ottenere il Silicon!"]
 	quest.087CE4A1731BA8CA.title: "Silicon"
+	quest.08BFDB6EF8EF076A.quest_desc: [
+		"Strumento che permette di conservare 6 eventi affrontati dal player (morti, cambi di dimensione, respwan, ecc), col tasto destro."
+		"[\"Strumento che permette di conservare 6 eventi affrontati dal player (morti, cambi di dimensione, respwan, ecc), con \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" tenendolo in mano si aprirà una GUI a ruota che mostrera suddetti eventi\"]"
+		""
+		"Con un click di &l&cLeft Button&r sopra si verrà teletrasportati alle coridnate (e dimensione) nel quale tale evento è stato registrato"
+		""
+		"&l&aConsiglio:&r Aprendo un inventario sarà possibile prendere questo item e cliccandolo con &l&cRight Button&r su un &oTempad&r, sarà possibile aggiungere una nuova app al suddetto Tempad, capace di conservare più eventi con una gui più comoda (navigabile con la &crotella del mouse&r"
+		""
+		"&l&6N.B.&r"
+		"Una volta selezionato un evento tutti quelli successivi ad esso verrano eliminati"
+	]
+	quest.08BFDB6EF8EF076A.quest_subtitle: "Back in the Future!"
 	quest.08F8CD6E466380A4.quest_desc: [
 		"Sfrutta l'energia solare per produrre aria compressa. Migliora la sua produzione se si fornisce calore al macchinario!"
 		""
@@ -195,6 +211,7 @@
 		"Permette molto lentamente di \"caricare\" di luce ultravioletta un Empty PCB. Più lo si fa caricare più è alta la chance che il processo di etching finisca con successo."
 	]
 	quest.0947A710B701B542.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.0959119DFCEAFCE5.quest_desc: ["Un semplice portafogli che permette di conservare più &oLocation Card&r"]
 	quest.0999A3830F57B7DD.quest_desc: ["La tua prima fonte di energia! Puoi inserirci qualsiasi Fuel di minecraft!"]
 	quest.09C48C51B3A8E26A.quest_desc: ["Può essere applicato al Destructor, permettendo di distruggere i blocchi con Silk Touch!"]
 	quest.09CCBBCF5BBA2547.quest_desc: ["Questi cavi ti mostrano il numero di connessioni."]
@@ -246,6 +263,8 @@
 		"Ti permette di accedere all'inventario entro 64 blocchi da esso (shift+tasto destro del mouse per collegarlo all Terminal)."
 		"Se in presenza di un Beacon, in base al materiale, aumenta il raggio e permette lo scambio extra dimensionale (maggiori info col mouse sull'oggetto)"
 	]
+	quest.0C556775EE7A95BF.quest_desc: ["Come l'ender chest ma per i fluidi"]
+	quest.0C556775EE7A95BF.quest_subtitle: "Ender anche per le Tank!"
 	quest.0CFC75F98DF71CA1.quest_desc: [
 		"Questi oggetti permettono di propagare segnali di Redstone anziché  dover tracciare quelle bruttissime strisce di Redstone come in Vanilla!"
 		""
@@ -255,24 +274,21 @@
 	quest.0D2519C47F64E33F.quest_desc: [
 		"Mod tecnologica che espande il sistema di minerali e introduce nuove leghe, materiali e macchinari avanzati per la lavorazione dei metalli. Offre una progressione tecnologica ordinata, basata sull’estrazione, raffinazione e combinazione di risorse."
 		""
-		"------>"
+		"&a------------->&r"
 		"{@pagebreak}"
-		""
-		"Gioca questa mod se:"
-		""
+		"&6&lGioca questa mod se:&r"
 		"Ti piace scoprire nuovi minerali e creare leghe inedite."
-		""
 		"Vuoi una filiera produttiva completa, dalla miniera alla macchina finita."
-		""
 		"Cerchi un’esperienza tech con materiali personalizzati e ricette complesse."
 		""
-		"Focus:"
-		"✅ Nuovi minerali e leghe"
-		"✅ Raffinazione e lavorazione dei metalli"
-		"✅ Macchinari tecnologici avanzati"
-		"✅ Progressione tech graduale"
+		"&d&lFocus:&r"
+		"&l&a✅&r Nuovi minerali e leghe"
+		"&l&a✅&r Raffinazione e lavorazione dei metalli"
+		"&l&a✅&r Macchinari tecnologici avanzati"
+		"&l&a✅&r Progressione tech graduale"
 		""
-		"Difficoltà: 3/5 – Richiede attenzione alla raccolta risorse e alla gestione dei processi, ma premia con materiali rari e strumenti potenti."
+		"&b&lDifficoltà:&r"
+		"3/5 – Richiede attenzione alla raccolta risorse e alla gestione dei processi, ma premia con materiali rari e strumenti potenti."
 	]
 	quest.0D2519C47F64E33F.quest_subtitle: "Crafta la chiave tecnologica"
 	quest.0D2519C47F64E33F.title: "Oritech"
@@ -286,7 +302,12 @@
 		"&6&lQuesti tubi supportano pressioni di media intensità, quindi attento perché esplodono se a lungo sottoposti ad alta pressione!&r&r"
 	]
 	quest.0E2429693F1B39B7.quest_desc: ["Come la precedente ma più capiente!"]
-	quest.0E7A6596E86235B7.quest_desc: ["Puoi craftare spugne moddate senza dover trovare prima le spugne vanilla!"]
+	quest.0E7A6596E86235B7.quest_desc: [
+		"Puoi craftare spugne moddate senza dover trovare prima le spugne vanilla!"
+		"E quest non si bagano"
+	]
+	quest.0E7A6596E86235B7.quest_subtitle: "Anche per la lava!"
+	quest.0E7A6596E86235B7.title: "Nuove Spugne"
 	quest.0E8AD23F806E9510.quest_desc: [
 		"Ai sempre trovato fastidioso che gli Enderman si teletrasportino? Bhe questo oggetto è la soluzione che fa per te!"
 		""
@@ -387,6 +408,7 @@
 		""
 		"[\"\", {\"keybind\":\"keybind.ironjetpacks.hover\",\"bold\":true,\"color\":\"red\"}, \" - Attiva l'Hover\"]"
 	]
+	quest.136483920DF38D4D.quest_subtitle: "Si Volaaa!"
 	quest.137CCA74567106B7.quest_desc: ["Una batteria più capiente!"]
 	quest.141E6DF27616DF04.quest_desc: [
 		"Tubi base per il trasporto di aria compressa fino a 5 bar. "
@@ -414,7 +436,11 @@
 	quest.158E1F90A8E37FA5.quest_desc: ["Come il precedente, ma permette di trasferire 16 oggetti alla volta!"]
 	quest.159A7663B99D6343.quest_desc: ["Utilizza questi Conduit per il trasporto di oggetti!"]
 	quest.159AD21CB2A8EF34.quest_desc: ["Puoi trovare questo seme rompendo l'erba come faresti per trovare i vanillosi semi di grano!"]
-	quest.15D045DF76328901.quest_desc: ["Piazza l'Empowerer al centro e metti 4 stand a + a due blocchi di distanza"]
+	quest.15D045DF76328901.quest_desc: [
+		"Piazza l'Empowerer al centro e metti 4 stand a + a 2 blocchi di distanza"
+		"{image:techacademy:textures/quests/ch_actually/empowerer.png width:200 height:200 align:center}"
+		"Con questo \"altare\" è possibile craftare i materiali avanzati della Mod"
+	]
 	quest.1640E08845D6EA1A.quest_desc: ["Usa l'acqua per far muovere il mulino e produrre corrente"]
 	quest.1665858EF6313918.quest_desc: ["Der super pantaloni!"]
 	quest.1721164FB35194AD.quest_desc: [
@@ -454,6 +480,13 @@
 		""
 		"Questi cavi funzionano esattamente come i Pressurized Tube della Mekanism, ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
 	]
+	quest.1930C82242954EB8.quest_desc: [
+		"Una evoluzione delle Cell, puo essere piazzata in world e generare lentamente, di conseguenza è affetta da strumenti di time speed come la Industrial Souls"
+		""
+		"&l&6N.B.&r"
+		"[\"Ha bisogno di un po di Chronons, per iniziare a funzionare, nello specifico, quella di una battery, per dargli questi C iniziali \", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"}, \" + \" ,{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" sul Metronome, solo dopo di cio la gui sarà accessibile\"]"
+	]
+	quest.1930C82242954EB8.quest_subtitle: "\"Blocchiamo\" il tempo"
 	quest.193469334E1A5D35.quest_desc: ["Un semplice metodo di trasporto, estrazione e inserimento dei fluidi tra blocchi. "]
 	quest.193469334E1A5D35.quest_subtitle: "Come un hopper ma per i fluidi!"
 	quest.193D58BC69392224.quest_desc: [
@@ -518,6 +551,7 @@
 	quest.1CF75450899A21AB.quest_desc: ["Applica al giocatore speed perenne!"]
 	quest.1D31132DAC2F08F8.title: "Bodyarmor Upgrade"
 	quest.1D59AE589AD5A7A2.quest_desc: ["Getta 1 pezzo di Sky Stone, 1 di Charged Certus Quartz e 1 di ferro all'interno della lava, non è uno scherzo!"]
+	quest.1D88AEF0C8273271.quest_desc: ["Caricata nel &oTempad&r con la &oWorkstation&r, permette di usare la funzione multiplayer di tracciamento dei player"]
 	quest.1DBD2374710BB50A.quest_desc: ["Ti permette di accedere all'inventario se entro un certo raggio"]
 	quest.1E008F1E024B5C02.quest_desc: [
 		"Bellissima batteria modulare, ovvero è possibile ingrandire la batteria piazzando più blocchi di questo tipo uno vicino all'altro in modo da creare una grande e capiente batteria."
@@ -584,6 +618,7 @@
 		"Puoi colorarli per non farli attaccare tra di loro."
 	]
 	quest.21FA1ED194A0764B.quest_desc: ["Queste chest funzionano come Ender Chest, ma è possibile cambiare la frequenza per avere infiniti collegamenti!"]
+	quest.21FA1ED194A0764B.quest_subtitle: "Come le Ender Chest ma meglio!"
 	quest.223A3E4B354A7B34.quest_desc: ["Versione potenziata del Charger!"]
 	quest.2326B520ED65E44B.quest_desc: ["Un modulo che permette al sistema di vedere gli oggetti, fluidi o gas immagazzinati all'interno di un inventario!"]
 	quest.23C7BF49E2AD50DF.quest_desc: [
@@ -592,6 +627,7 @@
 		"Utilizza solo uno dei due alla volta!"
 	]
 	quest.23E97256E02EC67F.quest_desc: ["Come per le DimensionalChest, ma per i liquidi!"]
+	quest.23E97256E02EC67F.quest_subtitle: "Come le Ender Tank ma meglio!"
 	quest.240281FFE6A26645.quest_desc: [
 		"Esistono due tipi di Spawner Core quelli estratti direttamente da uno spawner trovato nel mondo e quelli creati dal giocatore."
 		""
@@ -612,20 +648,22 @@
 	quest.2468030BF5117C30.quest_subtitle: "Per un mondo più pulito!"
 	quest.2468030BF5117C30.title: "Diesel Generator"
 	quest.2471B86146F5F9C9.quest_desc: [
-		"&lCreate&r"
 		"Mod ingegneristica che introduce macchinari meccanici e sistemi di automazione basati su ingranaggi, cinghie e motori a rotazione, offrendo un’alternativa alla Redstone con un’estetica steampunk e interazioni fisiche uniche."
 		""
-		"Gioca questa mod se:"
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Ti piace costruire automazioni complesse in modo visivamente accattivante."
 		"Vuoi un sistema meccanico basato sul movimento reale degli oggetti."
 		"Ti affascina la combinazione tra creatività e ingegneria."
 		""
-		"Focus:"
+		"&d&lFocus:&r"
 		"✅ Meccaniche basate sulla fisica"
 		"✅ Automazione tramite ingranaggi e cinghie"
 		"✅ Strutture in movimento e design creativo"
 		""
-		"Difficoltà: 3.5/5 – Richiede una buona comprensione delle meccaniche, ma è intuitiva con pratica."
+		"&b&lDifficoltà:&r"
+		"3.5/5 – Richiede una buona comprensione delle meccaniche, ma è intuitiva con pratica."
 	]
 	quest.2471B86146F5F9C9.quest_subtitle: "Crafta l'Andesite Alloy!"
 	quest.2471B86146F5F9C9.title: "Create"
@@ -637,6 +675,7 @@
 	quest.24C5C528DE10D27E.quest_desc: ["Componente utilizzato per oggetti più avanzari della mod!"]
 	quest.24C5C528DE10D27E.quest_subtitle: "Tips: craftalo all'interno della Engineer's Workbench!"
 	quest.24ECCA7C4D345B06.quest_desc: ["Semplice oggetto di tramite per crafting più avanzati!"]
+	quest.252D419ECFE18368.quest_desc: ["[\"Cliccando con \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" su un \",{\"text\":\"Timedoor Maker\",\"italic\":true},\" è possibile registrare la sua posizione per poi usarla con il \",{\"text\":\"Time Door Projector\",\"italic\":true}]"]
 	quest.255FB94474687D22.quest_desc: [
 		"L'ME Terminal ti permette di vedere tutti gli oggetti presenti nel tuo storage!"
 		""
@@ -664,22 +703,23 @@
 	quest.28B50B71422A73AB.quest_desc: ["L'anello del Magnetismo ti permette, se attivato (vedrai un effetto simil Enchant) di attirare a te tutti gli oggetti in un raggio di 5 blocchi!"]
 	quest.28F50D021161B5D7.quest_desc: ["Stesso utilizzo delle Crafting Unit base!"]
 	quest.29541D1F71E6A026.quest_desc: [
-		""
-		"Immersive Engineering"
 		"Mod tecnologica che introduce macchinari e generatori industriali realistici, con un'estetica steampunk e un focus su cavi, strutture multiblocco e trasformazione delle risorse."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Ti piace un’industria in stile dieselpunk con macchinari imponenti."
 		"Vuoi un sistema energetico realistico con cavi e trasformatori."
 		"Ti affascinano le costruzioni multiblocco e la meccanica dettagliata."
-		"Focus:"
-		"✅ Strutture multiblocco"
-		"✅ Generazione e trasmissione di energia"
-		"✅ Automazione industriale"
-		"✅ Estetica steampunk/dieselpunk"
 		""
-		"Difficoltà: 3/5 – Richiede spazio e pianificazione, ma è intuitiva e visivamente appagante."
+		"&d&lFocus:&r"
+		"&l&a✅&r Strutture multiblocco"
+		"&l&a✅&r Generazione e trasmissione di energia"
+		"&l&a✅&r Automazione industriale"
+		"&l&a✅&r Estetica steampunk/dieselpunk"
+		""
+		"&b&lDifficoltà:&r"
+		"3/5 – Richiede spazio e pianificazione, ma è intuitiva e visivamente appagante."
 	]
 	quest.29541D1F71E6A026.quest_subtitle: "Crafta il martello dell'ingegnere!"
 	quest.29541D1F71E6A026.title: "Immersive Engineering"
@@ -700,6 +740,14 @@
 		""
 		"In base al livello del Capacitor che si utilizza il macchinario andrà più o meno veloce."
 	]
+	quest.2A36296B241E8B50.quest_desc: [
+		"Versione rudimentale di un Tempad con &oLocation Card&r e &oTimedoor Maker&r, permettei di aprire dei teleport verso specifiche posizioni"
+		""
+		""
+		"&l&6N.B.&r"
+		"[\"Per usarlo, va piazzato con il \", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"}, \" + \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" poi \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" sul blocco piazzato con una card gia registrata in mano e poi nuovamente \", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"}, \" + \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" ma a mani vuote e per aprire una Time Door \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" con questo blocco in mano, ripetendo questo ad ogni nuova destinazione\"]"
+	]
+	quest.2A36296B241E8B50.quest_subtitle: "Teleport Semplice"
 	quest.2A46F3EDD7C53BA5.quest_desc: ["Versione potenziata dell'ME Drive!"]
 	quest.2A5CB0E3D6F9F878.quest_desc: [
 		"Funziona come un Co-Processing Unit, ma può essere utilizzato solo all'interno del Quantim Computer!"
@@ -722,21 +770,23 @@
 	quest.2B3B6327C5E26C31.title: "Esplorazione"
 	quest.2B8B1C967E46BD3B.quest_desc: ["Come la precedente ma più capiente e veloce!"]
 	quest.2B9C12EC646BE10D.quest_desc: [
-		"Industrial Foregoing"
 		"Mod tecnologica basata sulla produzione industriale, con macchinari per l'estrazione di risorse, la generazione di energia e la lavorazione automatizzata."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Vuoi creare un impianto produttivo completo."
 		"Ti serve un sistema efficiente per coltivazione e allevamento automatici."
 		"Ti piacciono le macchine semplici ma potenti."
-		"Focus:"
-		"✅ Automazione produzione"
-		"✅ Estrazione e lavorazione materiali"
-		"✅ Allevamento e agricoltura automatica"
-		"✅ Energia industriale"
 		""
-		"Difficoltà: 2/5 – Facile da usare, perfetta per l’automazione immediata."
+		"&d&lFocus:&r"
+		"&l&a✅&r Automazione produzione"
+		"&l&a✅&r Estrazione e lavorazione materiali"
+		"&l&a✅&r Allevamento e agricoltura automatica"
+		"&l&a✅&r Energia industriale"
+		""
+		"&b&lDifficoltà:&r"
+		"2/5 – Facile da usare, perfetta per l’automazione immediata."
 	]
 	quest.2B9C12EC646BE10D.quest_subtitle: "Crafta il primo frame della Industrial!"
 	quest.2B9C12EC646BE10D.title: "Industrial Foregoing"
@@ -751,6 +801,7 @@
 		"La Fionda Slime ti sparerà nella direzione opposta a quella in cui guardi."
 		"I piedini di Slime invece ti negheranno il danno da caduta facendoti rimbalzare!"
 	]
+	quest.2BE0A92298701AD6.quest_subtitle: "Boing!"
 	quest.2C14360749CD8EE5.quest_desc: ["Funziona esattamente come un hopper ma può essere migliorato inserendoci degli upgrade."]
 	quest.2C14360749CD8EE5.quest_subtitle: "Un hopper sotto steroidi!"
 	quest.2C6AC4D5B7C5E4EB.quest_desc: ["Come la precedente ma più capiente!"]
@@ -804,6 +855,12 @@
 		""
 		"Può essere configurato nell'apposito menù!"
 	]
+	quest.31323BC0226896DB.quest_desc: [
+		"Con questa cell è possibile conservare l'unita energia aggiunta da questa mod."
+		"Il Cronons (C)!"
+		"Questo modello specifico conserva fino a 2kC"
+	]
+	quest.31323BC0226896DB.quest_subtitle: "Conversa il tempo!"
 	quest.316EE6AEF21EA4DF.title: "Quest Book Helper"
 	quest.319E7F89FB1557BB.quest_desc: ["Questo macchinario se posizionato al di sopra di uno spawner trovato nel mondo e messo in sottovuoto estrae lentamente l'essenza del mob, restituendo uno Spawner Core puro!"]
 	quest.319E7F89FB1557BB.quest_subtitle: "Tips: non utilizza aria compressa ma il sottovuoto!"
@@ -919,24 +976,28 @@
 	quest.376EF6F6E667F914.quest_desc: ["Utilizzala in combo con il Matter Condenser per creare le Matter Ball e le Singularity!"]
 	quest.376EF6F6E667F914.quest_subtitle: "Cobblestone infinita!"
 	quest.377CBAEB1D5FE594.quest_desc: [
-		"Powah!"
 		"Mod dedicata alla generazione, accumulo e distribuzione di energia con reattori, batterie e cavi potenti."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Vuoi un sistema energetico potente e scalabile."
 		"Ti servono generatori semplici ma efficienti."
 		"Ti piace automatizzare la produzione di energia."
-		"Focus:"
-		"✅ Generazione di energia"
-		"✅ Stoccaggio e distribuzione"
-		"✅ Reattori e batterie avanzate"
-		"✅ Cavi ad alta potenza"
 		""
-		"Difficoltà: 2/5 – Intuitiva, ideale per chi cerca energia senza complicazioni."
+		"&d&lFocus:&r"
+		"&l&a✅&r Generazione di energia"
+		"&l&a✅&r Stoccaggio e distribuzione"
+		"&l&a✅&r Reattori e batterie avanzate"
+		"&l&a✅&r Cavi ad alta potenza"
+		""
+		"&b&lDifficoltà:&r"
+		"2/5 – Intuitiva, ideale per chi cerca energia senza complicazioni."
 	]
 	quest.377CBAEB1D5FE594.quest_subtitle: "Crafta la Dieletric Paste!"
 	quest.377CBAEB1D5FE594.title: "Powah"
+	quest.380394D639A20604.quest_desc: ["[\"Questa postazione PC in realtà è una Worksation per modificare i Tempad, usando il \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" su di esso con un Tempad in mano sarà possibile usarlo, modificare alcune sue impostazioni, e aggiungervi alcuni upgrade, (che a loro volta adranno caricati nello stesso modo con il quale viene piazzato il pad), appariranno poi dentro il pad sottoforma di nuove App\"]"]
+	quest.380394D639A20604.quest_subtitle: "Moddiamo il Tempad!"
 	quest.387F3764A36F2E48.quest_desc: [
 		"Una delle due leghe metalliche più importanti!"
 		""
@@ -953,22 +1014,25 @@
 		""
 		"ATTENTO ALL'ATTERRAGGIO!"
 	]
+	quest.3997E027E7AC3CDA.quest_subtitle: "Si Planaaa!"
 	quest.39C3474F613ADD9F.quest_desc: [
-		""
 		"Mod tecnologica avanzata con macchinari complessi, automazione completa e un sistema energetico (Universal Energy). Offre raffinazione di minerali, armature potenti e trasporto di gas e liquidi."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Ti piace l’industria su larga scala e la gestione avanzata delle risorse."
 		"Vuoi un sistema di tripla o quadrupla estrazione dei minerali."
 		"Ti interessano i jetpack, reattori a fusione e strumenti modulari."
-		"Focus:"
-		"✅ Automazione avanzata"
-		"✅ Energia (Universal Energy)"
-		"✅ Estrazione e raffinazione minerali"
-		"✅ Jetpack e armature high-tech"
 		""
-		"Difficoltà: 3/5 – Complessa complessa, ma molto potente per chi ama la tecnologia avanzata."
+		"&d&lFocus:&r"
+		"&l&a✅&r Automazione avanzata"
+		"&l&a✅&r Energia (Universal Energy)"
+		"&l&a✅&r Estrazione e raffinazione minerali"
+		"&l&a✅&r Jetpack e armature high-tech"
+		""
+		"&b&lDifficoltà:&r"
+		"3/5 – Complessa complessa, ma molto potente per chi ama la tecnologia avanzata."
 	]
 	quest.39C3474F613ADD9F.quest_subtitle: "Ottieni il tuo primo lingotto di Osmium!"
 	quest.39C3474F613ADD9F.title: "Mekanism"
@@ -1002,18 +1066,21 @@
 	quest.3B3049F6C9591CC0.quest_desc: [
 		"Mod che aggiunge macchinari semplici, energia (Crystal Flux) e utility come borse, anelli e strumenti avanzati. Include anche sistemi di coltivazione automatica e teletrasporto."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Vuoi un’industria compatta senza complessità eccessiva."
 		"Ti piacciono i gadget e le utility che migliorano la qualità di vita."
 		"Preferisci un’energia semplice senza gestione complicata di cavi."
-		"Focus:"
+		""
+		"&d&lFocus:&r"
 		"✅ Automazione base"
 		"✅ Energia (Crystal Flux)"
 		"✅ Utility e gadget"
 		"✅ Coltivazione e risorse"
 		""
-		"Difficoltà: 2/5 – Facile da usare, adatta a chi vuole tecnologia senza troppi ostacoli."
+		"&b&lDifficoltà:&r"
+		"2/5 – Facile da usare, adatta a chi vuole tecnologia senza troppi ostacoli."
 	]
 	quest.3B3049F6C9591CC0.quest_subtitle: "Trova un DarkQuartz nel sottosuolo!"
 	quest.3B3049F6C9591CC0.title: "Actually Addition"
@@ -1044,6 +1111,8 @@
 		""
 		"In sostanza, il Pattern Provider funge da intermediario tra il sistema di archiviazione e le macchine di lavorazione."
 	]
+	quest.3D027FE28407BE47.quest_desc: ["Caricata nel &oTempad&r con la &oWorkstation&r, permette di consutare la guida in game direttamente da una nuova app nel pad"]
+	quest.3D027FE28407BE47.quest_subtitle: "Conoscenza!"
 	quest.3D1CCD811B10CAC3.quest_desc: ["Oggetto prodotto all'interno del Matter Condenser condensando 256 oggetti."]
 	quest.3D333C12A2A72EE8.quest_desc: [
 		"Questo blocco funziona da requester."
@@ -1074,12 +1143,23 @@
 		""
 		"&lSe fornita anche di un fertilizzante la crescita dei crop verrà velocizzata, guarda la JEI per vedere il miglior fertilizzante!&r"
 	]
+	quest.3E7BD3614FDEEA89.quest_desc: ["Come il Location Broadcaster, ma con un sistema di filtri per decidere chi puo vedere la tua posizione"]
+	quest.3E7BD3614FDEEA89.quest_subtitle: "Solo Multiplayer"
 	quest.3E959B819B4086FA.quest_desc: [
 		"Può essere applicato al Destructor, permettendo di distruggere i blocchi con fortuna! "
 		""
 		"&lEsistono anche le versioni con il livello di fornuna più alto.&r"
 	]
 	quest.3E95D3931B3110F7.quest_desc: ["Eolico! Costante ed ecologico! Più in alto lo piazzi più produce!"]
+	quest.3EE2140A162AC595.quest_desc: [
+		"Ispirato dalla seria Marvel Loki, ecco la Tempad, una mod che integra un sistema di teletrasporto bilanciato da un gameplay"
+		""
+		"Al contraio delle altre mod qui presenti è leggermente più articolata, di conseguenza una volta completata questa quest, apparira un ramo per aiutarti anche in questa mod"
+		""
+		"Eventualmente come reward c'è anche la guida in game offerta dalla mod stessa"
+	]
+	quest.3EE2140A162AC595.quest_subtitle: "Teletrasporto!"
+	quest.3EE2140A162AC595.title: "Tempad"
 	quest.3F1D1142EE194CBF.quest_desc: ["Lega metallica utile per i crafting della mod!"]
 	quest.3F2BB8EB1207AF60.quest_desc: [
 		"Macchinario che ti permette di immagazzinare dei blocchi fisici prelevandoli dal mondo, tramite l'utilizzo delle Spatial Storage Cell."
@@ -1102,6 +1182,9 @@
 		"Questo quarry consuma non poca corrente, sappilo!"
 	]
 	quest.40E89E80A3E6F387.quest_desc: ["Il blocco di base per creare i macchinari dell'Actually Additions!"]
+	quest.4126BFCBAACD2D34.quest_desc: ["Esattamente come le cell ma capace di conservare fino a 6kC"]
+	quest.4126BFCBAACD2D34.quest_subtitle: "Più tempo!"
+	quest.4126CBC11328CBE3.quest_desc: ["Materiale avanzato della mod, permette di craftare tutti gli oggetti avanzati "]
 	quest.41D88E62DFEE4B9E.quest_desc: ["Semplice oggetto di tramite per crafting più avanzati!"]
 	quest.42032BA572447449.quest_desc: [
 		"Componente per la creazione dei Disk Storage!"
@@ -1151,6 +1234,25 @@
 		""
 		"Questa funzionalità permette quindi di creare layout di farm molto compatte!"
 	]
+	quest.44D92E29481B532D.quest_desc: ["Come il Timedoor Maker, ma con qualche customizzazione in più"]
+	quest.44FF3CC8D104477F.quest_desc: [
+		"Mod tecnologica che introduce un sistema di replicazione di risorse basato su macchinari (Disintegrator, Identification Chamber, Replicator), Matter Pipes e serbatoi per materia ed energia, con modalità avanzate come l’“Infinite Mode”, perfettamente integrata nei modpack tecnici moderni ."
+		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
+		"Vuoi un sistema innovativo per smontare oggetti e trasformarli in “materia” grezza."
+		"Cerchi un’alternativa tecnica e strutturata al crafting tradizionale ."
+		""
+		"&d&lFocus:&r"
+		"&l&a✅&r Trasformare oggetti in materia"
+		"&l&a✅&r Trasfomrare materia in altri oggetti"
+		""
+		"&b&lDifficoltà:&r"
+		"4.5/5 – Serve una buona comprensione del flusso di materia ed energia e dell’interazione tra macchinari, ma l’interfaccia e la rete la rendono accessibile ."
+	]
+	quest.44FF3CC8D104477F.quest_subtitle: "Duplicazione Avanzata"
+	quest.44FF3CC8D104477F.title: "Replication [WIP]"
 	quest.456435F6E696A30D.quest_desc: ["Materiale di base per la produzione dello l'acciaio ed anche ottimo carburante per le tue fornaci!"]
 	quest.45670563892FAD33.quest_desc: ["Lega metallica utile per i crafting della mod!"]
 	quest.4595FC15F49EBC22.quest_desc: ["Versione migliorata dell'Autocrafter che contiene una maggior quantità di Pattern e una velocità di autocrafting più elevata."]
@@ -1236,6 +1338,10 @@
 	quest.4AA3E2D1088D7DD2.quest_desc: [
 		"La Curio è un mod che permette di indossare tutta una serie di accessori, con particolari effetti o funzioni, senza occupare uno slot dell'invetario"
 		""
+		"&l&6N.B.&r"
+		"Indicativamente per capire se qualche item può essere messo nella curio basta guardare il suo tooltip e vedere se sotto il nome appare:"
+		"\"&6Slot:&r &e<Slot della Curio usabile>&r\""
+		""
 		"Si apre e chiude da qui:"
 		"{image:techacademy:textures/quests/ch_utilita/curio1.png width:180 height:100 align:center}"
 		""
@@ -1275,6 +1381,8 @@
 		""
 		"[\"\", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"},\" + \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" - Diventi della grandezza selezionata\"]"
 	]
+	quest.4E1AA8914722A796.quest_desc: ["Questo è un semplice item da tenere in Inventario o nella buble che genere pochi C nel tempo"]
+	quest.4E1AA8914722A796.quest_subtitle: "Crea il tempo!"
 	quest.4E5434D5CE4345A6.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.4E8EEBFEA3542A69.quest_desc: [
 		"Oggetti di crafting essenziali per un qualsiasi tipo di oggetto della AE2."
@@ -1397,6 +1505,14 @@
 	quest.543EBDFC1BCCA9A1.title: "Come funziona una Quest"
 	quest.548059D8CE7763DF.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.548059D8CE7763DF.title: "1024k Storage Part"
+	quest.54B60B7B6E583E0A.quest_desc: [
+		"Versione base del Tempad, se hai gia usato il sistema rudimentale con le card (e hai delle card o un card wallet in invetario) i vecchi teleport verrano copiati direttamente nel Tempad."
+		""
+		"Senza nessuna modifica, ha 3 app, la prima mostra la lista di tutti i teleport possibili, la seconda permette di registrare nuovi teleport senza nessun blocco di support in world, la terza sono i setting"
+		""
+		"Un altra app viene aggiunta tramite im &oTime Twister&r (vedi la sua quest)"
+	]
+	quest.54B60B7B6E583E0A.quest_subtitle: "Fenomentali Poteri Cosmici"
 	quest.54E5CEC907CECAFD.quest_desc: [
 		"Un filtro da applicare ai tuoi Chemical Conduit."
 		""
@@ -1432,6 +1548,14 @@
 	quest.5851D1D0F1C712FD.quest_desc: ["Versione potenziata dei processor base per crafting avanzati!"]
 	quest.5890E74471C9557B.quest_subtitle: "Crafta la tua prima lega: il bronzo!"
 	quest.58FB89E610AC3124.quest_desc: ["Aumenta la velocità di nuoto!"]
+	quest.59011E0BD4F8E77E.quest_desc: [
+		"Per generare lava in modo lento ma constante al costo di un po' di energia"
+		""
+		"{image:techacademy:textures/quests/ch_actually/lava_factory.png width:200 height:150 align:center}"
+		""
+		"Come in immagine ti basta piazzare 4 blocchi ci lava factory casing, e il controller sotto"
+	]
+	quest.59011E0BD4F8E77E.quest_subtitle: "Lava infinita"
 	quest.5943C6B88D9D867A.quest_desc: [
 		"&lMolte mod importanti hanno degli addon, ovvero dei paccheti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
 		""
@@ -1493,21 +1617,23 @@
 		"Alrimenti se sei un tipo impavido puoi immagazzinare i livelli manualmente cliccando tasto destro del mouse e riprenderli quando vuoi premendo shift+sinistro del mouse."
 	]
 	quest.5CD43231CDDD6BB0.quest_desc: [
-		"Ender IO"
 		"Mod che offre un sistema energetico versatile, macchinari multifunzionali e gestione avanzata di liquidi e oggetti con condotti unici."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Ti serve una rete di trasporto fluida e compatta."
 		"Vuoi macchine flessibili e modulari."
 		"Ti piacciono le armature e strumenti personalizzabili."
-		"Focus:"
-		"✅ Automazione fluida"
-		"✅ Condotti per energia, fluidi e oggetti"
-		"✅ Armature e strumenti modulari"
-		"✅ Generazione di energia"
 		""
-		"Difficoltà: 3/5 – Richiede conoscenza dei condotti e delle interazioni tra blocchi."
+		"&d&lFocus:&r"
+		"&l&a✅&r Automazione fluida"
+		"&l&a✅&r Condotti per energia, fluidi e oggetti"
+		"&l&a✅&r Armature e strumenti modulari"
+		"&l&a✅&r Generazione di energia"
+		""
+		"&b&lDifficoltà:&r"
+		"3/5 – Richiede conoscenza dei condotti e delle interazioni tra blocchi."
 	]
 	quest.5CD43231CDDD6BB0.quest_subtitle: "Dai fuoco alla bedrock!"
 	quest.5CD43231CDDD6BB0.title: "Ender IO"
@@ -1527,6 +1653,9 @@
 		""
 		"&6&lSi necessità di almeno una CPU per poter iniziare ad autocraftare con l'AE2.&r&r"
 	]
+	quest.5E17D3F50B5F74BE.quest_desc: ["[\"Permette al Player con questo item di essere tracciato dal altri player con i tempad potenziati dal &oPlayer Teleport Upgrade&r, con il \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" è possibile accenderlo e spegnerlo (rosso spento, verde acceso)\"]"]
+	quest.5E17D3F50B5F74BE.quest_subtitle: "Solo Multiplayer"
+	quest.5E3FBAB7569120A1.quest_desc: ["[\"Una Base per Time Door, con il \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" è possibile applicare delle personalizzazioni\"]"]
 	quest.5E57968BA5E30234.quest_desc: [
 		"&lUno spawer moddato personalizzabile e portatile.&r"
 		""
@@ -1535,18 +1664,21 @@
 	quest.5E68C97FCEDE57A9.quest_desc: [
 		"Mod che introduce un sistema avanzato per generare e controllare mob ostili, permettendo di farmare risorse in modo efficiente tramite simulazioni digitali."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Vuoi creare farm di mob senza strutture ingombranti."
 		"Ti piace ottenere risorse tramite simulazioni piuttosto che combattimenti diretti."
 		"Ti interessa un’alternativa high-tech agli spawner tradizionali."
-		"Focus:"
-		"✅ Farm di mob automatizzate"
-		"✅ Simulazione digitale di entità ostili"
-		"✅ Raccolta di risorse dai mob"
-		"✅ Energia e gestione dati"
 		""
-		"Difficoltà: 3/5 – Richiede gestione di energia e configurazione delle simulazioni."
+		"&d&lFocus:&r"
+		"&l&a✅&r Farm di mob automatizzate"
+		"&l&a✅&r Simulazione digitale di entità ostili"
+		"&l&a✅&r Raccolta di risorse dai mob"
+		"&l&a✅&r Energia e gestione dati"
+		""
+		"&b&lDifficoltà:&r"
+		"3/5 – Richiede gestione di energia e configurazione delle simulazioni."
 	]
 	quest.5E68C97FCEDE57A9.quest_subtitle: "Crafta un Model Framework!"
 	quest.5E68C97FCEDE57A9.title: "Hostile Network"
@@ -1562,24 +1694,23 @@
 	quest.5F5B866003531CC7.quest_desc: ["Le Rod sono essenziali per dare energia all'Energizing Orb"]
 	quest.5F5B866003531CC7.quest_subtitle: "TIP: devono essere posizionati su cavi energetici!"
 	quest.5FCC2A9764FA0B5F.quest_desc: [
-		"Refined Storage"
 		"Mod che introduce un sistema semplice ma potente per archiviare e automatizzare oggetti e fluidi tramite una rete digitale modulare."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Vuoi un sistema di archiviazione digitale intuitivo e flessibile."
-		""
 		"Ti serve automazione per crafting e gestione risorse, senza complicazioni."
-		""
 		"Preferisci una curva di apprendimento più morbida rispetto ad AE2."
 		""
-		"Focus:"
-		"✅ Stoccaggio digitale"
-		"✅ Automazione crafting"
-		"✅ Semplicità d’uso"
-		"✅ Modularità della rete"
+		"&d&lFocus:&r"
+		"&l&a✅&r Stoccaggio digitale"
+		"&l&a✅&r Automazione crafting"
+		"&l&a✅&r Semplicità d’uso"
+		"&l&a✅&r Modularità della rete"
 		""
-		"Difficoltà: 2.5/5 – Facile da iniziare, con una buona profondità per utenti avanzati."
+		"&b&lDifficoltà:&r"
+		"2.5/5 – Facile da iniziare, con una buona profondità per utenti avanzati."
 	]
 	quest.5FCC2A9764FA0B5F.quest_subtitle: "Crafta un Processor Binding!"
 	quest.5FCC2A9764FA0B5F.title: "Refined Storage"
@@ -1609,6 +1740,8 @@
 		"Questi cavi funzionano esattamente come i Thermodynamic Conductor della Mekanism, ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
 	]
 	quest.61460CF8728CC653.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.61542E7DFF31CC4E.quest_desc: ["Come il generator ma capace di generare più C"]
+	quest.61542E7DFF31CC4E.quest_subtitle: "Ancora più tempo!"
 	quest.616B482B523020C6.quest_desc: [
 		"Appunto. Spiega i tag e i forge ore  c:ores"
 		""
@@ -1641,7 +1774,7 @@
 	]
 	quest.64C121464B94C5E9.quest_desc: ["Oggetto di base per la creazione di oggetti avanzati della mod!"]
 	quest.64C24632DF551A08.quest_desc: ["Una super chestplate!"]
-	quest.64C4A69B7AB2378C.quest_desc: ["Punta verso la struttura selezionata"]
+	quest.64C4A69B7AB2378C.quest_desc: ["Permette di scegliere qualsiasi struttura presente nel gioco, e di puntarvici. Per un esplorazione dannatamente più comoda"]
 	quest.6519C6F7F9E52D06.quest_desc: ["Utile se necessiti di grandi quantità di refriferante per le tue centrali nucleari."]
 	quest.6519C6F7F9E52D06.quest_subtitle: "Acqua infinita!"
 	quest.657D0A56E2D35423.quest_desc: [
@@ -1895,6 +2028,7 @@
 		"La sua versione inverted fa esattamente contrario quindi piazzandola si estende verso l'alto."
 	]
 	quest.7440C240D230129F.quest_desc: ["Il Jetpack della Mekanism funziona come gli altri jetpack, ma consuma Hydrogen"]
+	quest.7440C240D230129F.quest_subtitle: "Si Volaaa! Ma meglio!"
 	quest.74C8FDDB0712FCDC.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.74D13E6ABB29E05C.quest_desc: [
 		"Puoi trovare la Sky Stone nei meteoriti!"
@@ -1943,26 +2077,30 @@
 		"In base al fatto che questo venga refrigerato oppure riscaldato permette il crafting di diversi materiali come ad esempio la plastica. Per tutti i crafting utilizza la JEI."
 	]
 	quest.770BC6D95E31F6F7.quest_desc: [
-		"Applied Energistics 2"
 		"Mod che introduce un sistema digitale per archiviare, gestire e automatizzare risorse con ME Storage e canali energetici."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Vuoi un archivio digitale ultra organizzato."
 		"Ti serve automazione avanzata per crafting e logistica."
 		"Ti piace la gestione precisa dell'energia e delle connessioni."
-		"Focus:"
-		"✅ Stoccaggio digitale"
-		"✅ Automazione crafting"
-		"✅ Logistica avanzata"
-		"✅ Canali energetici"
 		""
-		"Difficoltà: 4/5 – Richiede pianificazione e gestione complessa."
+		"&d&lFocus:&r"
+		"&l&a✅&r Stoccaggio digitale"
+		"&l&a✅&r Automazione crafting"
+		"&l&a✅&r Logistica avanzata"
+		"&l&a✅&r Canali energetici"
+		""
+		"&b&lDifficoltà:&r"
+		"4/5 – Richiede pianificazione e gestione complessa."
 	]
 	quest.770BC6D95E31F6F7.quest_subtitle: "Crafta un charger!"
 	quest.770BC6D95E31F6F7.title: "Applied Energistics 2"
 	quest.7718B07C40E03C95.quest_desc: ["Metodo alternativo per farmare string e importantissimo elemento della Immersive Engineering, pianta più Hemp che puoi, te ne serviranno!"]
 	quest.776033F64F65452E.quest_desc: ["Se si utilizza questa upgrade all'interno di un Exporter, permette di esportare un determinato oggetto anche se non disponibile nella network craftandolo, sempre se si è definita una Pattern per l'oggetto!"]
+	quest.779BFD2E2084F806.quest_desc: ["Tramite una combinazione di colori permette di collegare 2 o più chest fra loro"]
+	quest.779BFD2E2084F806.quest_subtitle: "Come quella vanilla ma meglio!"
 	quest.77E6282D85DC2FDB.quest_desc: [
 		"Mecchinario che genera passamente aria compressa attraverso la differenza di temperatura. Esistono vari blocchi che forniscono \"caldo\" o \"freddo\"."
 		""
@@ -2017,21 +2155,23 @@
 	quest.7A02D59AAAC02A7F.quest_desc: ["Una lega metallica elettrizzante zzzzz!"]
 	quest.7A8569C741A8FBF5.title: "Gestione dell'Energia"
 	quest.7A8E9E7BF4A409D7.quest_desc: [
-		"neumaticCraft: Repressurized"
 		"Mod tecnologica basata sulla pressione dell’aria, con macchine pneumatiche, droni automatizzati e sistemi logici avanzati."
 		""
-		"Gioca questa mod se:"
-		""
+		"&a------------->&r"
+		"{@pagebreak}"
+		"&6&lGioca questa mod se:&r"
 		"Ti interessano macchine e tubi basati sulla pressione."
 		"Vuoi automazione avanzata con droni programmabili."
 		"Ti piace un approccio ingegneristico alternativo."
-		"Focus:"
-		"✅ Pressione e gas"
-		"✅ Automazione con droni"
-		"✅ Logica e circuiti avanzati"
-		"✅ Energia alternativa"
 		""
-		"Difficoltà: 4/5 – Richiede gestione attenta della pressione e programmazione dei droni."
+		"&d&lFocus:&r"
+		"&l&a✅&r Pressione e gas"
+		"&l&a✅&r Automazione con droni"
+		"&l&a✅&r Logica e circuiti avanzati"
+		"&l&a✅&r Energia alternativa"
+		""
+		"&b&lDifficoltà:&r"
+		"4/5 – Richiede gestione attenta della pressione e programmazione dei droni."
 	]
 	quest.7A8E9E7BF4A409D7.quest_subtitle: "Fai esplodere il ferro!"
 	quest.7A8E9E7BF4A409D7.title: "Pneumaticraft"
@@ -2068,6 +2208,7 @@
 		"&lQuesto blocco è immune alle esplosioni di tnt o creeper ma non del Wither!&r"
 	]
 	quest.7BB83DDA5A5EA2E9.quest_desc: ["In base al mod corrispondente permettono di generare uno o più dei suoi drop usando il &l&9Loot Fabricator&r"]
+	quest.7C054CC8B9BD61A0.quest_subtitle: "Polverizziamolo! x2"
 	quest.7C5C40E5751272C5.quest_desc: ["Creazione dello Steel della Mekanism!"]
 	quest.7C5C40E5751272C5.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
 	quest.7C65F764DB82D472.quest_desc: ["Uno degli oggetti di base per i crafting della mod! Esistono molte sue varianti compatibili anche con i crafting delle altre mod."]
@@ -2103,7 +2244,8 @@
 		"Inserisci il coal o il blocco di coal per produrre Coal Coke e Creosote Oil!"
 	]
 	quest.7DD157FC2E23127E.title: "Coke Oven"
-	quest.7E0734D239A3F437.quest_desc: ["Punta verso il bioma selezionato"]
+	quest.7E0734D239A3F437.quest_desc: ["Permette di scegliere qualsiasi bioma presente nel gioco, e di puntarvici. Per un esplorazione dannatamente più comoda"]
+	quest.7E0734D239A3F437.quest_subtitle: "Trova il tuo bioma preferito!"
 	quest.7E2E259B5323CECC.quest_desc: [
 		"Per trasferire la corrente usa un LV Connector sul produttore e su dove vuoi farla arrivare collegando entrambi con un LV Wire. "
 		""
@@ -2221,6 +2363,7 @@
 	task.3472BE9B254FD0B9.title: "Coal Dust"
 	task.34E4D0401AC82934.title: "Housing, Cells e DISK"
 	task.34EA039F7E38C90F.title: "Cibo Automatico"
+	task.35C945052F0372C7.title: "Any #c:ingots/compressed_iron"
 	task.36442C3A168CAFFE.title: "4096k Storage Part"
 	task.37802C5A3B5D1088.title: "Helmet Upgrade"
 	task.380D0FE47A0704D1.title: "Wireless Transmitter"
@@ -2254,6 +2397,7 @@
 	task.52D9EB8933E76802.title: "Thermo Generator"
 	task.52EF39014DB3A6DC.title: "Shader"
 	task.53D871E0EBD6D628.title: "Energy Cell"
+	task.5437AE1059228335.title: "Any #c:ingots/replica"
 	task.5503437BFDA7469B.title: "Any #c:chunkloaders"
 	task.563EA40547907739.title: "Start Machine"
 	task.576FB251E0646C89.title: "Constructor"
@@ -2271,6 +2415,7 @@
 	task.5E69DCEE5BEAE8F5.title: "Network Transmitter"
 	task.5F452F088DDC1F46.title: "SCAVAGGIO"
 	task.5F45315E0BA31D76.title: "Ultra Exporter"
+	task.5FC8C16D1224EA1A.title: "Any #c:raw_materials/replica"
 	task.5FE2E4E70931AABF.title: "Controller"
 	task.636F9D2987449B80.title: "Nickel"
 	task.63F23784D29AB99E.title: "Latex"

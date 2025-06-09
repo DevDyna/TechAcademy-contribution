@@ -230,6 +230,9 @@
 		}
 		{
 			dependencies: ["0EB2C59F6BD047DE"]
+			icon: {
+				id: "actuallyadditions:lava_factory_controller"
+			}
 			id: "59011E0BD4F8E77E"
 			tasks: [
 				{

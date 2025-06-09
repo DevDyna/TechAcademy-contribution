@@ -1,4 +1,7 @@
 {
+  "replication": {
+    "matter_tank": true
+  },
   "framedblocks": {
     "framed_item_frame": true,
     "framed_block_generic": true
@@ -60,6 +63,14 @@
     "dim_block_base": true,
     "dim_tank": true
   },
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "anchor": true,
+    "metronome": true,
+    "workstation": true,
+    "timedoor": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -119,9 +130,6 @@
     "solitary_nest": true,
     "canvas_beehive": true,
     "bee_attributes": true
-  },
-  "create_mechanical_spawner": {
-    "data": true
   },
   "mekanism": {
     "chemical": true,

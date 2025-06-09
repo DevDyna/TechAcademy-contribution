@@ -111,6 +111,13 @@
   "railcraft:signals": null,
   "railcraft:switch_track": null,
   "railcraft:track_component": null,
+  "replication:matter_tank": null,
+  "tempad:anchor": null,
+  "tempad:chronon": null,
+  "tempad:metronome": null,
+  "tempad:rudimentary": null,
+  "tempad:timedoor": null,
+  "tempad:workstation": null,
   "toms_storage:inventory_config": null,
   "toms_storage:inventory_connector": null
 }

@@ -1,8 +1,15 @@
 # Client-specific configuration for FTB Ultimine
-# This file is meant for users to control Ultimine's clientside behaviour and rendering.
-# Changes to this file require you to reload the world
+# Modpack defaults should be defined in <instance>/config/ftbultimine-client.snbt
+#   (may be overwritten on modpack update)
+# Players may locally override this by copying into <instance>/local/ftbultimine-client.snbt
+#   (will NOT be overwritten on modpack update)
 
 {
+	general: {
+		# Does the player need to be holding the Ultimine key to cycle through shapes with the keyboard?
+		# Default: true
+		require_ultimine_key_for_cycling: true
+	}
 	overlay: {
 		# Default: 2
 		# Range: -∞ ~ +∞
