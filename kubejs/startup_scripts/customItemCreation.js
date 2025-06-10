@@ -19,6 +19,17 @@ StartupEvents.registry("item", (event) => {
 StartupEvents.registry("block", (event) => {
   event
     .create("techacademy:blazerod_block")
-    .displayName("BlazeRod Block")
-    .item((i) => i.tooltip(keyname("item.techacademy.blazeblock.tip")));
+    .displayName("Blazerod Block")
+    .soundType("ANCIENT_DEBRIS")
+    .hardness(50) // like obsidian
+    .resistance(1200) // like obsidian
+    .texture(Direction.DOWN, "techacademy:block/blazerod_block_top")
+    .texture(Direction.UP, "techacademy:block/blazerod_block_top")
+    .texture(Direction.NORTH, "techacademy:block/blazerod_block")
+    .texture(Direction.SOUTH, "techacademy:block/blazerod_block")
+    .texture(Direction.WEST, "techacademy:block/blazerod_block")
+    .texture(Direction.EAST, "techacademy:block/blazerod_block")
+    .texture("particle", "techacademy:block/blazerod_block")
+    .tagBlock("c:storage_blocks/blaze")
+    .item((i) => i.tooltip(keyname("item.techacademy.newblock.tip")));
 });

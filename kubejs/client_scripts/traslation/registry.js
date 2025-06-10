@@ -6,17 +6,15 @@ const Registryids = {
     "techacademy:tech_token",
     "techacademy:blazerod_block",
   ],
-  //unused default display name
-  //   en_us: [
-  //     "Ore Dictionary",
-  //     "Tech Token",
-  //     "BlazeRod Block"
-  // ],
+    en_us: [
+      "Ore Dictionary",
+      "Tech Token",
+      "Blazerod Block"
+  ],
   it_it: [
-    //TODO
-    "Ore Dictionary",
+    "Dizionario degli Ore",
     "Tech Token",
-    "Blocco di BlazeRod",
+    "Blocco di Verghe di Blaze",
   ],
 };
 
