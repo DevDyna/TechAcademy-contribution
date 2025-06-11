@@ -132,6 +132,7 @@ function oritechCrushing(type, input_item, result, time) {
 
 /**
  * ## Custom Create function
+ * include Crushing wheel and Millstone!
  *
  * @param {string} input_item
  *
