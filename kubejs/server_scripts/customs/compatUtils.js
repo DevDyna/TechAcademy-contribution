@@ -59,7 +59,6 @@ function reactionChamber(
   };
 }
 
-
 /**
  * ## Custom ExtendedAE2 function
  *
@@ -73,13 +72,7 @@ function reactionChamber(
  * @param {number} output_amount cannot be over 64
  * @returns {object} recipe json for `event.custom()`
  */
-function crystalChamber(
-  fluid,
-  fluid_amount,
-  items,
-  output,
-  output_amount
-) {
+function crystalChamber(fluid, fluid_amount, items, output, output_amount) {
   let item_inputs = [];
 
   items.forEach((it) => {
@@ -103,5 +96,61 @@ function crystalChamber(
       count: output_amount,
       id: output,
     },
+  };
+}
+
+/**
+ * ## Custom OriTech function
+ *
+ * @param {"pulverizer" | "grinder"} type oritech recipetype
+ * @param {string} input_item
+ *
+ * when id start with `#` it become an item tag
+ *
+ * @param {[{count:number,id:string}]} result
+ * @param {number} time default 200 -> 10s
+ * @returns {object} recipe json for `event.custom()`
+ */
+function oritechCrushing(type, input_item, result, time) {
+  return {
+    type: "oritech:" + type,
+    fluidInput: {
+      amount: 0,
+      fluid: "minecraft:empty",
+    },
+    fluidOutput: {
+      amount: 0,
+      fluid: "minecraft:empty",
+    },
+    ingredients: input_item.startsWith("#")
+      ? [{ tag: input_item.slice(1) }]
+      : [{ item: input_item }],
+    results: result,
+    time: typeof time == undefined ? 200 : time,
+  };
+}
+
+/**
+ * ## Custom Create function
+ *
+ * @param {string} input_item
+ *
+ * when id start with `#` it become an item tag
+ *
+ * @param {number} processing_time
+ * @param {[{id:string,count?:number,chance?:number}]} result
+ *
+ * count and chance can be optional and can be mixed
+ *
+ * @returns {object} recipe json for `event.custom()`
+ */
+function createMilling(input_item, result, time) {
+  return {
+    type: "create:milling",
+    ingredients: input_item.startsWith("#")
+      ? [{ tag: input_item.slice(1) }]
+      : [{ item: input_item }],
+    processing_time: typeof time == undefined ? 200 : time,
+    results: result,
   };
 }
