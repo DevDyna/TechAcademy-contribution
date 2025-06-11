@@ -38,4 +38,12 @@ ServerEvents.recipes((event) => {
     "40x mekanism:redstone",
     false
   );
+
+    //create rose quartz
+  event.recipes.mekanism.metallurgic_infusing(
+    "fluxnetworks:flux_dust",
+    "#c:dusts/obsidian",
+    "10x mekanism:redstone",
+    false
+  );
 });
