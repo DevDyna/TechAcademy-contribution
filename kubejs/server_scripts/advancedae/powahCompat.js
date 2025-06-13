@@ -1,6 +1,4 @@
 ServerEvents.recipes((event) => {
-  //powah dielectric paste
-
   //2.5x efficiency (with minimal bonus)
   event.custom(
     reactionChamber(
@@ -14,19 +12,6 @@ ServerEvents.recipes((event) => {
       "ae2:i",
       "powah:dielectric_paste",
       64 // +2.67x*
-    )
-  );
-
-  event.custom(
-    crystalChamber(
-      "minecraft:lava",
-      250,// -0.75%
-      [
-        { id: "#minecraft:coals", amount: 3 },
-        { id: "minecraft:clay_ball", amount: 2 },
-      ],
-      "powah:dielectric_paste",
-      24
     )
   );
 });
