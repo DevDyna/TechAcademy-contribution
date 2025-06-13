@@ -6,7 +6,9 @@ ServerEvents.recipes((event) => {
 
   enderio.sag_milling(OUTPUT, INPUT);
   actuallyadditions.crushing(OUTPUT, INPUT);
-  event.custom(oritechCrushing("pulverizer", INPUT, [{ id: OUTPUT, count: 1 }]));
-  event.custom(oritechCrushing("grinder", INPUT, [{ id: OUTPUT, count: 1 }]));
+  addPulverizer(event,{itemsInput:{item:INPUT},itemsOutput:{id:OUTPUT,count:1}})
+  addFragmentForge(event,{itemsInput:{item:INPUT},itemsOutput:{id:OUTPUT,count:1}})
+  // event.custom(oritechCrushing("pulverizer", INPUT, [{ id: OUTPUT, count: 1 }]));
+  // event.custom(oritechCrushing("grinder", INPUT, [{ id: OUTPUT, count: 1 }]));
   event.custom(createMilling(INPUT, [{ id: OUTPUT }]));
 });
