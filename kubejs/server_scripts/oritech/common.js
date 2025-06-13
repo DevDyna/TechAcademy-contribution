@@ -548,3 +548,34 @@ function addCooler(event, coolerRecipe) {
   return event.custom(baseRecipe)
 }
 
+/**
+ * ## Custom OriTech function
+ *
+ * @param {"pulverizer" | "grinder"} type oritech recipetype
+ * @param {string} input_item
+ *
+ * when id start with `#` it become an item tag
+ *
+ * @param {[{count:number,id:string}]} result
+ * @param {number} time default 200 -> 10s
+ * @returns {object} recipe json for `event.custom()`
+ * @deprecated
+ */
+function oritechCrushing(type, input_item, result, time) {
+  return {
+    type: "oritech:" + type,
+    fluidInput: {
+      amount: 0,
+      fluid: "minecraft:empty",
+    },
+    fluidOutput: {
+      amount: 0,
+      fluid: "minecraft:empty",
+    },
+    ingredients: input_item.startsWith("#")
+      ? [{ tag: input_item.slice(1) }]
+      : [{ item: input_item }],
+    results: result,
+    time: typeof time == undefined ? 200 : time,
+  };
+}
