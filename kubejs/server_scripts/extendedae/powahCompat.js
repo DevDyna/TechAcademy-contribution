@@ -1,14 +1,10 @@
 ServerEvents.recipes((event) => {
-  event.custom(
-    crystalChamber(
-      "minecraft:lava",
-      250,// -0.75%
-      [
-        { id: "#minecraft:coals", amount: 3 },
-        { id: "minecraft:clay_ball", amount: 2 },
-      ],
-      "powah:dielectric_paste",
-      24
-    )
-  );
+  addCrystalChamber(event, {
+    itemsInput: [
+      { tag: "minecraft:coals", count: 3 },
+      { item: "minecraft:clay_ball", count: 2 },
+    ],
+    fluidInput: { fluid: "minecraft:lava", amount: 250 }, // -0.75%
+    itemsOutput: [{ id: "powah:dielectric_paste", count: 24 }],
+  });
 });
