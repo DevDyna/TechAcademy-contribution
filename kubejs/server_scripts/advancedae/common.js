@@ -1,60 +1,104 @@
-// priority: 10
+// priority: 10000000
 
 /**
- * ## Custom AdvancedAE2 function
+ * Adds a reaction chamber recipe to the game with specified inputs and outputs.
  *
- * @param {number} energy total energy used foreach recipe
- * @param {string} fluid fluid id
- * @param {number} fluid_amount
- * @param {[{id:string,amount:number}]} items
+ * @param {$RecipesKubeEvent} event - The event that triggered the script to run.
  *
- * when id start with `#` it become an item tag
+ * @param {Object} reactionChamberRecipe - The reaction chamber recipe object.
+ * @param {Object} reactionChamberRecipe.itemsInput - The item input for the reaction chamber recipe.
+ * @param {string} reactionChamberRecipe.itemsInput[].item - The item id for the input.
+ * @param {string} reactionChamberRecipe.itemsInput[].tag - The item tag for the input.
  *
- * @param {string} output_type
+ * @param {Object} reactionChamberRecipe.fluidInput - The fluid input for the reaction chamber recipe.
+ * @param {string} reactionChamberRecipe.fluidInput.fluid - The fluid id for the input.
+ * @param {number} reactionChamberRecipe.fluidInput.amount - The amount of fluid input.
  *
- * `ae2:i` -> item
+ * @param {Array} reactionChamberRecipe.itemsOutput - The list of item outputs for the reaction chamber recipe.
+ * @param {string} reactionChamberRecipe.itemsOutput[].id - The item id for the output.
+ * @param {number} reactionChamberRecipe.itemsOutput[].count - The count of the item output.
  *
- * `ae2:f` -> fluid?
+ * @param {Object} reactionChamberRecipe.fluidOutput - The fluid output for the reaction chamber recipe.
+ * @param {string} reactionChamberRecipe.fluidOutput.fluid - The fluid id for the output.
+ * @param {number} reactionChamberRecipe.fluidOutput.amount - The amount of fluid output.
  *
- * ?? -> ?? (need more info)
- *
- * @param {string} output type id
- * @param {number} output_amount cannot be over 64
- * @returns {object} recipe json for `event.custom()`
+ * @param {number} reactionChamberRecipe.energy - The processing time for the reaction chamber recipe in ticks.
+ * 
+ * @return {$KubeRecipe} The reaction chamber recipe.
+ * 
  */
-function reactionChamber(
-  energy,
-  fluid,
-  fluid_amount,
-  items,
-  output_type,
-  output,
-  output_amount
-) {
-  let item_inputs = [];
+function addReactionChamber(event, reactionChamberRecipe) {
+  let itemsInput = "itemsInput" in reactionChamberRecipe ? reactionChamberRecipe.itemsInput : [];
+  let itemsOutput = "itemsOutput" in reactionChamberRecipe ? reactionChamberRecipe.itemsOutput : [];
+  let fluidInput = "fluidInput" in reactionChamberRecipe ? reactionChamberRecipe.fluidInput : { fluid: "minecraft:empty", amount: 0 };
+  let fluidOutput = "fluidOutput" in reactionChamberRecipe ? reactionChamberRecipe.fluidOutput : { fluid: "minecraft:empty", amount: 0 };
+  let energy = "energy" in reactionChamberRecipe ? reactionChamberRecipe.energy : 256;
+  let conditions = "conditions" in reactionChamberRecipe ? reactionChamberRecipe.conditions : [];
 
-  items.forEach((it) => {
-    item_inputs.push(
-      it.id.startsWith("#")
-        ? { amount: it.amount, ingredient: { tag: it.id.slice(1) } }
-        : { amount: it.amount, ingredient: { item: it.id } }
-    );
-  });
-
-  return {
+  let baseRecipe = {
+    "neoforge:conditions": [],
     type: "advanced_ae:reaction",
-    input_energy: energy,
+    input_energy: 0,
     input_fluid: {
-      amount: fluid_amount,
+      amount: 100,
       ingredient: {
-        fluid: fluid,
+        fluid: "minecraft:water",
       },
     },
-    input_items: item_inputs,
+    input_items: [],
     output: {
-      "#": output_amount,
-      "#t": output_type,
-      id: output,
+      "#": 1,
+      "#t": "ae2:i",
+      id: "minecraft:dirt",
     },
   };
+
+  if (!fluidInput["fluid"].includes("minecraft:empty")) {
+    baseRecipe["input_fluid"] = {
+      amount: fluidInput["amount"],
+      ingredient: {
+        fluid: fluidInput["fluid"],
+      },
+    };
+  }
+
+  itemsInput.forEach((item) => {
+    if ("item" in item) {
+      baseRecipe["input_items"].push({
+        amount: item["count"],
+        ingredient: {
+          item: item["item"],
+        },
+      });
+    } else {
+      baseRecipe["input_items"].push({
+        amount: item["count"],
+        ingredient: {
+          tag: item["tag"],
+        },
+      });
+    }
+  });
+
+  if (!fluidOutput["fluid"].includes("minecraft:empty")) {
+    baseRecipe["output"] = {
+      "#": fluidOutput["amount"],
+      "#t": "ae2:f",
+      id: fluidOutput["fluid"],
+    };
+  } else {
+    baseRecipe["output"] = {
+      "#": itemsOutput[0]["count"],
+      "#t": "ae2:i",
+      id: itemsOutput[0]["id"],
+    };
+  }
+
+  conditions.forEach((item) => {
+    baseRecipe["neoforge:conditions"].push(item);
+  });
+
+  baseRecipe["input_energy"] = energy;
+
+  return event.custom(baseRecipe);
 }
