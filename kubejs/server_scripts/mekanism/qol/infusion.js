@@ -1,22 +1,23 @@
 ServerEvents.recipes((event) => {
+  const { metallurgic_infusing } = event.recipes.mekanism;
   //bronze
-  event.recipes.mekanism.metallurgic_infusing(
+  metallurgic_infusing(
     "36x mekanism:ingot_bronze",
-    "3x #immersiveengineering:blocks/copper",
+    "3x #c:storage_blocks/copper",
     "90x mekanism:tin",
     false
   );
 
   //alloy
-  event.recipes.mekanism.metallurgic_infusing(
+  metallurgic_infusing(
     "9x mekanism:alloy_infused",
-    "#immersiveengineering:blocks/copper",
+    "#c:storage_blocks/copper",
     "90x mekanism:redstone",
     false
   );
 
   //circuit
-  event.recipes.mekanism.metallurgic_infusing(
+  metallurgic_infusing(
     "9x mekanism:basic_control_circuit",
     "#c:storage_blocks/osmium",
     "180x mekanism:redstone",
@@ -24,23 +25,23 @@ ServerEvents.recipes((event) => {
   );
 
   //electrum
-  event.recipes.mekanism.metallurgic_infusing(
+  metallurgic_infusing(
     "9x immersiveengineering:dust_electrum",
-    "gold_block",
+    "#c:storage_blocks/gold",
     "90x mekanism:redstone",
     false
   );
 
   //create rose quartz
-  event.recipes.mekanism.metallurgic_infusing(
+  metallurgic_infusing(
     "4x create:rose_quartz",
-    "quartz_block",
+    "#c:storage_blocks/quartz",
     "40x mekanism:redstone",
     false
   );
 
     //create rose quartz
-  event.recipes.mekanism.metallurgic_infusing(
+  metallurgic_infusing(
     "fluxnetworks:flux_dust",
     "#c:dusts/obsidian",
     "10x mekanism:redstone",
