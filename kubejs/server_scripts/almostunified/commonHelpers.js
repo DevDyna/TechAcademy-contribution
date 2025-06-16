@@ -39,6 +39,18 @@
 //   return outRes;
 // }
 
+/**
+ * Extracts input information from a recipe object and returns an array of input resources.
+ *
+ * The function iterates over two possible input slots in the recipe and constructs an object
+ * for each input resource, containing its count and either its tag or item identifier.
+ * The tag or item is determined based on the presence of "basePredicate" or direct "tag"/"item"
+ * properties within each input object.
+ *
+ * @param {Object} recipe - The recipe object containing input details.
+ * @returns {Array<Object>} An array of input resource objects, each with a count and 
+ * either a tag or item property.
+ */
 function immersiveInputHelper(recipe) {
   let inpsRes = [];
 
@@ -62,6 +74,16 @@ function immersiveInputHelper(recipe) {
   return inpsRes;
 }
 
+/**
+ * Extracts output information from a recipe object and returns an output resource object.
+ *
+ * The function constructs an object representing the output resource, containing its count and
+ * either its tag or item identifier. The tag or item is determined based on the presence of 
+ * "basePredicate", direct "tag", "item", or "id" properties within the result object.
+ *
+ * @param {Object} recipe - The recipe object containing result details.
+ * @returns {Object} An output resource object with a count and either a tag or item property.
+ */
 function immersiveOutputHelper(recipe) {
   let outRes = {
     count: "count" in recipe["result"] ? recipe["result"]["count"] : 1,
