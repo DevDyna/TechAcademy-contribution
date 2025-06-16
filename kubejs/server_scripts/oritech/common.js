@@ -547,4 +547,3 @@ function addCooler(event, coolerRecipe) {
 
   return event.custom(baseRecipe)
 }
-

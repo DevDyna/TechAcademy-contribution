@@ -22,8 +22,18 @@ const powah_datamap = {
 
 ServerEvents.recipes((event) => {
 
-  event.shapeless("techacademy:blazerod_block", ["9x minecraft:blaze_rod"]);
   event.shapeless("9x minecraft:blaze_rod", ["techacademy:blazerod_block"]);
+  event.shaped(
+      Item.of("techacademy:blazerod_block", 1),
+      [
+        "BBB",
+        "BBB",
+        "BBB",
+      ],
+      {
+        B: {item: "minecraft:blaze_rod"}
+      }
+    )
 
   powah_datamap.energy.forEach((energy, index) => {
     event.recipes.powah.energizing(
