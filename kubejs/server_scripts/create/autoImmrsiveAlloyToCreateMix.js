@@ -4,50 +4,11 @@ ServerEvents.recipes((event) => {
       !recipe.getId().includes("kjs:") &&
       !recipe.getId().includes("oritech:compat/")
     ) {
-      let inputHelper = () => {
-        const inputs = ["input0", "input1"];
-        let inpsRes = [];
-        inputs.forEach((input) => {
-          let inpRes = {
-            count: "count" in newrecipe[input] ? newrecipe[input]["count"] : 1,
-          };
-          if (
-            "basePredicate" in newrecipe[input] &&
-            "tag" in newrecipe[input]["basePredicate"]
-          ) {
-            inpRes["tag"] = newrecipe[input]["basePredicate"]["tag"];
-          } else if ("tag" in newrecipe[input]) {
-            inpRes["tag"] = newrecipe[input]["tag"];
-          } else if ("item" in newrecipe[input]) {
-            inpRes["item"] = newrecipe[input]["item"];
-          }
-          inpsRes.push(inpRes);
-        });
-        return inpsRes;
-      };
-
-      let resultHelper = () => {
-        let resRes = {
-          count:
-            "count" in newrecipe["result"] ? newrecipe["result"]["count"] : 1,
-        };
-        if (
-          "basePredicate" in newrecipe["result"] &&
-          "tag" in newrecipe["result"]["basePredicate"]
-        ) {
-          resRes["tag"] = newrecipe["result"]["basePredicate"]["tag"];
-        } else if ("tag" in newrecipe["result"]) {
-          resRes["tag"] = newrecipe["result"]["tag"];
-        } else if ("id" in newrecipe["result"]) {
-          resRes["item"] = newrecipe["result"]["id"];
-        }
-        return resRes;
-      };
 
       let newrecipe = JSON.parse(recipe.json);
 
-      let result = resultHelper();
-      let inputs = inputHelper();
+      let result = immersiveOutputHelper(newrecipe);
+      let inputs = immersiveInputHelper(newrecipe);
 
       let finalrecipe = {
         type: "create:mixing",
