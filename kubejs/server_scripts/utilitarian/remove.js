@@ -3,7 +3,8 @@ const itemsToRemove_utilitarian = [
   "utilitarian:red_snad",
   "utilitarian:soul_snad",
   "utilitarian:drit",
-  "utilitarian:grrass"
+  "utilitarian:grrass",
+  "utilitarian:cursed_grrass"
 ];
 
 ServerEvents.recipes((event) => { 
