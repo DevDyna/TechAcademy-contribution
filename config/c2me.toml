@@ -136,6 +136,12 @@ globalExecutorParallelism = "default"
 	# This is currently deprecated and will be removed in the future.
 	# 
 	useLegacyScheduling = "default"
+	# (Default: false) Whether to enable low memory mode
+	# 
+	# This option will attempt to aggressively unload unused chunks.
+	# Only applies when useLegacyScheduling is disabled.
+	# 
+	lowMemoryMode = "default"
 
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
