@@ -132,7 +132,7 @@ key_key.openManual:key.keyboard.f1:
 key_key.nextDestination:key.keyboard.right.bracket:
 key_key.prevDestination:key.keyboard.left.bracket:
 key_key.unmountVehicle:key.keyboard.backslash:
-key_key.guideme.guide:key.keyboard.keypad.7:
+key_key.guideme.guide:key.keyboard.w:
 key_key.toastcontrol.clear:key.keyboard.j:
 key_key.jei.cheatOneItem:key.mouse.left:
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
@@ -181,7 +181,7 @@ key_key.mekanism.key_boost:key.keyboard.left.control:
 key_key.mekanism.key_hud:key.keyboard.h:
 key_key.jade.config:key.keyboard.keypad.0:
 key_key.jade.show_overlay:key.keyboard.keypad.1:
-key_key.jade.toggle_liquid:key.keyboard.keypad.2:
+key_key.jade.toggle_liquid:key.keyboard.keypad.6:
 key_key.jade.show_recipes:key.keyboard.keypad.3:
 key_key.jade.show_uses:key.keyboard.keypad.4:
 key_key.jade.narrate:key.keyboard.keypad.5:
