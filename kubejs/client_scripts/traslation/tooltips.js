@@ -1,4 +1,4 @@
-const anyLang = {
+const tooltipsLangs = {
   _key: [
     //-------------------------------------------// compact machines
     "machine.compactmachines.colossal",
@@ -12,8 +12,6 @@ const anyLang = {
     //-------------------------------------------// kubejs oredic
     "item.techacademy.ore_dictionary.tooltip1",
     "item.techacademy.ore_dictionary.tooltip2",
-    //-------------------------------------------// buttons
-    "techacademy.continue_button.key",
     //-------------------------------------------// easy mods
     "item.techacademy.easy_villagers.desc",
     "item.techacademy.easy_piglins.desc",
@@ -33,8 +31,6 @@ const anyLang = {
     //-------------------------------------------// kubejs oredic
     "Allows you to §oconvert§r an item in its §ounified version§r based on its tags",
     "§e§lUseful after updates in case of pack changes at the unification system§r",
-    //-------------------------------------------// buttons
-    "Continue",
     //-------------------------------------------// easy mods
     "Shift-Right Click on a villager to pick-up as item form",
     "Shift-Right Click on a piglin during you are holding something of gold to pick-up as item form",
@@ -55,8 +51,6 @@ const anyLang = {
     //-------------------------------------------// kubejs oredic
     "Permette di §oconvertire§r un elemento nella sua versione §ounificata§r in base ai suoi tag",
     "§e§lUtile dopo gli aggiornamenti, in caso di modifiche del pacchetto nel sistema di unificazione§r",
-    //-------------------------------------------// buttons
-    "Continua",
     //-------------------------------------------// easy mods
     "Shift-Right Click su un villico per prenderlo in forma di item",
     "Shift-Right Click su un piglin nel mentre hai qualcosa di oro per prenderlo in forma di item",
@@ -66,11 +60,11 @@ const anyLang = {
 };
 
 //Convert all _key traslation keys on virtual lang files to reduce multiple json
-Object.keys(anyLang).forEach((entry) => {
+Object.keys(tooltipsLangs).forEach((entry) => {
   if (entry == "_key") return;
   ClientEvents.lang(entry, (event) => {
-    anyLang._key.forEach((key, index) => {
-      event.add(key, anyLang[entry][index]);
+    tooltipsLangs._key.forEach((key, index) => {
+      event.add(key, tooltipsLangs[entry][index]);
     });
   });
 });
