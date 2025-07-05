@@ -39,23 +39,12 @@
 		{
 			dependencies: ["758C7AAFB2F22843"]
 			id: "079BB648273FA6EA"
-			tasks: [
-				{
-					id: "3019D9FCE94A30AF"
-					item: { count: 1, id: "buildinggadgets2:gadget_building" }
-					type: "item"
-				}
-				{
-					id: "1C3CD2F8BF2F6800"
-					item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
-					type: "item"
-				}
-				{
-					id: "4EA715F9DEEDA0E1"
-					item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
-					type: "item"
-				}
-			]
+			min_width: 450
+			tasks: [{
+				id: "1BABBE75BB1B93AC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))", "minecraft:custom_name": "\"Building Gadget\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -6.5d
 			y: 0.5d
 		}
@@ -264,11 +253,20 @@
 		{
 			dependencies: ["758C7AAFB2F22843"]
 			id: "2D8B2704F5C9101D"
-			tasks: [{
-				id: "00997334514B9B73"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			min_width: 350
+			tasks: [
+				{
+					id: "00997334514B9B73"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0B27A4FA66E2CB79"
+					item: { components: { "ftbfiltersystem:filter": "or(item(constructionstick:template_angel)item(constructionstick:template_destruction)item(constructionstick:template_replacement)item(constructionstick:template_unbreakable)item(constructionstick:template_battery))", "minecraft:custom_name": "\"Template\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: 0.5d
 		}
@@ -843,6 +841,23 @@
 			}]
 			x: 0.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["1057F43698D74246"]
+			icon: {
+				components: {
+					"ftbquests:icon": "techacademy:textures/quests/ch_utilita/jade_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "76F9153BE0B4ECAA"
+			min_width: 250
+			tasks: [{
+				id: "7BB709BE90F9ABE0"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -9.5d
 		}
 	]
 }

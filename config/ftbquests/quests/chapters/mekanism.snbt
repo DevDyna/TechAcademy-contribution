@@ -561,7 +561,7 @@
 				item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{

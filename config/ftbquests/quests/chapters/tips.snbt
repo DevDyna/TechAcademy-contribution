@@ -398,8 +398,11 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "ae2:pattern_provider"
+				}
 				id: "4915A2BBBCB65834"
-				item: { count: 1, id: "ae2:pattern_provider" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:pattern_provider)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d

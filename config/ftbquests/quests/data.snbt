@@ -24,6 +24,7 @@
 	]
 	emergency_items_cooldown: 1000
 	grid_scale: 0.5d
+	hide_excluded_quests: false
 	icon: {
 		components: {
 			"ftbquests:icon": "techacademy:textures/quests/packicon.png"

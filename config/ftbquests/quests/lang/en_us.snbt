@@ -2,6 +2,7 @@
 	chapter.011669EFCD494D94.title: "Immersive Eng"
 	chapter.050D313A1C827180.title: "Food"
 	chapter.065B1DB43B48E63C.title: "Refined Storage"
+	chapter.0A9AD373645280C1.title: "Replication"
 	chapter.0E60C4CBBD4DA9F9.title: "Energy"
 	chapter.0FDEE8071BC408D2.title: "Hostile Network"
 	chapter.1520158C6F6659BB.title: "Create"
@@ -19,7 +20,6 @@
 	chapter.4B91FBE61460CC63.title: "Le Quest"
 	chapter.4F8C1FBE943C4B53.title: "Processing"
 	chapter.5127EAB07A1BA40A.title: "Mekanism"
-	chapter.569585FB9CFADBD0.title: "Replica WIP"
 	chapter.592CF3629B80B6FA.title: "Powah"
 	chapter.7A3DDEC3BE3BE902.title: "Utilità"
 	chapter.7D82DB4905EAC0E4.title: "Grinding"
@@ -180,7 +180,27 @@
 	quest.072307C843A753B0.title: "Metal Press"
 	quest.07735D93EC888469.quest_desc: ["Una bussola che punta verso gli ore di metalli come Ferro, Oro e Stagno!"]
 	quest.07982A512AC5BBD6.quest_desc: ["Come il precedente ma più potente!"]
-	quest.079BB648273FA6EA.quest_desc: ["Tre gadget per il building WIP info"]
+	quest.079BB648273FA6EA.quest_desc: [
+		"Building Gadgets è una mod per Minecraft che introduce una serie di gadget avanzati per semplificare e migliorare il processo di costruzione delle strutture nel gioco."
+		""
+		"&lBuilding:&r"
+		"Consente di costruire strutture a distanza posando blocchi in serie (per esempio muri, colonne, scale, pavimenti, ecc.)."
+		"&lExchanging:&r "
+		"Simile al gadget di costruzione, permette però di sostituire blocchi già piazzati con altri del tipo selezionato."
+		"&lCopyPaste:&r "
+		"Consente di copiare un’area di costruzione (un volume di blocchi) e di incollarla in un’altra posizione."
+		"&lCutPaste:&r "
+		"Come il copia-incolla, ma sposta l’intera struttura da un punto all’altro cancellando l’originale (non serve fornire blocchi, perché l’edificio viene salvato nel gadget)."
+		"&lDestruction:&r "
+		"Elimina in un colpo tutti i blocchi in un’area selezionata facendoli sparire (i blocchi non rilasciano oggetti)."
+		""
+		"&6&lN.B.&r"
+		"[\"Molte funzioni avanzate (rotazione, specchio, ancoraggio, undo, ecc.) sono accessibili dal menu del gadget. \", {\"keybind\":\"key.buildinggadgets2.settings_menu\",\"bold\":true,\"color\":\"red\"}, \" mentre tieni il gadget in mano per aprire quel menu.\"]"
+		"&o(Per gli altri keybind controlla le impostazioni)&r"
+		""
+		"&4&lAttenzione&r"
+		"&4&oNon tutti i gadget dispongono della funzione undo, quindi poni sempre attenzione alle funzioni che eliminano blocchi&r"
+	]
 	quest.07EF8759FDE967A0.quest_desc: ["Se posizionato sull'Inventory Connector permette di visualizzare e ricercare gli oggetti in tutti gli inventari adiacenti"]
 	quest.080A9259205AF29D.quest_desc: ["Come il precedente ma più potente!"]
 	quest.084A860C5F782C20.quest_desc: ["Stesso utilizzo delle Crafting Unit base!"]
@@ -219,6 +239,14 @@
 	quest.0A24CE3FEF1B3131.quest_desc: ["Una batteria più capiente!"]
 	quest.0A2EDDDED9E143D6.quest_desc: ["Come la precedente ma più capiente!"]
 	quest.0A4756D348201EEF.quest_desc: ["Il powered Spawner è uno spawner che funziona a corrente e che può essere infuso dell'anima di un qualsiasi mob, intrappolabile in una Vial!"]
+	quest.0AA7A6C58D9F7C44.quest_desc: [
+		"È praticamente una stampante 3D, avendo l'item che da duplicare in un Memory Chip presente nel network (e abbastanza matter del tipo necessario) è possibile duplicarlo potenzialmente all'infinito. "
+		""
+		"La duplicazione puo partire dalla richiesta di un Terminal o posizionando un esemplare dell'item necessario nello slot a forma di infinito presente in questo macchinario"
+		""
+		"&l&6N.B.:&r"
+		"&6&oTutti i macchinari di questa mod, sono strettamente legati al network, ergo funzionano solo se collegati fra loro dagli appositi cavi (correttamente alimentati)&r"
+	]
 	quest.0AE3FE47394FB216.quest_desc: [
 		"Le Grinding Ball sono dei modificatori che possono essere applicati al SAG Mill per avere dei bonus sull'output e sui consumi del macchinario stesso!"
 		""
@@ -292,6 +320,12 @@
 	]
 	quest.0D2519C47F64E33F.quest_subtitle: "Crafta la chiave tecnologica"
 	quest.0D2519C47F64E33F.title: "Oritech"
+	quest.0D6944E6EF8E2672.quest_desc: [
+		"Questi sono i cavi della mod, similemente a quelli della &oRefined Storage&r e/o dell'&oApplied Energistics&r, non sono cavi specializzati in qualcosa, di fatto anche questa mod come le due sopracitata lavora a mo' di network e di conseguenza i cavi portano sia energia che \"dati\" ai vari macchinari della mod."
+		""
+		"&o&6Inoltre in questa mod non essite un blocco centrale, ergo il compito di convertire energia è tutto affidato a questi cavi, al quale puoi collegare un qualsiasi altro cavo/fonte/storage di energia&r"
+	]
+	quest.0D6944E6EF8E2672.title: "Matter Network pipe"
 	quest.0D9A029BC333C0C8.quest_desc: ["Ultimo step prima di produrre i Finished PCB!"]
 	quest.0D9A029BC333C0C8.quest_subtitle: "Ci sei quasi!"
 	quest.0DA89CE9424A6749.quest_desc: ["Come il precedente ma più capiente!"]
@@ -328,6 +362,15 @@
 	]
 	quest.0F2150D731128F11.quest_subtitle: "Piccole utilità"
 	quest.0F2150D731128F11.title: "Toolbar"
+	quest.0F77D28309B1C904.quest_desc: [
+		"Questa tank, al contrario di tutte le altre non conserva ne fluidi ne gas, ma bensi, Matter, un particoalre tipo di \"oggetto\" aggiunto dalla mod, in particolare esistono 8 Matter diverse:"
+		""
+		"Earth, Nether, Organic, Ender, Metallic, Precious, Living e Quantum."
+		"&o&b(Ergo assicurati di avere almeno una Tank per ogni matter)&r"
+		""
+		"&l&6N.B.:&r"
+		"&6&oTutti i macchinari di questa mod, sono strettamente legati al network, ergo funzionano solo se collegati fra loro dagli appositi cavi (correttamente alimentati)&r"
+	]
 	quest.0F871114B88D2297.quest_desc: ["Materiali di mezzo per produrre quelle che saranno i catalizzatori per avviare la super fornace della mod!"]
 	quest.101D9B065F04C857.quest_desc: [
 		"Questo blocco ti permette di tenere caricati tutti i chunk dove si trova almeno un cavo della tua Applied. "
@@ -410,6 +453,7 @@
 	]
 	quest.136483920DF38D4D.quest_subtitle: "Si Volaaa!"
 	quest.137CCA74567106B7.quest_desc: ["Una batteria più capiente!"]
+	quest.13C1A962AA1A0E75.quest_desc: ["Questo invece è il blocco nel quale conservare i chip, per renderli a loro volta visibili al network della replicator"]
 	quest.141E6DF27616DF04.quest_desc: [
 		"Tubi base per il trasporto di aria compressa fino a 5 bar. "
 		""
@@ -550,6 +594,11 @@
 	]
 	quest.1CF75450899A21AB.quest_desc: ["Applica al giocatore speed perenne!"]
 	quest.1D31132DAC2F08F8.title: "Bodyarmor Upgrade"
+	quest.1D3E5D9C58F7B370.quest_desc: [
+		"Un terminale che permette visualizzare e richiedere la produzione di tutti gli i tipi di item presenti nel netwrok al quale è collegato, "
+		""
+		"Inoltre mostra sul lato mostra la lista di tutte le varie matter e la loro disponibilità"
+	]
 	quest.1D59AE589AD5A7A2.quest_desc: ["Getta 1 pezzo di Sky Stone, 1 di Charged Certus Quartz e 1 di ferro all'interno della lava, non è uno scherzo!"]
 	quest.1D88AEF0C8273271.quest_desc: ["Caricata nel &oTempad&r con la &oWorkstation&r, permette di usare la funzione multiplayer di tracciamento dei player"]
 	quest.1DBD2374710BB50A.quest_desc: ["Ti permette di accedere all'inventario se entro un certo raggio"]
@@ -578,6 +627,8 @@
 		""
 		"{ \"text\": \"AtomicReconstructor\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51FA3CCC5BC3C328\" } }"
 	]
+	quest.1EA9BD9B7B0FF462.quest_desc: ["Il sistema di memoria della mod, permette di conservare al suo interno i dati necessari per produrre 16 tipi di item diversi"]
+	quest.1EA9BD9B7B0FF462.quest_subtitle: "Microchip! disse il MicroBird"
 	quest.1F51AF22FEAB4AB9.quest_desc: [
 		"Permette di connettere due pezzi divisi della tua network al di sotto di un certo raggio (&lcirca 200 blocchi&r), senza dover utilizzare i Quantum Bridge."
 		""
@@ -809,7 +860,27 @@
 	quest.2CD86B4F3D831CC3.quest_subtitle: "Tips: ci sono tank migliori e meno costose!"
 	quest.2CD86B4F3D831CC3.title: "Fluid Tank"
 	quest.2D033E695CFB8FEE.quest_desc: ["Come il precedente ma più capiente!"]
-	quest.2D8B2704F5C9101D.quest_desc: ["WIP"]
+	quest.2D8B2704F5C9101D.quest_desc: [
+		"I construction stick, sono una reinterpretazione di una classica mod, la Construction Wand."
+		""
+		"[\"In sintesi aggiunge una serie di stick che permettono di semplificare il building, permettendo di piazzare più blocchi seguendo una logica di \\\"similarità\\\", ovvero putando con lo stick su un blocco e premendo \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" verrano piazzati tanti blocchi dello stesso tipo quanti ve ne sono nell'invetario (il limite massimo varia con il tier dello stick). In alternativa posizionando un blocco nella seconda mano, succedera la stessa cosa ma piazzando il blocco nella suddetta mano.\"]"
+		"{@pagebreak}"
+		"I tier sono: "
+		"&lWooden, Copper, Iron, Diamond e Netherite&r;"
+		"Con rispettivamente i seguenti limiti di blocchi piazzabili per singola azione: "
+		"&l3, 9, 27, 128, 1024&r"
+		""
+		"Esistono poi vari template:"
+		"&lAngel&r - per piazzare blocchi a mezzaria"
+		"&lDestruction&r - per permettere al contrario la distruzione dei blocchi"
+		"&lReplacement&r - per rimpiazzare i blocchi con quelli presenti nella seconda mano"
+		"&lUnbreakable&r - per rendere lo stick indistruttibile"
+		"(&6&oin realtà blocca il consumo, ergo applicarlo su oggetti semi rotti, non cancellerà la barra della druabilità&r)"
+		"&lBattery&r - per poter ricaricare lo stick, sostituisce in toto la durabilità"
+		""
+		"&6&lN.B.&r&r"
+		"Tutti i template si applicano nella Smithing Table, per ulteriori informazioni, leggere i tooltip e/o usare la JEI/EMI"
+	]
 	quest.2DB96A67331326EE.quest_desc: ["Questa mod ti permette di creare dei cubi in una dimensione a se per isolare le tue farm e far laggare di meno il mondo principale."]
 	quest.2DC1AD436D716A0F.quest_desc: ["Inserisci gli upgrade in un macchinario valido per aumentarne la velocità e l'efficienza"]
 	quest.2DC342C97462629C.quest_desc: [
@@ -1037,6 +1108,12 @@
 	quest.39C3474F613ADD9F.quest_subtitle: "Ottieni il tuo primo lingotto di Osmium!"
 	quest.39C3474F613ADD9F.title: "Mekanism"
 	quest.39C8CB9C30A1C8F2.quest_desc: ["I pilastri delle strutture multiblocco della Immersive!"]
+	quest.39D63DA796DDDCA9.quest_desc: [
+		"Il Raw Replica è minerale principale della Mod, serve per realizzare il Replica Ingot, principale nonchè unico materiale della mod."
+		""
+		"&6&lSi trova unicamente nell'overworld sotto il livello della deepslate, o tramite qualche sistema di generazione ore "
+	]
+	quest.39D63DA796DDDCA9.title: "Raw replica"
 	quest.39F12C708F1AF6FB.quest_desc: [
 		"Pannello solare di base molto economico ma che produce solamente 4 RF/t."
 		""
@@ -1200,6 +1277,12 @@
 		""
 		"[\"\", {\"text\":\"TUTTI GLI OGGETTI DELLA APPLIED HANNO UNA SPIEGAZIONE ALL'INTERNO DEL MANUALE IN GAME. PUOI ACCEDERE A QUESTO MANUALE TENENDO IL CURSORE DEL MOUSE SOPRA L'OGGETTO E TENENDO PREMUTO: \", \"color\":\"gold\",\"bold\":true}, {\"keybind\":\"key.guideme.guide\",\"bold\":true,\"color\":\"gold\"}]"
 	]
+	quest.4295D6885065DDE2.quest_desc: [
+		"Questo macchinario permette di disgregare, un qualsiasi item compatibile con questa mod per ottenerne il o i matter che lo compongono"
+		""
+		"&l&6N.B.:&r"
+		"&6&oTutti i macchinari di questa mod, sono strettamente legati al network, ergo funzionano solo se collegati fra loro dagli appositi cavi (correttamente alimentati)&r"
+	]
 	quest.429C3BDA75B566E3.quest_desc: ["Applica al giocatore velocità di attacco, incrementandola di 5 punti perennemente!"]
 	quest.42AE61C53B9E1DF6.quest_desc: ["Stesso scopo e utilizzo dei Processor Circuit base!"]
 	quest.43B57244CA539EED.quest_desc: [
@@ -1224,7 +1307,6 @@
 		""
 		"&c&lDoppio click&r&r (nella Jei, scrivendo una parola) - Evidenzia tutti gli oggetti con il nome che contengono quella parola"
 	]
-	quest.441D6AD1CE49C8BA.quest_subtitle: "Jei ottimo direi!"
 	quest.441D6AD1CE49C8BA.title: "Un libro dei Crafting migliorato!"
 	quest.442AF1C736C7DB01.quest_desc: ["Come il Void Chassis!"]
 	quest.44A494578D0A64E4.quest_desc: [
@@ -1252,7 +1334,7 @@
 		"4.5/5 – Serve una buona comprensione del flusso di materia ed energia e dell’interazione tra macchinari, ma l’interfaccia e la rete la rendono accessibile ."
 	]
 	quest.44FF3CC8D104477F.quest_subtitle: "Duplicazione Avanzata"
-	quest.44FF3CC8D104477F.title: "Replication [WIP]"
+	quest.44FF3CC8D104477F.title: "Replication"
 	quest.456435F6E696A30D.quest_desc: ["Materiale di base per la produzione dello l'acciaio ed anche ottimo carburante per le tue fornaci!"]
 	quest.45670563892FAD33.quest_desc: ["Lega metallica utile per i crafting della mod!"]
 	quest.4595FC15F49EBC22.quest_desc: ["Versione migliorata dell'Autocrafter che contiene una maggior quantità di Pattern e una velocità di autocrafting più elevata."]
@@ -1821,6 +1903,11 @@
 	quest.6779311B7E619B77.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.6782D235E63787C1.quest_desc: ["Speciale press per il crafting degli Accumulation Processor dell'addon ExtendedAE!"]
 	quest.678BF509A58E493B.quest_desc: ["Versione potenziata per accedere alla tua RS ovunque e da qualunque dimensione!"]
+	quest.67CF06B16501EB40.quest_desc: [
+		"Permette di analizzare quasi ogni tipo di item, salvandone il corrispettivo valore in matter all'interno di un Memory Chip"
+		""
+		"&o&3A volte potrebbe essere necessario fare più scansioni per memorizzare un dato oggetto, (in ogni caso sarà visibile quando l'item è stato memorizzato)"
+	]
 	quest.67E0DCBECED6E0F5.quest_desc: [
 		"Questo gadget serve per collegare due Wireless Connector."
 		""
@@ -1849,6 +1936,12 @@
 	]
 	quest.6902905D8DE08045.quest_desc: ["Liquido utilizzato per la produzione di Unassembled PCB."]
 	quest.6916D3B6B7A767C1.title: "Fusion Reactor"
+	quest.6950C9A89C1B8F90.quest_desc: [
+		"Questo addon fa da ponte tra 2 potentissimi Network di questo pack, ovvero permette di collegare un Replication Network ad un Applied Energistics Network,"
+		""
+		"di conseguenza diventa possibile autocraftare gli oggetti replicabili del primo col secondo, sfruttando creare complessi sistemi di specchi e leve per automatizzare un replicator"
+	]
+	quest.6950C9A89C1B8F90.quest_subtitle: "Auto Replication?"
 	quest.69561673CFFCAFC6.quest_desc: [
 		"A differenza dello step assist classico può essere configurato nell'apposito menù."
 		""
@@ -1964,6 +2057,13 @@
 		"&lPosizionala vicino ad un Pattern Provider (versione blocco) per poter ricevere i materiali per il crafting.&r"
 	]
 	quest.6EC93EE46B975EFD.quest_desc: ["Un generatore che produce corrente consumando Oil"]
+	quest.6ECA3FCE2CD4F257.quest_desc: [
+		"Questa mod permette di replicare quasi ogni item presente nel pack, &opuoi rapidamente scoprire se un item è duplicabile leggendo l'ultima parte del tooltip che appare facendo semplicmente shift su di esso&r, "
+		""
+		""
+		"[\"Mentre per approfondire la mod con la sua guida iterna puoi semplicemnte posizonare il mouse su uno dei suoi item tenendo premuto il taso \", {\"keybind\":\"key.guideme.guide\",\"bold\":true,\"color\":\"red\"}]"
+	]
+	quest.6ECA3FCE2CD4F257.quest_subtitle: "Duplicazione! (╯°□°)╯︵ ┻━┻"
 	quest.6EE713F4CE1B3ED0.quest_desc: [
 		"&6&lQUESTO REATTORE ESPLODE RILASCIANDO DELLE RADIAZIONI CHE PERSISTONO NEL TEMPO!!! COSTRUISCILO LONTANO DA CASA!&r&r"
 		""
@@ -2076,6 +2176,18 @@
 		""
 		"In base al fatto che questo venga refrigerato oppure riscaldato permette il crafting di diversi materiali come ad esempio la plastica. Per tutti i crafting utilizza la JEI."
 	]
+	quest.76F9153BE0B4ECAA.quest_desc: [
+		"La Jade è tra tutte la miglior mod Quality of Life che possa essistere, fa una singola cosa ma la fa benissimo."
+		""
+		"In poche parole fornisce un piccolo pop up che di default appare nella parte alta dello schermo che ti mostra le principali caratteristiche del blocco/fluido/entità che stai guardando. "
+		""
+		"{@pagebreak}"
+		"Ad esempio il contenuto di una chest, o la vita di un mob, inoltre si integra con non poche mod, di conseguneza ci sono uno svariato numero di popup specifici (energie, fluidi, capienza percentuale, ecc ecc), ecco alcuni esempi:"
+		""
+		""
+		"{image:techacademy:textures/quests/ch_utilita/jade.png width:250 height:130 align:center}"
+	]
+	quest.76F9153BE0B4ECAA.quest_subtitle: "Un grande occhio, senza palpebre, avvolto nelle fiamme"
 	quest.770BC6D95E31F6F7.quest_desc: [
 		"Mod che introduce un sistema digitale per archiviare, gestire e automatizzare risorse con ME Storage e canali energetici."
 		""
@@ -2309,7 +2421,7 @@
 	reward_table.1161C0ABCD88C7C3.title: "Channel"
 	reward_table.2E6EABAE17A9D842.title: "Trader"
 	reward_table.317D45D3C953414E.title: "Phantom"
-	task.00997334514B9B73.title: "Any #constructionstick:construction_sticks"
+	task.00997334514B9B73.title: "Construction Stick"
 	task.0109E413C8CA2AD1.title: "16384B Fluid Storage Part"
 	task.02373582EDA6B457.title: "Any #c:dusts/obsidian"
 	task.031B626F756A071C.title: "Destructor"
@@ -2325,6 +2437,7 @@
 	task.0C13C5564EA921EA.title: "Clicca qui se hai letto!"
 	task.0D89219E149AE667.title: "Exporter"
 	task.0F21F865C2FACAEC.title: "Energizing Rod"
+	task.11E763B7D414EA72.title: "La Replication Mod"
 	task.1254EE5A29E2C776.title: "Biofuel"
 	task.135B2BDC14675A8B.title: "16384k Storage Part"
 	task.14B62843831E78A5.title: "Furnator"
@@ -2390,6 +2503,7 @@
 	task.46C54645D96989AD.title: "Crafting Grid"
 	task.47621D88D4522158.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
 	task.47BE4135DF692932.title: "Boots Upgrade"
+	task.4915A2BBBCB65834.title: "Pattern Provider"
 	task.4973E10437BA2BE7.title: "Latex"
 	task.4C54F6E8619A7AAE.title: "Ultra Destructor"
 	task.4CADDE2AE7A15590.title: "Le Predictions"
@@ -2440,7 +2554,9 @@
 	task.75392F411A1D608E.title: "Magmator"
 	task.7828717662487BCA.title: "Any #actuallyadditions:drills"
 	task.7B3D0024B66463B0.title: "Autocrafter"
+	task.7BB709BE90F9ABE0.title: "Jade"
 	task.7D7398C384634E68.title: "Elite Constructor"
+	task.7DF32E1A32692DD6.title: "x"
 	task.7E65506226DE7B25.title: "ExtendedAE"
 	task.7EBA03A81A17C13B.title: "Meda Exporter"
 }
