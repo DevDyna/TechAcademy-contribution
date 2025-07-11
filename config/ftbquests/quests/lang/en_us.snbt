@@ -1879,6 +1879,7 @@
 		"Ovviamente ci sono anche dei comandi in game che permettono di utilizzare manualmente le funzione offerte, il comando base è &l&3/backup&r al quale si deve aggiugnere uno dei seguenti sottocomandi:"
 		""
 		"&3&lconfig&r: Per accedere al menu generico dei config"
+		"(&oaccessibile anche dall'invetario in alto a sinsitra&r)"
 		"&3&lclientconfig&r: Per accedere direttamente ai config del client"
 		"&3&lserverconfig&r: Per accedere direttamente ai del server"
 		"&3&lsize&r: Per controllare la sitazione spazi e peso del mondo"
