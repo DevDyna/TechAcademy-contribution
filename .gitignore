@@ -40,9 +40,12 @@ kubejs/README.txt
 kubejs/assets/kubejs/textures/block/example_block.png
 kubejs/documentation/*
 kubejs/config/probe-settings.json
-config/forgeendertech/cached.dat
+/config/forgeendertech/*
 servers.dat
 kubejs/config/probe-settings.json
 waypoints/*
 ops.json
 user-prefs.json
+kubejs/assets/ponderjs_generated/*
+/ftbbackups3/*
+/cache
