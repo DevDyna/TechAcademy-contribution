@@ -6,10 +6,10 @@ ServerEvents.recipes((event) => {
       fluid: "pneumaticcraft:oil",
       amount: 1000,
     },
-    fluidOutput: {
+    fluidOutputs: [{
       fluid: "oritech:still_oil",
       amount: 1000,
-    },
+    }],
     processTime: 60,
   });
   addCentrifuge(event, {
@@ -17,10 +17,10 @@ ServerEvents.recipes((event) => {
       fluid: "oritech:still_oil",
       amount: 1000,
     },
-    fluidOutput: {
+    fluidOutputs: [{
       fluid: "pneumaticcraft:oil",
       amount: 1000,
-    },
+    }],
     processTime: 60,
   });
   addCentrifuge(event, {
@@ -28,10 +28,10 @@ ServerEvents.recipes((event) => {
       fluid: "bigreactors:steam",
       amount: 1000,
     },
-    fluidOutput: {
+    fluidOutputs: [{
       fluid: "oritech:still_steam",
       amount: 1000,
-    },
+    }],
     processTime: 60,
   });
   addCentrifuge(event, {
@@ -39,10 +39,10 @@ ServerEvents.recipes((event) => {
       fluid: "mekanism:steam",
       amount: 1000,
     },
-    fluidOutput: {
+    fluidOutputs: [{
       fluid: "oritech:still_steam",
       amount: 1000,
-    },
+    }],
     processTime: 60,
   });
   addCentrifuge(event, {
@@ -50,10 +50,10 @@ ServerEvents.recipes((event) => {
       fluid: "oritech:still_steam",
       amount: 1000,
     },
-    fluidOutput: {
+    fluidOutputs: [{
       fluid: "bigreactors:steam",
       amount: 1000,
-    },
+    }],
     itemsInput: [{
       item: "bigreactors:graphite_ingot",
     }],
@@ -68,10 +68,10 @@ ServerEvents.recipes((event) => {
       fluid: "oritech:still_steam",
       amount: 1000,
     },
-    fluidOutput: {
+    fluidOutputs: [{
       fluid: "mekanism:steam",
       amount: 1000,
-    },
+    }],
     itemsInput: [{
       item: "mekanism:ingot_osmium",
     }],

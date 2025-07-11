@@ -12,7 +12,7 @@
 //   let recipeIdComponents = [
 //     baseRecipe["type"].replace(/:/g, "/"),
 //     baseRecipe["fluidInputAmount"] > 0 ? baseRecipe["fluidInputVariant"] : "",
-//     baseRecipe["fluidOutputAmount"] > 0 ? baseRecipe["fluidOutputVariant"] : "",
+//     baseRecipe["fluidOutputsAmount"] > 0 ? baseRecipe["fluidOutputsVariant"] : "",
 //     baseRecipe["results"].length == 1 ? baseRecipe["results"][0].id : "",
 //     baseRecipe["ingredients"].length == 1 && "item" in baseRecipe["ingredients"][0] ? baseRecipe["ingredients"][0]["item"] : "",
 //     baseRecipe["ingredients"].length == 1 && "tag" in baseRecipe["ingredients"][0] ? baseRecipe["ingredients"][0]["tag"] : "",
@@ -48,9 +48,9 @@
  * @param {string} centrifugeRecipe.itemsOutput[].id - The item id for the output, defaults to "minecraft:empty".
  * @param {number} centrifugeRecipe.itemsOutput[].count - The count of the item output, defaults to 1.
  *
- * @param {Object} centrifugeRecipe.fluidOutput - The fluid output for the centrifuge recipe.
- * @param {string} centrifugeRecipe.fluidOutput.fluid - The fluid id for the output, defaults to "minecraft:empty".
- * @param {number} centrifugeRecipe.fluidOutput.amount - The amount of fluid output, defaults to 0.
+ * @param {Object} centrifugeRecipe.fluidOutputs - The fluid output for the centrifuge recipe.
+ * @param {string} centrifugeRecipe.fluidOutputs.fluid - The fluid id for the output, defaults to "minecraft:empty".
+ * @param {number} centrifugeRecipe.fluidOutputs.amount - The amount of fluid output, defaults to 0.
  *
  * @param {number} centrifugeRecipe.processTime - The processing time for the centrifuge recipe in ticks, defaults to 200.
  * 
@@ -61,7 +61,7 @@ function addCentrifuge(event, centrifugeRecipe) {
   let itemsInput = "itemsInput" in centrifugeRecipe ? centrifugeRecipe.itemsInput : [];
   let itemsOutput = "itemsOutput" in centrifugeRecipe ? centrifugeRecipe.itemsOutput : [];
   let fluidInput = "fluidInput" in centrifugeRecipe ? centrifugeRecipe.fluidInput : { fluid: "minecraft:empty", amount: 0 };
-  let fluidOutput = "fluidOutput" in centrifugeRecipe ? centrifugeRecipe.fluidOutput : { fluid: "minecraft:empty", amount: 0 };
+  let fluidOutputs = "fluidOutputs" in centrifugeRecipe ? centrifugeRecipe.fluidOutputs : [{ fluid: "minecraft:empty", amount: 0 }];
   let processTime = "processTime" in centrifugeRecipe ? centrifugeRecipe.processTime : 200;
   let conditions = "conditions" in centrifugeRecipe ? centrifugeRecipe.conditions : [];
 
@@ -72,10 +72,10 @@ function addCentrifuge(event, centrifugeRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -83,9 +83,9 @@ function addCentrifuge(event, centrifugeRecipe) {
 
 
   baseRecipe["fluidInput"] = fluidInput;
-  baseRecipe["fluidOutput"] = fluidOutput;
+  baseRecipe["fluidOutputs"] = fluidOutputs;
 
-  if (baseRecipe["fluidInput"]["fluid"] == baseRecipe["fluidOutput"]["fluid"] && baseRecipe["fluidOutput"]["fluid"] =="minecraft:empty") {
+  if (baseRecipe["fluidInput"]["fluid"] == baseRecipe["fluidOutputs"]["fluid"] && baseRecipe["fluidOutputs"]["fluid"] =="minecraft:empty") {
     baseRecipe["type"] = "oritech:centrifuge";
   }
 
@@ -139,10 +139,10 @@ function addPulverizer(event, pulverizerRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -197,10 +197,10 @@ function addFragmentForge(event, fragmentForgeRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 140,
@@ -255,10 +255,10 @@ function addAtomicForge(event, atomicForgeRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -269,8 +269,8 @@ function addAtomicForge(event, atomicForgeRecipe) {
 //   "type": "oritech:atomic_forge",
 //   "fluidInputAmount": 0,
 //   "fluidInputVariant": "minecraft:empty",
-//   "fluidOutputAmount": 0,
-//   "fluidOutputVariant": "minecraft:empty",
+//   "fluidOutputsAmount": 0,
+//   "fluidOutputsVariant": "minecraft:empty",
 //   "ingredients": [
 //     {
 //       "item": "oritech:copper_gem"
@@ -338,10 +338,10 @@ function addFoundry(event, foundryRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -351,8 +351,8 @@ function addFoundry(event, foundryRecipe) {
 //   "type": "oritech:foundry",
 //   "fluidInputAmount": 0,
 //   "fluidInputVariant": "minecraft:empty",
-//   "fluidOutputAmount": 0,
-//   "fluidOutputVariant": "minecraft:empty",
+//   "fluidOutputsAmount": 0,
+//   "fluidOutputsVariant": "minecraft:empty",
 //   "ingredients": [
 //     {
 //       "item": "oritech:copper_gem"
@@ -419,10 +419,10 @@ function addAssembler(event, assemblerRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 140,
@@ -432,8 +432,8 @@ function addAssembler(event, assemblerRecipe) {
 //   "type": "oritech:assembler",
 //   "fluidInputAmount": 0,
 //   "fluidInputVariant": "minecraft:empty",
-//   "fluidOutputAmount": 0,
-//   "fluidOutputVariant": "minecraft:empty",
+//   "fluidOutputsAmount": 0,
+//   "fluidOutputsVariant": "minecraft:empty",
 //   "ingredients": [
 //     {
 //       "item": "oritech:adamant_ingot"
@@ -507,10 +507,10 @@ function addCooler(event, coolerRecipe) {
       "amount": 0,
       "fluid": "minecraft:empty"
     },
-    "fluidOutput": {
+    "fluidOutputs": [{
       "amount": 0,
       "fluid": "minecraft:empty"
-    },
+    }],
     "ingredients": [],
     "results": [],
     "time": 200,
@@ -520,8 +520,8 @@ function addCooler(event, coolerRecipe) {
   //   "type": "oritech:cooler",
   //   "fluidInputAmount": 81000,
   //   "fluidInputVariant": "oritech:still_steam",
-  //   "fluidOutputAmount": 0,
-  //   "fluidOutputVariant": "minecraft:empty",
+  //   "fluidOutputsAmount": 0,
+  //   "fluidOutputsVariant": "minecraft:empty",
   //   "ingredients": [],
   //   "results": [
   //     {
