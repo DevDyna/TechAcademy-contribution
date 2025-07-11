@@ -453,6 +453,17 @@
 	]
 	quest.136483920DF38D4D.quest_subtitle: "Si Volaaa!"
 	quest.137CCA74567106B7.quest_desc: ["Una batteria più capiente!"]
+	quest.13B66212938DF616.quest_desc: [
+		"Si effettivamente è una mezza vanillata, ma con la &l&cPen&r (e la &l&cQuill&r che consuma la redsone presente in inventario):"
+		" "
+		"1. Permette di &ogestire MOLTO meglio&r la redstone"
+		"2. Permette di piazzarla in &overticale&r sui muri"
+		"e 3. In più Aggiunge delle varianti di &l&cButton&r e &l&cLever&r che non fanno mai male, con qualche Gate (qui chiamati &l&cRelay&r) e una gestione della redstone wireless tramite il &l&cRemote&r, che in un mondo di macchine gestibili via redstone, può essere una manna dal cielo, soprattutto per alcune automazioni"
+		""
+		"&l&6N.B.:&r"
+		"&6Per maggiori informazioni leggere il tooltip presenti per ogni item&r"
+	]
+	quest.13B66212938DF616.quest_subtitle: "Vanillata?"
 	quest.13C1A962AA1A0E75.quest_desc: ["Questo invece è il blocco nel quale conservare i chip, per renderli a loro volta visibili al network della replicator"]
 	quest.141E6DF27616DF04.quest_desc: [
 		"Tubi base per il trasporto di aria compressa fino a 5 bar. "
@@ -1215,6 +1226,33 @@
 	quest.3DD4170BD45B32AD.quest_desc: ["Come il precedente ma più capiente!"]
 	quest.3DF37B39C975AC49.quest_desc: ["Inserisci il Certus Quartz nel Charger per caricarlo!"]
 	quest.3E2E090C6AC6DB12.quest_desc: ["Un semplice macchinario per ricaricare di corrente i tuoi strumenti che utilizzano energia elettrica!"]
+	quest.3E448A3D92E6A738.quest_desc: [
+		"Due mod tanto semplici quanto utili, aggiungono dei semplici overlay, che il player puo decidere di far apparire a piacimento, molto simili a quelli vanilla, ma fatti mooolto meglio."
+		""
+		"{@pagebreak}"
+		"Il primo mostra i livelli di luce, molto utile per capire se in una certa zona i mob possono spwanare"
+		"&oSe non contiamo i mob con spawn speciali&r, possiamo riassuemre che nelle &4zone rosse&r i mob ostili possono spawnare sempre, in &6quelle arancioni&r solo di notte e in &2quelle verdi&r mai, (condizioni invertite per i passivi)"
+		"Qui puoi vedere le 3 modalità possibili, rispettivamente carpter, numbers e cross:"
+		"{image:techacademy:textures/quests/ch_utilita/lighty.png width:340 height:150 align:center}"
+		""
+		"[\"Puoi far apparire l'overlay con \", {\"keybind\":\"key.lighty.toggle\",\"bold\":true,\"color\":\"red\"}, \" e modificare i config (tra i quali il tipo di overlay) con \", {\"keybind\":\"key.lighty.enable\",\"bold\":true,\"color\":\"red\"}]"
+		""
+		"&l&6N.B.:&r"
+		"&o&6Nella visualizzazione a numeri il primo numero indica la luce che \"arriva\" dal cielo, mentre il secondo la luce effettiva presente sul blocco&r"
+		""
+		"{@pagebreak}"
+		""
+		"Il secondo invece mostra i limiti dei chunk, utilissimo per piazzare al meglio i macchinari e i chunk loader, ed evitare spiacevoli incidenti durante l'esplorazione o peggio il viaggio in altre dimensioni"
+		""
+		"[\"Con \", {\"keybind\":\"key.moreoverlays.chunkbounds.desc\",\"bold\":true,\"color\":\"red\"}, \" puoi ciclare tra le seguenti modalità:\"]"
+		"&lNone:&r L'overlay è spento"
+		"&lCorners:&r Mostra solo gli angoli dei chunk"
+		"&lGrid:&r L'overlay mostra i bordi del chunk in cui sei"
+		"&lRegion:&r L'overlay mostra i bordi di una regione &o(un altro tipo di sezioni di un mondo MC, vedila come un chunk di chunk)&r"
+		""
+		"{image:techacademy:textures/quests/ch_utilita/moover_chunk.png width:340 height:150 align:center}"
+	]
+	quest.3E448A3D92E6A738.quest_subtitle: "Overlay per Tutti!"
 	quest.3E4B44324815E272.quest_desc: [
 		"Una farm automatica di crop se fornita di corrente ed acqua!"
 		""
@@ -1835,6 +1873,22 @@
 	quest.61FE591DF85F0C88.quest_desc: ["Una Crafting Table portatile!"]
 	quest.620072118A9EA0E5.quest_desc: ["Il letto di minecraft, un grande classico."]
 	quest.620072118A9EA0E5.title: "Letti!"
+	quest.6207BB30921AB150.quest_desc: [
+		"Una semplice mod che aggiunge un sistema di Backup automatici &o(ogni 90 Minuti di default)&r, è possibile ripristinare un &lBackup&r comodamente dal menu dei save &o(o mondi che dir si voglia)&r"
+		""
+		"Ovviamente ci sono anche dei comandi in game che permettono di utilizzare manualmente le funzione offerte, il comando base è &l&3/backup&r al quale si deve aggiugnere uno dei seguenti sottocomandi:"
+		""
+		"&3&lconfig&r: Per accedere al menu generico dei config"
+		"&3&lclientconfig&r: Per accedere direttamente ai config del client"
+		"&3&lserverconfig&r: Per accedere direttamente ai del server"
+		"&3&lsize&r: Per controllare la sitazione spazi e peso del mondo"
+		"&3&lstart&r: Per avviare manualmente un backup"
+		"(&o&6utilissimo prima di fare qualche cazz... qualcosa di pericoloso per il mondo&r)"
+		"&3&lstatus&r: Per controllare lo stato della mod (&oin relazione al mondo attuale&r)"
+		"&3&ltime&r: Per vedere a che ora sarà avviato il prossimo backup automatico"
+		"&4&lreset&r: Per resettare la mod in caso di gravi problematiche, da usare con &l&4ESTREMA ATTENZIONE&r"
+	]
+	quest.6207BB30921AB150.quest_subtitle: "Houston abbiamo un problema! Oh forse no ¬‿¬?!"
 	quest.6280EB5D107F6521.quest_desc: ["Questo macchinario permette l'estrazione di fluidi dal mondo come acqua e lava! "]
 	quest.62C3DD5C170B9991.quest_desc: ["Piazza il Fluid Extractor davanti un Log per prelevare il Latex."]
 	quest.62C3DD5C170B9991.quest_subtitle: "TIP: Prova l'acacia!"
@@ -1994,20 +2048,21 @@
 		""
 		"[ \"Prima di procedere se vuoi comprendere meglio il funzionamento delle quest ti consiglio di \", { \"text\": \"cliccare qui\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"543EBDFC1BCCA9A1\" } } ]"
 		""
-		"E sto creando questo modpack per far conoscere il moddato tecnico al pubblico italiano. Creerò le quest man mano che andrà avanti il mio letsplay su Youtube. Molte cose verranno cambiate in corso d'opera, soprattutto &laspetta a giocarlo se sei molto neofita&r perchè mancano sicuramente i reward e gli approcci che arriveranno dopo."
+		"E sto creando questo modpack per far conoscere il moddato tecnico al pubblico italiano."
+		""
+		"Per quanto sia ad un buon punto, il &opack è ancora in lento (sorry) sviluppo&r, alcune cose potrebbero ancora cambiare, al momento attuale &lpuoi iniziare anche se sei neofita&r, ma alcune cose potrebbero ancora essere in uno stato parizale, "
+		"[\"ovviamente se noti qualcosa di errato non esitare a segnalarlo, \",{\"text\":\"qui\", \"bold\": true, \"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/MCModdedCommunityIta/TechAcademy/issues\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui per entrare\"}}]"
 		""
 		"Puoi aprire le quest anche premendo:"
 		"{\"keybind\":\"key.ftbquests.quests\",\"bold\":true}"
 		""
 		""
-		""
-		"Per qualsiasi dubbio entra nel server discord:"
-		"{\"text\":\"https://discord.gg/marcuskron\", \"underlined\": true, \"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/marcuskron\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui per entrare\"}}"
+		"[\"Per qualsiasi dubbio entra nel server \", {\"text\":\"Discord\", \"bold\": true, \"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/marcuskron\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clicca qui per entrare\"}}]"
 		"{@pagebreak}"
 		"&l&dRingraziamenti&r"
 		""
 		"&6&lSiriosDev:&r"
-		"Scripts, Unificazione item e ore, Worldgen e Quests"
+		"Scripts, Unificazione item e ore, Aggironamento, Worldgen e Quests"
 		""
 		"&e&lBuddafai:&r"
 		"Quests dei capitoli: AE2, Ender IO, Immersive Engineering, Mekanism, Pneumaticraft e Refined Storage"
@@ -2017,6 +2072,9 @@
 		""
 		"&b&lYouseffo13:&r"
 		"Quests del capitolo Create"
+		""
+		"&c&lalecsusDFG:&r"
+		"Quest del capitolo Replication"
 	]
 	quest.6CE00D9DF699753D.quest_subtitle: "IL MODPACK NON E' FINITO"
 	quest.6CE00D9DF699753D.title: "Introduzione!"
@@ -2474,6 +2532,7 @@
 	task.32F1809C623E1F37.title: "Network Receiver"
 	task.33D5E513D56D306A.title: "Cliccami se hai capito tutto"
 	task.3472BE9B254FD0B9.title: "Coal Dust"
+	task.3496ABB17B61CB7F.title: "FTB Backup"
 	task.34E4D0401AC82934.title: "Housing, Cells e DISK"
 	task.34EA039F7E38C90F.title: "Cibo Automatico"
 	task.35C945052F0372C7.title: "Any #c:ingots/compressed_iron"
@@ -2510,6 +2569,7 @@
 	task.4D9421B724C163E4.title: "Energy Hopper"
 	task.52D9EB8933E76802.title: "Thermo Generator"
 	task.52EF39014DB3A6DC.title: "Shader"
+	task.53BE758F47EC1A89.title: "Lighty \\& More Overlays"
 	task.53D871E0EBD6D628.title: "Energy Cell"
 	task.5437AE1059228335.title: "Any #c:ingots/replica"
 	task.5503437BFDA7469B.title: "Any #c:chunkloaders"

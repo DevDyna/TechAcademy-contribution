@@ -31,6 +31,7 @@
 	quests: [
 		{
 			id: "6CE00D9DF699753D"
+			min_width: 450
 			rewards: [{
 				id: "4608EA8133DA7302"
 				item: {
@@ -77,7 +78,10 @@
 		{
 			dependencies: ["6CE00D9DF699753D"]
 			icon: {
-				id: "minecraft:map"
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "78F4E798439D8F25"
 			rewards: [{

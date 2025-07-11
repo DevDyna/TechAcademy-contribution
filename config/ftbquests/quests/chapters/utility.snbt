@@ -22,8 +22,8 @@
 				item: { count: 1, id: "shrink:shrinking_device" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["789925C15DEDACB0"]
@@ -33,7 +33,7 @@
 				item: { count: 1, id: "torchmaster:megatorch" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -17.0d
 			y: -5.5d
 		}
 		{
@@ -45,8 +45,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))", "minecraft:custom_name": "\"Building Gadget\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.5d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["789925C15DEDACB0"]
@@ -56,7 +56,7 @@
 				item: { count: 1, id: "chunkloaders:single_chunk_loader" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -17.0d
 			y: -2.5d
 		}
 		{
@@ -100,8 +100,8 @@
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: -16.5d
-			y: -3.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2B3B6327C5E26C31"]
@@ -111,8 +111,8 @@
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: -16.5d
-			y: -5.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2B3B6327C5E26C31"]
@@ -122,8 +122,8 @@
 				item: { count: 1, id: "hangglider:hang_glider" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: -4.5d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["00017D40227B1EAF"]
@@ -137,7 +137,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2B3B6327C5E26C31"]
+			dependencies: ["758C7AAFB2F22843"]
 			id: "0E7A6596E86235B7"
 			rewards: [
 				{
@@ -169,8 +169,8 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
-			y: -4.0d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["00017D40227B1EAF"]
@@ -206,8 +206,8 @@
 					type: "item"
 				}
 			]
-			x: -17.5d
-			y: -3.5d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["789925C15DEDACB0"]
@@ -225,7 +225,7 @@
 				item: { count: 1, id: "dimstorage:dimensional_chest" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -16.5d
 			y: -4.5d
 		}
 		{
@@ -236,8 +236,8 @@
 				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:iron" }, count: 1, id: "ironjetpacks:jetpack" }
 				type: "item"
 			}]
-			x: -18.5d
-			y: -3.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2B3B6327C5E26C31"]
@@ -247,8 +247,8 @@
 				item: { count: 1, id: "mekanism:jetpack" }
 				type: "item"
 			}]
-			x: -18.5d
-			y: -4.5d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["758C7AAFB2F22843"]
@@ -267,7 +267,7 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
+			x: -8.0d
 			y: 0.5d
 		}
 		{
@@ -306,7 +306,7 @@
 				item: { count: 1, id: "dimstorage:dimensional_tank" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -17.5d
 			y: -4.5d
 		}
 		{
@@ -345,8 +345,8 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 1.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["026404C1E714F6D2"]
@@ -417,7 +417,7 @@
 				id: "2A794C6353BF9C88"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -15.0d
 			y: -4.0d
 		}
 		{
@@ -441,7 +441,7 @@
 				id: "0C38DD7FEA19E141"
 				type: "checkmark"
 			}]
-			x: -15.0d
+			x: -5.0d
 			y: -4.0d
 		}
 		{
@@ -486,7 +486,7 @@
 				type: "checkmark"
 			}]
 			x: -11.0d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1057F43698D74246"]
@@ -519,10 +519,10 @@
 				type: "checkmark"
 			}]
 			x: -9.0d
-			y: -9.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["789925C15DEDACB0"]
+			dependencies: ["2B3B6327C5E26C31"]
 			icon: {
 				id: "tempad:tempad"
 			}
@@ -539,7 +539,7 @@
 				id: "5F787379359F7B2E"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -550,7 +550,7 @@
 				item: { count: 1, id: "enderstorage:ender_tank" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -17.5d
 			y: -3.5d
 		}
 		{
@@ -561,7 +561,7 @@
 				item: { count: 1, id: "enderstorage:ender_chest" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -16.5d
 			y: -3.5d
 		}
 		{
@@ -580,7 +580,7 @@
 				item: { count: 1, id: "tempad:location_card" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -599,7 +599,7 @@
 				item: { count: 1, id: "tempad:card_wallet" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
@@ -618,7 +618,7 @@
 				item: { count: 1, id: "tempad:timedoor_projector" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: -5.0d
 		}
 		{
@@ -637,7 +637,7 @@
 				item: { count: 1, id: "tempad:timedoor_marker" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
@@ -656,7 +656,7 @@
 				item: { count: 1, id: "tempad:chronomark" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
@@ -670,7 +670,7 @@
 				item: { count: 1, id: "tempad:tempad" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -681,7 +681,7 @@
 				item: { count: 1, id: "tempad:workstation" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -695,7 +695,7 @@
 				item: { count: 1, id: "tempad:player_teleport_upgrade" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -5.0d
 		}
 		{
@@ -706,7 +706,7 @@
 				item: { count: 1, id: "tempad:knowledge_repository_upgrade" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
@@ -717,7 +717,7 @@
 				item: { count: 1, id: "tempad:chronon_generator" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -731,7 +731,7 @@
 				item: { count: 1, id: "tempad:chronometer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -6.5d
 		}
 		{
@@ -742,7 +742,7 @@
 				item: { count: 1, id: "tempad:location_broadcaster" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -5.0d
 		}
 		{
@@ -753,7 +753,7 @@
 				item: { count: 1, id: "tempad:screening_device" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -6.5d
 		}
 		{
@@ -774,7 +774,7 @@
 				item: { count: 1, id: "tempad:chronon_cell" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
@@ -793,7 +793,7 @@
 				item: { count: 1, id: "tempad:chronon_battery" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -816,7 +816,7 @@
 				item: { count: 1, id: "tempad:metronome" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -8.0d
 		}
 		{
@@ -828,7 +828,7 @@
 				item: { count: 1, id: "tempad:time_steel" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -839,7 +839,7 @@
 				item: { count: 1, id: "tempad:time_twister" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
@@ -856,7 +856,62 @@
 				id: "7BB709BE90F9ABE0"
 				type: "checkmark"
 			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["758C7AAFB2F22843"]
+			icon: {
+				id: "redstonepen:quill"
+			}
+			id: "13B66212938DF616"
+			min_width: 350
+			rewards: [{
+				count: 12
+				id: "2C4E0B191D3AF5F0"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02CFE51A4F0B3A89"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(redstonepen))", "minecraft:custom_name": "\"Restone Pen\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1057F43698D74246"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbbackups3:icons/ftb-backups3-icon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6207BB30921AB150"
+			min_width: 350
+			tasks: [{
+				id: "3496ABB17B61CB7F"
+				type: "checkmark"
+			}]
 			x: -10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1057F43698D74246"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "3E448A3D92E6A738"
+			min_width: 340
+			tasks: [{
+				id: "53BE758F47EC1A89"
+				type: "checkmark"
+			}]
+			x: -9.0d
 			y: -9.5d
 		}
 	]
