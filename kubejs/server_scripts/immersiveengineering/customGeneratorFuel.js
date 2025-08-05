@@ -1,18 +1,18 @@
 // priority: 9999998
 
 let ieGeneratorFuels = [
-  { burningTime: 250, fluidTag: "c:fuels/biodiesel" },
-  { burningTime: 250, fluidTag: "c:fuels/biofuel" },
-  { burningTime: 250, fluidTag: "c:fuels/turbofuel" },
-  { burningTime: 250, fluidTag: "c:fuels/diesel" },
-  { burningTime: 20, fluidTag: "c:fuels/creosote" },
-  { burningTime: 20, fluidTag: "c:fuels/curde_oil" },
-  { burningTime: 20, fluidTag: "c:fuels/ethanol" },
-  { burningTime: 20, fluidTag: "c:fuels/bioethanol" },
-  { burningTime: 230, fluidTag: "c:fuels/gasoline" },
-  { burningTime: 200, fluidTag: "c:fuels/lpg" },
-  { burningTime: 100, fluidTag: "c:fuels/kerosene" },
-  { burningTime: 275, fluidTag: "c:fuels/high_power_biodiesel" },
+  { burningTime: 250, fluidTag: "c:biodiesel" },
+  { burningTime: 250, fluidTag: "c:biofuel" },
+  { burningTime: 250, fluidTag: "c:turbofuel" },
+  { burningTime: 250, fluidTag: "c:diesel" },
+  { burningTime: 20, fluidTag: "c:creosote" },
+  { burningTime: 20, fluidTag: "c:curde_oil" },
+  { burningTime: 20, fluidTag: "c:ethanol" },
+  { burningTime: 20, fluidTag: "c:bioethanol" },
+  { burningTime: 230, fluidTag: "c:gasoline" },
+  { burningTime: 200, fluidTag: "c:lpg" },
+  { burningTime: 100, fluidTag: "c:kerosene" },
+  { burningTime: 275, fluidTag: "c:high_power_biodiesel" },
 ];
 
 ServerEvents.recipes((event) => {

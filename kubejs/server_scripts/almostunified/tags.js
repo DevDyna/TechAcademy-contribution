@@ -22,12 +22,5 @@ ServerEvents.tags("block", (event) => {
 });
 
 ServerEvents.tags("fluid", (event) => {
-  event.add("c:fuels/biodiesel", "#c:biodiesel")
-  event.add("c:fuels/biofuel", "#c:biofuel")
-  event.add("c:fuels/high_power_biodiesel", "#c:high_power_biodiesel")
-  event.add("c:fuels/creosote", "#c:creosote")
-  event.add("c:fuels/ethanol", "#c:ethanol")
-  event.add("c:fuels/bioethanol", "#c:bioethanol")
-  event.add("immersiveengineering:drill_fuel", "#c:fuels/biodiesel")
-  event.add("immersiveengineering:drill_fuel", "#c:fuels/diesel")
+  event.add("immersiveengineering:drill_fuel", ["#c:biodiesel", "#c:diesel"])
 });
