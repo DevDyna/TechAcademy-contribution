@@ -23,4 +23,14 @@ ServerEvents.tags("block", (event) => {
 
 ServerEvents.tags("fluid", (event) => {
   event.add("immersiveengineering:drill_fuel", ["#c:biodiesel", "#c:diesel"])
+    
+  getIdsByTagPre(event, "c:crude_oil").forEach((id) => {
+    event.add("c:oil", String(id));
+  });
+  getIdsByTagPre(event, "c:oil").forEach((id) => {
+    event.add("c:crude_oil", String(id));
+  });
+  
+  // event.add("c:oil", "#c:crude_oil");
+  // event.add("c:crude_oil", "#c:oil");
 });

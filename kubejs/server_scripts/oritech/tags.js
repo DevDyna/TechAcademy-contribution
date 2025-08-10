@@ -5,3 +5,7 @@ ServerEvents.tags("item", (event) => {
   event.add("c:wires/nickel", "oritech:insulated_wire");
 
 });
+
+ServerEvents.tags("fluid", (event) => {
+  event.remove("c:biodiesel", "oritech:still_oil");
+});
