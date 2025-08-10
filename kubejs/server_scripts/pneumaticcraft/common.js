@@ -40,7 +40,6 @@ function addRefinery(event, centrifugeRecipe) {
   });
 
 
-  console.error(baseRecipe)
 
   event.custom(baseRecipe);
 }
