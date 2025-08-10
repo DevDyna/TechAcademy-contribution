@@ -144,6 +144,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -159,6 +162,9 @@
     "villager": true,
     "converter": true,
     "breeder": true
+  },
+  "pipez": {
+    "pipe": true
   },
   "gravestone": {
     "grave": true
