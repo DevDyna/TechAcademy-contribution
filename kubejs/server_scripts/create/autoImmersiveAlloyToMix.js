@@ -4,11 +4,10 @@ ServerEvents.recipes((event) => {
       !recipe.getId().includes("kjs:") &&
       !recipe.getId().includes("oritech:compat/")
     ) {
+      let originalRecipe = JSON.parse(recipe.json);
 
-      let newrecipe = JSON.parse(recipe.json);
-
-      let result = immersiveOutputHelper(newrecipe);
-      let inputs = immersiveInputHelper(newrecipe);
+      let result = immersiveOutputHelper(originalRecipe);
+      let inputs = immersiveInputHelper(originalRecipe);
 
       let finalrecipe = {
         type: "create:mixing",
@@ -17,8 +16,9 @@ ServerEvents.recipes((event) => {
         results: [],
       };
 
-      if ("neoforge:conditions" in newrecipe) {
-        finalrecipe["neoforge:conditions"] = newrecipe["neoforge:conditions"];
+      if ("neoforge:conditions" in originalRecipe) {
+        finalrecipe["neoforge:conditions"] =
+          originalRecipe["neoforge:conditions"];
       }
 
       inputs.forEach((input) => {
@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
           id:
             "item" in result
               ? result["item"]
-              : AlmostUnified.getTagTargetItem(result["tag"]).id,
+              : AlmostUnified.getTagTargetItem(result["tag"]).getId(),
         },
       });
 

@@ -4,18 +4,10 @@ ServerEvents.recipes((event) => {
       !recipe.getId().includes("kjs:") &&
       !recipe.getId().includes("oritech:compat/")
     ) {
-      let inputHelper = () => {
-        return newrecipe["inputs"];
-      };
+      let originalRecipe = JSON.parse(recipe.json);
 
-      let resultHelper = () => {
-        return newrecipe["output"];
-      };
-
-      let newrecipe = JSON.parse(recipe.json);
-
-      let result = resultHelper();
-      let inputs = inputHelper();
+      let result = resultHelper(originalRecipe);
+      let inputs = inputHelper(originalRecipe);
 
       let finalrecipe = {
         type: "create:mixing",
@@ -23,12 +15,13 @@ ServerEvents.recipes((event) => {
         results: [],
       };
 
-      if ("neoforge:conditions" in newrecipe) {
-        finalrecipe["neoforge:conditions"] = newrecipe["neoforge:conditions"];
+      if ("neoforge:conditions" in originalRecipe) {
+        finalrecipe["neoforge:conditions"] =
+          originalRecipe["neoforge:conditions"];
       }
 
       finalrecipe["heat_requirement"] =
-        newrecipe["energy"] > 4000 ? "superheated" : "heated";
+        originalRecipe["energy"] > 4000 ? "superheated" : "heated";
 
       inputs.forEach((input) => {
         for (let i = 0; i < input["count"]; i++) {
@@ -47,13 +40,17 @@ ServerEvents.recipes((event) => {
         item: {
           id:
             "id" in result
-              ? getItemOutput(result["id"]).id
-              : getTagOutput(result["tag"]).id,
+              ? getItemOutput(result["id"]).getId()
+              : getTagOutput(result["tag"]).getId(),
         },
       });
 
       // esclusione brass gia presente
-      event.custom(finalrecipe);
+      if (finalrecipe["ingredients"].length <= 9) { 
+        // max 9 ingredienti, la create non supporta più di 9 ingredeinti 
+        // (e non supporta nenache il count sugli ingredienti)
+        event.custom(finalrecipe);
+      }
     }
   });
 });
