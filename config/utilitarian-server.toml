@@ -54,3 +54,5 @@ windChargeAirAmount = 100
 noRaiderEnabled = true
 #Enable Cursed Earth module
 cursedEarthEnabled = false
+#Enable to let mobs despawn despite them holding items
+despawnWhenHoldingItems = false
