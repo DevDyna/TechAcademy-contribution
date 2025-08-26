@@ -49,3 +49,8 @@ user-prefs.json
 kubejs/assets/ponderjs_generated/*
 /ftbbackups3/*
 /cache
+.mixin.out/class/net/minecraft/world/entity/Mob.class
+config/catalogue_favourites.txt
+config/screenshot_viewer-client.toml
+config/fabric/indigo-renderer.properties
+config/iris.properties
