@@ -1,0 +1,25 @@
+{
+  "schema_version": "2",
+  "default_packs": [
+    "vanilla",
+    "fabric",
+    "mod_resources",
+    "moonlight:mods_dynamic_assets",
+    "file/Pretty X Smart Pipez.zip",
+    "file/AE2Blackout-V1.2.3.zip"
+  ],
+  "pack_overrides":{
+    "1":[
+      "vanilla",
+      "fabric",
+      "mod_resources",
+      "moonlight:mods_dynamic_assets",
+      "file/Pretty X Smart Pipez.zip"
+    ],
+    "$$1":{
+      "required": true,
+      "fixed_position": true,
+      "default_position": "BOTTOM"
+    }
+  }
+}
