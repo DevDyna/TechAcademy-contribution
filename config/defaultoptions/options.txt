@@ -48,7 +48,7 @@ mouseSensitivity:0.6056338028169014
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["fabric"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:mods_dynamic_assets","file/Pretty X Smart Pipez.zip","file/AE2Blackout-V1.2.3.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
