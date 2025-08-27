@@ -54,3 +54,4 @@ config/catalogue_favourites.txt
 config/screenshot_viewer-client.toml
 config/fabric/indigo-renderer.properties
 config/iris.properties
+.launchconfiguration.json
