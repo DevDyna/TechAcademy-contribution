@@ -1,0 +1,37 @@
+{
+  "description": "Prima di iniziare una domanda",
+  "options": [
+    {
+      "name": "In questo pack ci sono alcune mod che fanno la stessa cosa, scegli quale preferisci!",
+      "description": "Potrai sempre cambiare scelta dalla configurazione in game",
+      "values": [
+        {
+          "name": "Se sei nuovo (CONSIGLIATO)",
+          "description": "Verrà usata la EMI, più compatibile",
+          "behaviours": [
+            {
+              "type": "disable_mod",
+              "modId": "refinedstorage_jei_integration"
+            }
+          ],
+          "fallback": true
+        },
+        {
+          "name": "Se conosci già il Moddato",
+          "description": "Verrà usata la JEI, meno compatibile ma classica per i \"veterani\"",
+          "behaviours": [
+            {
+              "type": "disable_mod",
+              "modId": "emi"
+            },
+            {
+              "type": "disable_mod",
+              "modId": "refinedstorage_emi_integration"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}
