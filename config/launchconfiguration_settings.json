@@ -27,7 +27,24 @@
             {
               "type": "disable_mod",
               "modId": "refinedstorage_emi_integration"
+            },
+            {
+              "type": "disable_mod",
+              "modId": "extra_mod_integrations"
+            },
+            {
+              "type": "disable_mod",
+              "modId": "emi_enchanting"
+            },
+            {
+              "type": "disable_mod",
+              "modId": "emi_loot"
+            },
+            {
+              "type": "disable_mod",
+              "modId": "emi_ores"
             }
+
 
           ]
         }
