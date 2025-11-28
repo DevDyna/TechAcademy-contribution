@@ -1,0 +1,9 @@
+{
+	quest.11C0A65737D20782.quest_desc: ["Sono scarti della &l&9Simulation Chamber&r che permettono di craftare alcuni blocchi o item appartenenti alla dimensione corrispondente"]
+	quest.2FA74528348FA5D9.quest_desc: ["Clicca con un Model Framework col tasto destro su un mob e quando cambia forma, inseriscilo nel Deep Learner. Ora puoi uccidere i mostri e farlo livellare."]
+	quest.3DCDB13967F5C2D9.quest_desc: ["Usando questo item è possibile copiare la configurazione di un loot fabricator, per applicarla poi a molti altri loot fabricator"]
+	quest.3DCDB13967F5C2D9.quest_subtitle: "Farmare su larga scala"
+	quest.7BB83DDA5A5EA2E9.quest_desc: ["In base al mob corrispondente permettono di generare uno o più dei suoi drop usando il &l&9Loot Fabricator&r"]
+	task.4CADDE2AE7A15590.title: "Le Predictions"
+	task.5CB05CAACB4B92BD.title: "Prediction Consigliate"
+}

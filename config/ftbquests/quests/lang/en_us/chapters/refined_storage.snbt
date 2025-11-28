@@ -1,0 +1,178 @@
+{
+	quest.000FF4CA00CDBBF1.quest_desc: ["Questo componente posiziona automaticamente gli oggetti dal sistema nell'area di fronte ad esso. È utilizzato per automatizzare il posizionamento di oggetti nel mondo di gioco. "]
+	quest.004D5B518B8C6C72.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.010149C98210CF8D.quest_desc: ["Questo componente distrugge automaticamente i blocchi posizionati di fronte ad esso, inserendo gli oggetti risultanti direttamente nel sistema. È utile per automatizzare la raccolta di risorse e la rimozione di blocchi indesiderati."]
+	quest.027E19AECA119701.quest_desc: ["Versione migliorata della Grid che permette anche di craftare direttamente gli oggetti senza alcun bisogno di una Crafting Table!"]
+	quest.0298731DF3A0556A.quest_desc: ["Permette di importare ed esportare gli oggetti in stack, &l64 oggetti o 1000 mb di un fluido o gas&r!"]
+	quest.0588859AB7A90BA1.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.05CB3786DC63CC7C.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.09C48C51B3A8E26A.quest_desc: ["Può essere applicato al Destructor, permettendo di distruggere i blocchi con Silk Touch!"]
+	quest.0A2EDDDED9E143D6.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.0E2429693F1B39B7.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.0EE6A0E87A1D694F.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.126B79E8F0CA4428.quest_desc: [
+		"Finalmente il tuo inventario sempre a portata di mano!"
+		""
+		"&lPrima di utilizzare il Wireless Crafting Grid dovrai collegarlo al Controller. Mantenendoti nel raggio d'azione dell'antenna potrai accedere wireless al tuo storage.&r"
+	]
+	quest.126D2078C289AE41.quest_desc: ["Incrementa la velocità di lavoro di un macchinario o modulo!"]
+	quest.14C4A52D14C6A16B.quest_desc: [
+		"Funzionano come le Disk Storage ma sono dei blocchi fisici che possono essere piazzati nel mondo."
+		""
+		"&lQuesti Storage possono essere filtrati per contenere solamente uno o più tipi di oggetti specifici, come in un Drawer.&r"
+	]
+	quest.18503A6B901392EF.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.1ADECCA5FAB8245D.quest_desc: [
+		"Il Controller è il cuore della RS, senza la RS non funziona."
+		""
+		"Se clicchi sul blocco potrai vedere i consumi energetici della tua network."
+		""
+		"Per grandi network avrai bisogno di piazzare più Controller per riuscire a rifornire tutta la tua rete di energia!"
+	]
+	quest.1B7EB2788574C749.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.1BDDBEFA2199F8B4.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.2155A9AE9FA74C8E.quest_desc: ["Questo modulo preleva oggetti, fluidi o gas da un inventario!"]
+	quest.2326B520ED65E44B.quest_desc: ["Un modulo che permette al sistema di vedere gli oggetti, fluidi o gas immagazzinati all'interno di un inventario!"]
+	quest.2467020ECB8B9BF2.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.25B1E94C227B9FA4.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.27904520396B3799.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.27D0AC42588F804C.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.2A75CC4133EE1491.quest_desc: ["Versione avanzata per le Storage Part più potenti!"]
+	quest.2ACE07B4BEF27ED0.quest_desc: ["Questo modulo rifornisce di oggetti, fluidi o gas in un inventario!"]
+	quest.2B8B1C967E46BD3B.quest_desc: ["Come la precedente ma più capiente e veloce!"]
+	quest.2BBF142DF9847EC5.quest_desc: ["I cavi della mod!"]
+	quest.2C6AC4D5B7C5E4EB.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.327B06C82F15F51F.quest_desc: [
+		"Componente per la creazione dei Disk Storage!"
+		""
+		"Questo nello specifico serve per la creazione di un Disk Storage per gli oggetti."
+	]
+	quest.34ED5CBF3FCDA6C1.quest_desc: ["Se inserito all'interno del Wireless Transmitter permette di incrementare il suo raggio d'azione!"]
+	quest.3619B0D6E7AEAF47.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.3950FFAF3AA74C90.quest_desc: ["Verso l'infinito ed oltre!"]
+	quest.3A2D11CD45B3F989.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.3A4B319DADAD9F35.quest_desc: [
+		"Con questa card puoi salvare la configurazione di un dispositivo della tua network, ad esempio di un Importer, per poterla riutilizzare per configurare altri dispositivi."
+		""
+		"&lSe la configurazione salvata prevede degli upgrade, tenendoli nel tuo inventario questi verranno applicati in automatico!&r"
+	]
+	quest.3D74170D6127775E.quest_desc: ["Verso l'infinito ed oltre!"]
+	quest.3E959B819B4086FA.quest_desc: [
+		"Può essere applicato al Destructor, permettendo di distruggere i blocchi con fortuna! "
+		""
+		"&lEsistono anche le versioni con il livello di fortuna più alto.&r"
+	]
+	quest.42032BA572447449.quest_desc: [
+		"Componente per la creazione dei Disk Storage!"
+		""
+		"Questo nello specifico serve per la creazione di un Disk Storage per i fluidi."
+	]
+	quest.43C75A3A6B23B594.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.440295A302974D62.quest_desc: ["Con questa wrench potrai rompere o ruotare ad esempio, cavi, moduli o Crafter."]
+	quest.4595FC15F49EBC22.quest_desc: ["Versione migliorata dell'Autocrafter che contiene una maggior quantità di Pattern e una velocità di autocrafting più elevata."]
+	quest.4858B354737A1781.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.4BF35176AA56D4BC.quest_desc: ["Processor avanzati dell'addon Extra Disk, che permettono di craftare delle Storage Part molto potenti!"]
+	quest.506945B237402C87.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.532587C2D1C70E34.quest_desc: ["Oggetti base per la produzione dei Processor."]
+	quest.548059D8CE7763DF.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.548059D8CE7763DF.title: "1024k Storage Part"
+	quest.5526EFA053B97562.quest_desc: [
+		"Questo blocco può essere utilizzato per creare delle sub-network!"
+		""
+		"&lCliccandoci si aprirà un menù dal quale è possibile configurare le azioni che la sub-network può fare o meno. Un esepio è la possibilità di impedire la visione degli autocrafting alla sub-network!&r"
+	]
+	quest.56119DD9B0EA6245.quest_desc: ["Dalla combinazione di una Storage Housing con una Storage Part, è possibile creare una Storage Disk per immagazzinare gli oggetti, i fluidi e i gas della Mekanism, digitalmente all'interno della tua Refined!"]
+	quest.56238FAF42051257.quest_desc: ["Processor avanzati dell'addon ExtraStorage, che permettono di craftare degli Autocrafter molto potenti!"]
+	quest.56A42BF12EA2B511.quest_desc: [
+		"Inserisci al suo interno le pattern per poter autocraftare!"
+		""
+		"&lPer l'autocrafting che prevedono l'utilizzo di macchinari posiziona l'autocrafter attaccato a questi.&r"
+	]
+	quest.578BD1E455C728FD.quest_desc: ["Questo blocco è la base di molti macchinari o moduli della RS!"]
+	quest.5851D1D0F1C712FD.quest_desc: ["Versione potenziata dei processor base per crafting avanzati!"]
+	quest.597063F189528FAB.quest_desc: ["Un altro tipo di exporter e importer leggermente più veloci di quelli base"]
+	quest.597063F189528FAB.title: "Advanced"
+	quest.5F56886C3CB0039D.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.601874CCFEDD44AE.quest_desc: ["Come la precedente ma più capiente e veloce!"]
+	quest.61A7C177D695CE54.quest_desc: ["Oggetto base per la creazione dei upgrade!"]
+	quest.64B9BBCB919040B9.quest_desc: [
+		"Componente per la creazione dei Disk Storage!"
+		""
+		"Questo nello specifico serve per la creazione di un Disk Storage per i gas della Mekanism!"
+	]
+	quest.65B13EA965A09970.quest_desc: ["Macchinario per svuotare o trasferire oggetti da un Disk ad un altro!"]
+	quest.66947E0B2A8E4F6C.quest_desc: ["La Grid ti permette di vedere tutti gli oggetti presenti nel tuo storage!"]
+	quest.66F986E39382D365.quest_desc: [
+		"I Processor sono il cuore dei crafting della RS!"
+		""
+		"&lPer grandi impianti te ne serviranno molti, quindi provvedi ad averne sempre una buona quantità.&r"
+	]
+	quest.678BF509A58E493B.quest_desc: ["Versione potenziata per accedere alla tua RS ovunque e da qualunque dimensione!"]
+	quest.687F80949C56805A.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.6E0536C4BE7BEDE8.quest_desc: ["Questo blocco funziona sia da Importer che da Exporter!"]
+	quest.71B12F48BC1E3F93.quest_desc: ["Come la precedente ma più capiente e veloce!"]
+	quest.71CAD7EEC8481EA8.quest_desc: ["Verso l'infinito ed oltre!"]
+	quest.720DFB9012E497B0.quest_desc: [
+		"Funziona come un'antenna per utilizzare wireless la tua Refined!"
+		""
+		"Al suo interno puoi inserire i Range Upgrade per aumentare il raggio d'azione dell'antenna! "
+		""
+		"&lNaturalmente più booster inserisci, più la tua network consumerà energia.&r"
+	]
+	quest.7245465D96D49333.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.735FC935D86D2C48.quest_desc: ["Come la precedente ma più capiente!"]
+	quest.776033F64F65452E.quest_desc: ["Se si utilizza questa upgrade all'interno di un Exporter, permette di esportare un determinato oggetto anche se non disponibile nella network craftandolo, sempre se si è definita una Pattern per l'oggetto!"]
+	quest.7CCE94359EFA7A7F.quest_desc: [
+		"Materiali di base con i quali produrre tutti gli oggetti della RS!"
+		""
+		"&l&6Su tutti gli oggetti della mod tenendoci sopra il cursore del mouse e cliccando Shift apparirà una piccola descrizione dell'oggetto e del suo utilizzo!&r"
+	]
+	quest.7CCE94359EFA7A7F.title: "Materiali base"
+	quest.7D1F74E75C8370D2.quest_desc: [
+		"Versione della Grid che permette di codificare le Pattern per gli autocrafting!"
+		""
+		"Utilizza le Pattern per memorizzare le ricette di crafting."
+	]
+	task.0109E413C8CA2AD1.title: "16384B Fluid Storage Part"
+	task.031B626F756A071C.title: "Destructor"
+	task.04A732127E8E367D.title: "Mega Destructor"
+	task.04D8C8B87075E776.title: "Importer"
+	task.058A5C14CA609FEC.title: "Ultra Constructor"
+	task.09A1CD56C18804D9.title: "Interdimensional Wireless Transmitter"
+	task.0D89219E149AE667.title: "Exporter"
+	task.135B2BDC14675A8B.title: "16384k Storage Part"
+	task.163F27270D0C6301.title: "Mega Importer"
+	task.1DF52406F7E7C7E2.title: "Ultra Autocrafter"
+	task.1ED1B295C0845D56.title: "Mega Autocrafter"
+	task.2157D395079EBCF9.title: "65536B Fluid Storage Part"
+	task.21A4C35AC8763B03.title: "1024k Storage Part"
+	task.22FDB94B88DF21F8.title: "Qualsiasi Storage Block"
+	task.2647B5257382FE90.title: "External Storage"
+	task.282D9DADBCDBE109.title: "Pattern Grid"
+	task.295DE2E14392DFA6.title: "Elite Autocrafter"
+	task.319283B2128CF794.title: "262144B Fluid Storage Part"
+	task.32F1809C623E1F37.title: "Network Receiver"
+	task.36442C3A168CAFFE.title: "4096k Storage Part"
+	task.380D0FE47A0704D1.title: "Wireless Transmitter"
+	task.41C7E6AD285904CD.title: "Ultra Importer"
+	task.424D9DAB1610FA28.title: "256k Storage Part"
+	task.45C0B637543EC82D.title: "Any #c:silicon"
+	task.46C54645D96989AD.title: "Crafting Grid"
+	task.4C54F6E8619A7AAE.title: "Ultra Destructor"
+	task.55A53F829F5483E4.title: "Disk Interface"
+	task.576FB251E0646C89.title: "Constructor"
+	task.57884F2BA41FE13A.title: "Grid"
+	task.57B858DB1EFD6778.title: "Mega Constructor"
+	task.5BAD97EB6E9C1862.title: "Elite Importer"
+	task.5BE7952EFCF184B0.title: "Elite Exporter"
+	task.5CF8BCCF48AB7C00.title: "1048576B Fluid Storage Part"
+	task.5E69DCEE5BEAE8F5.title: "Network Transmitter"
+	task.5F45315E0BA31D76.title: "Ultra Exporter"
+	task.5FE2E4E70931AABF.title: "Controller"
+	task.6B386A832095D9D3.title: "Cable"
+	task.70A805D542EAC911.title: "Relay"
+	task.74CB1CF19C22E52E.title: "Elite Destructor"
+	task.7B3D0024B66463B0.title: "Autocrafter"
+	task.7D7398C384634E68.title: "Elite Constructor"
+	task.7EBA03A81A17C13B.title: "Mega Exporter"
+}

@@ -1,0 +1,239 @@
+{
+	quest.04B07A77BF9FB623.quest_desc: [
+		"Struttura multiblocco che permette di raffinare il petrolio grezzo."
+		""
+		"&6&lPer funzionare necessita di calore e non di aria compressa!&r"
+	]
+	quest.08F8CD6E466380A4.quest_desc: [
+		"Sfrutta l'energia solare per produrre aria compressa. Migliora la sua produzione se si fornisce calore al macchinario!"
+		""
+		"&6&lAttenzione che però, raggiunta una certa soglia di temperatura, il macchinario si romperà e sarà necessario ripararlo con una nuova Solar Cell!&r"
+	]
+	quest.092749A70CD2ABBF.quest_desc: [
+		"Macchinario di mezzo necessario per processare gli Empty PCB in attesa che lo si possa fare con L'Assembly!"
+		""
+		"Permette molto lentamente di \"caricare\" di luce ultravioletta un Empty PCB. Più lo si fa caricare più è alta la chance che il processo di etching finisca con successo."
+	]
+	quest.0C1002162598B040.quest_desc: [
+		"Questo tablet permette di acquistare e vendere oggetti al mercato nero della Pneumaticraft!"
+		""
+		"Per poter pagare gli acquisti bisogna collegare il tablet ad una chest o ad una tank in modo che il pagamento possa essere ritirato da qualcuno..."
+		""
+		"La merce ordinata verrà consegnata all'inventario selezionato!"
+		""
+		"&6&lPer collegare l'inventario basta cliccare una chest o una tank con tasto destro del mouse mentre si sta premendo Shift.&r"
+	]
+	quest.0C5151B2D25329A8.quest_desc: [
+		"Questo oggetto se rifornito di aria compressa funge da ventilatore per spostare oggetti e mob! Se invece si fornisce pressione negativa può fungere da vacuum hopper se si posiziona accando un inventario!"
+		""
+		"In base alla quantità di aria compressa o sottovuoto aumenta o diminuisce il raggio d'azione."
+		""
+		"Potrai migliorare le sue funzioni applicandogli un Module Expasion Card."
+	]
+	quest.0D9A029BC333C0C8.quest_desc: ["Ultimo step prima di produrre i Finished PCB!"]
+	quest.0D9A029BC333C0C8.quest_subtitle: "Ci sei quasi!"
+	quest.0E1CE27DAFBC1FCD.quest_desc: [
+		"Tubi intermedi per il trasporto di aria compressa fino a 10 bar. "
+		""
+		"&6&lQuesti tubi supportano pressioni di media intensità, quindi attento perché esplodono se a lungo sottoposti ad alta pressione!&r"
+	]
+	quest.141E6DF27616DF04.quest_desc: [
+		"Tubi base per il trasporto di aria compressa fino a 5 bar. "
+		""
+		"&6&lQuesti tubi supportano basse pressioni, quindi attento perché esplodono se a lungo sottoposti ad alta pressione!&r"
+	]
+	quest.193469334E1A5D35.quest_desc: ["Un semplice metodo di trasporto, estrazione e inserimento dei fluidi tra blocchi. "]
+	quest.193469334E1A5D35.quest_subtitle: "Come un hopper ma per i fluidi!"
+	quest.19C46A40560643DE.quest_desc: ["Macchinario che se fornito di aria compressa permettere di ricaricare strumenti, droni e armature della mod!"]
+	quest.1F88A3B9DD03E201.quest_desc: [
+		"Questo macchinario se fornito di aria compressa funge da pompa per il sottovuoto."
+		""
+		"&lAlcuni macchinari utilizzano il sottovuoto anziché l'aria compressa!&r"
+	]
+	quest.205BB3CD72701E44.quest_desc: ["Metodo primitivo e manuale di generazione di aria compressa!"]
+	quest.205BB3CD72701E44.quest_subtitle: "Ti piacciono le pompe..."
+	quest.240281FFE6A26645.quest_desc: [
+		"Esistono due tipi di Spawner Core quelli estratti direttamente da uno spawner trovato nel mondo e quelli creati dal giocatore."
+		""
+		"&lI primi contengono l'essenza pura di un singolo mob, mentre i secondi possono contenere l'essenza di uno o più mob! &r"
+		""
+		"Se necessiti di un mob nello specifico conviene la prima tipologia mentre se necessiti di una varietà di mob la seconda tipologia è quella che fa al caso tuo!"
+	]
+	quest.240281FFE6A26645.quest_subtitle: "Questo oggetto può intrappolare l'essenza di uno mob o più mob!"
+	quest.247F42F671793B39.quest_desc: [
+		"Funziona esattamente come l'Air Compressor di base, ma permette di raggiungere pressioni maggiori."
+		""
+		"&6&lAttenzione che però, raggiunta una certa soglia di temperatura, l'efficienza del macchinario si riduce e di conseguenza avrai bisogno di più carburante per produrre pressione!&r"
+	]
+	quest.2A2F71AC24F98BE3.quest_desc: [
+		"Macchinario multiblocco che utilizza aria compressa per funzionare!"
+		""
+		"&lNecessita anche di due inventari da piazzare vicino agli Assembly IO Unit per poter fornire i materiali di crafting e ricevere i prodotti.&r"
+	]
+	quest.2A2F71AC24F98BE3.title: "Bracciniiiii"
+	quest.2C14360749CD8EE5.quest_desc: ["Funziona esattamente come un hopper ma può essere migliorato inserendoci degli upgrade."]
+	quest.2C14360749CD8EE5.quest_subtitle: "Un hopper sotto steroidi!"
+	quest.2DDDE4870AA733BD.quest_desc: [
+		"Questo compressore genera pressione condumando energia elettrica."
+		""
+		"&6&lAttenzione che però, raggiunta una certa soglia di temperatura, l'efficienza del macchinario si riduce e di conseguenza avrai bisogno di più carburante per produrre pressione!&r"
+	]
+	quest.307F4C65B11D8A97.quest_desc: ["Questo upgrade permette di aumentare la quantità di aria compressa che può essere immagazzinata all'interno di uno strumento, macchinario o armatura."]
+	quest.319E7F89FB1557BB.quest_desc: ["Questo macchinario se posizionato al di sopra di uno spawner trovato nel mondo e messo in sottovuoto estrae lentamente l'essenza del mob, restituendo uno Spawner Core puro!"]
+	quest.319E7F89FB1557BB.quest_subtitle: "Tips: non utilizza aria compressa ma il sottovuoto!"
+	quest.31A62BC78B7E7E54.quest_desc: [
+		"possono essere utilizzati per spostare il \"calore\" da un punto A ad un punto B."
+		""
+		"Il calore è una risorsa importante, affinché alcuni processi di questa mod possano essere svolti!"
+	]
+	quest.3205DFC2704AD0C2.quest_desc: [
+		"Puoi assorbire l'essenza di un mob e intrappolarla in uno Spawner Core!"
+		""
+		"&6&lAttenzione che il macchinario assorbe l'essenza del mob uccidendolo!&r"
+	]
+	quest.35CA5B60B28AA56F.quest_desc: [
+		"Funziona esattamente come il Liquid Compressor di base, ma permette di raggiungere pressioni maggiori."
+		""
+		"&6&lAttenzione che però, raggiunta una certa soglia di temperatura, l'efficienza del macchinario si riduce e di conseguenza avrai bisogno di più carburante per produrre pressione!&r"
+	]
+	quest.3626FA4429BEDF50.quest_desc: [
+		"Cuore della produzione degli oggetti della Pneumaticraft!"
+		""
+		"Questo macchinario è una struttura multiblocco. La sua struttura è un cubo 3x3 o 5x5."
+		""
+		"Attraverso l'utilizzo della pressione è possibile compressare alcuni oggetti in input in altri."
+		""
+		"&lAttenzione a non romperla perchè altrimenti perderai tutta l'aria compressa che hai immagazzinato al suo interno.&r"
+		""
+		"&6&lStai anche attento a non avvicinarti troppo subito dopo una sua eventuale esplosione o rottura involontaria perchè la pressione residua al suo interno potrebbe ucciderti!&r"
+	]
+	quest.3626FA4429BEDF50.title: "Pressure Chamber"
+	quest.36D9D4418A0D062A.quest_desc: ["Generatore di aria compressa che utilizza dei combustibili liquidi invece del coal o del charcoal."]
+	quest.3A00E20EE8C9279B.quest_desc: ["Questa è la wrench della Pneumaticraft che ti permette di manipolare i macchinari e tubi."]
+	quest.3D60DA57CE004587.quest_desc: ["Utilizza l'aria compressa per produrre corrente elettrica!"]
+	quest.3DC013AB3DE2CC6D.quest_desc: ["Modulo acquistabile da Amadron, necessario per poter utilizzare l'Assembly."]
+	quest.3FCEED4D8E605366.quest_desc: ["Prima delle due armature della mod!"]
+	quest.3FCEED4D8E605366.quest_subtitle: "Mark I"
+	quest.3FCEED4D8E605366.title: "Compressed Iron Armor"
+	quest.459C703BB5B2EECE.quest_desc: ["Altro macchinario di mezzo per arrivare a produrre i primi Unassembled PCB prima che lo si possa fare con L'assembly!"]
+	quest.45DABE1BE9940130.quest_desc: ["Una pompa che funziona ad aria compressa invece che a corrente!"]
+	quest.45DABE1BE9940130.quest_subtitle: "Tips: non è l'unico macchianrio di estrazione dei liquidi dal mondo"
+	quest.46D1A7A42CEDF153.quest_desc: ["Materiale che può essere utilizzato per rivestire i macchinari che utilizzano calore per evitare che questo venga disperso nell'aria!"]
+	quest.4983648693750173.quest_desc: ["Trova uno spawner!"]
+	quest.49DEDB6803423F66.quest_desc: [
+		"&lPuò essere trovato nel mondo come una pozza di lava!&r"
+		""
+		"Il petrolio può essere raffinato per poter ottenere carburanti e liquidi per la produzione di oggetti come la plastica."
+	]
+	quest.49DEDB6803423F66.quest_subtitle: "Oro nero!"
+	quest.4A5E3234D6883FD1.quest_desc: [
+		"Questo è forse il più utile e fondamentale degli upgrade!"
+		""
+		"&6&lSe inserito nei macchinari permette di salvaguardarli dalle alte pressioni che potrebbero far esplodere il macchinario.&r"
+	]
+	quest.4B6659F8A85A0D9A.quest_desc: [
+		"Primo vero e proprio generatore di aria compressa che sfrutta la combustione del coal o del charcoal."
+		""
+		"&lL'aria compressa è il carburante di tutti i macchinari della Pneumaticraft.&r"
+	]
+	quest.4B6659F8A85A0D9A.quest_subtitle: "Produttore di aria compressa!"
+	quest.4D2FEA9A3A91CFF3.quest_desc: [
+		"Questo macchinario permette di processare dei liquidi per crearne di nuovi!"
+		""
+		"Il suo utilizzo principale è per la creazione della plastica mischiando assieme LPG e coal."
+		""
+		"&6&lPer funzionare necessaita sempre di aria compressa e, a seconda del crafting, anche di calore!&r"
+	]
+	quest.5AFCD329FBFBC063.quest_desc: [
+		"Utile per migliorare le funzionalità o le performance di un qualsiasi Tube Module. "
+		""
+		"Per utilizzarlo clicca su un Tube Module, come ad esempio un Air Grate Tube Module."
+	]
+	quest.5BB1CA2FDAC0315B.quest_desc: [
+		"Materiale di base di molti crafting della Pneumaticraft!"
+		""
+		"Può essere prodotto inizialmente con l'esplosione di lingotti di ferro con una tnt, mentre più avanti con l'utilizzo della Pressure Chamber."
+	]
+	quest.5BB1CA2FDAC0315B.title: "Compressed Iron"
+	quest.5CB80A0943748642.quest_desc: [
+		"Con questo oggetto puoi immagazzinare i tuoi livelli, utile se sei un tipo sbadato che muore spesso! "
+		""
+		"Può essere messo nella curio per non averlo sempre in mano e raccoglierà l'xp in automatico. Per attivare questa funzionalità devi tenere l'oggetto nella mano principale e cliccare tasto sinistro del mouse. "
+		""
+		"Altrimenti se sei un tipo impavido puoi immagazzinare i livelli manualmente cliccando tasto destro del mouse e riprenderli quando vuoi premendo shift+sinistro del mouse."
+	]
+	quest.5E57968BA5E30234.quest_desc: [
+		"&lUno spawer moddato personalizzabile e portatile.&r"
+		""
+		"Puoi metterci dentro uno Spawner Core estratto da uno spawner trovato in giro per il mondo oppure uno Spawner Core infuso d'essenza di uno o più mob a tuo piacimento!"
+	]
+	quest.5EA58A0DFF14000D.quest_desc: [
+		"Questo tipo di spawner è il risultato dell'estrazione dell'essenza del mob che conteneva attraverso l'utilizzo del Spawner Extractor."
+		""
+		"Ora che è vuoto riepilo con ciò che più desideri!"
+	]
+	quest.64C121464B94C5E9.quest_desc: ["Oggetto di base per la creazione di oggetti avanzati della mod!"]
+	quest.657D0A56E2D35423.quest_desc: [
+		"Template base per il crafing degli upgrade."
+		""
+		"&lSe si punta l'indicatore sopra ad un upgrade e si preme Shift è possibile vedere su quali strumenti, macchinari sarà possibile installarlo!&r"
+	]
+	quest.65BCC1D2BB57CF0B.quest_desc: [
+		"Una semplice tank!"
+		""
+		"Ne esistono di varie capacità."
+	]
+	quest.6902905D8DE08045.quest_desc: ["Liquido utilizzato per la produzione di Unassembled PCB."]
+	quest.6A61E5F6BC63B622.quest_desc: [
+		"Puoi ricaricare e personalizzare questa armatura aggiungendogli degli upgrade nella Charging Station!"
+		""
+		"Per tutti gli upgrade utilizzabili e per le loro funzionalità consulta la guida della mod!"
+	]
+	quest.6A61E5F6BC63B622.quest_subtitle: "Mark L"
+	quest.6A61E5F6BC63B622.title: "Pneumatic Armor"
+	quest.6D69F85AF2112FC4.quest_desc: [
+		"Utilizzando l'aria compressa, riscalda o raffreda i blocchi che ha intorno, specifici range di temperature possono essere sia requisiti essenziali per il funzionamento di alcuni macchinari della mod, sia fungere da efficentatore di specifiche ricpe."
+		""
+		"Poi utilizzarlo in combo con l'Heat Sink per serve dissipare il calore nell'aria."
+	]
+	quest.6F31C4CFA489F0DB.quest_desc: ["Oggetto di base per la creazione di oggetti avanzati della mod come i droniiiii!"]
+	quest.6F31C4CFA489F0DB.quest_subtitle: "Una pala per il tuo drone!"
+	quest.6F7689D673EBD877.quest_desc: ["Materiale avanzato per il crafting degli oggetti della Pneumaticraft!"]
+	quest.72B6993AAE69F403.quest_desc: [
+		"Tubi avanzati per il trasporto di aria compressa fino a 20 bar. "
+		""
+		"&6&lQuesti tubi supportano pressioni di alta intensità, però rimani attento perché esplodono se a lungo sottoposti ad alta pressione!&r"
+	]
+	quest.753F9901FE43BA29.quest_desc: [
+		"Base per la creazione dei Finished PCB."
+		""
+		"Ovvero un componente avanzato per la creazione di macchinari e strumenti avanzati della mod."
+	]
+	quest.767DB015FC0FDD2B.quest_desc: [
+		"Questo drone ti permette di: zappare, piantare e raccogliere in automatico i crop dal tuo orto! (Se collegato ad una chest e fornito di una zappa)"
+		""
+		"Il drone necessità però di essere ricaricato di aria compressa prima di operare. Utilizza la Charging Station per farlo!"
+		""
+		"&6&lEsistono anche altri tipi di droni specifici per alcuni task oppure anche completamente programmabili con complesse istruzioni. Questa parte sta a te ad esplorarla con molta curiosità!&r"
+	]
+	quest.767DB015FC0FDD2B.quest_subtitle: "Un drone per il tuo automatizzare il tuo orto!"
+	quest.76A3A3B5463A7053.quest_desc: [
+		"L'Heat Frame può essere applicato a macchinari, tank o chest."
+		""
+		"In base al fatto che questo venga refrigerato oppure riscaldato permette il crafting di diversi materiali come ad esempio la plastica. Per tutti i crafting utilizza la JEI."
+	]
+	quest.77E6282D85DC2FDB.quest_desc: [
+		"Macchinario che genera passivamente aria compressa attraverso la differenza di temperatura. Esistono vari blocchi che forniscono \"caldo\" o \"freddo\"."
+		""
+		"&6&lFai attenzione che però i blocchi che utilizzi dopo un certo tempo perdono o acquisiscono calore diventando inerti! Ad esempio se si utilizza la lava come fonte di calore dopo un tot si trasformerà in ossidiana.&r"
+	]
+	quest.79B332D27EB45207.quest_desc: ["Oggetto di base per la creazione di oggetti avanzati della mod!"]
+	quest.79B332D27EB45207.quest_subtitle: "Tempo di una lezione di elettrotecnica!"
+	quest.7B9B8D03D13EF63D.quest_desc: [
+		"Blocchi base per il crafting di oggetti della mod."
+		""
+		"&lQuesto blocco è immune alle esplosioni di tnt o creeper ma non del Wither!&r"
+	]
+	quest.7CC980275DDBE5EB.quest_desc: ["Permette di aumentare la velocità dei macchinari a scapito del consumo di carburante!"]
+	quest.7D029A05E14BCF59.quest_desc: ["Permette di mixare due liquidi per ottenerne un terzo oppure per creare un blocco come ad esempio l'ossidiana!"]
+}

@@ -1,0 +1,74 @@
+{
+	quest.026C148FD7874738.quest_desc: ["Se usata sulle macchine della Mekanism ti permette di farle diventare Factory con più slot"]
+	quest.029EB5F711B23DAF.quest_desc: [""]
+	quest.05F60818F640E4DE.title: "Thermal Evaporation Tower"
+	quest.121C885E07CB9E81.quest_desc: [
+		"Il Configurator è la Wrench universale della Mekanism."
+		""
+		"Premi &c&lshift + rotella del mouse&r per cambiare la funzione del configurator"
+		""
+		"Configurate - modifica lo stato del cavo"
+		""
+		"Wrench - rimuove il cavo/macchinario"
+		""
+		"Rotate - ruota il macchinario"
+		""
+		""
+		"Nello status Configurate clicca con &c&lshift+destro del mouse&r per cambiare lo status del cavo in Export/Import/Nulla"
+	]
+	quest.12DA39F0703F0AFE.quest_desc: [
+		"&6&lVa in conflitto con il Jetpack Unit.&r"
+		""
+		"Utilizza solo uno dei due alla volta!"
+	]
+	quest.1D31132DAC2F08F8.title: "Bodyarmor Upgrade"
+	quest.23C7BF49E2AD50DF.quest_desc: [
+		"&6&lVa in conflitto con il Silk Touch Unit.&r"
+		""
+		"Utilizza solo uno dei due alla volta!"
+	]
+	quest.2AB70BF9106004EC.title: "Helmet Upgrade"
+	quest.2DC1AD436D716A0F.quest_desc: ["Inserisci gli upgrade in un macchinario valido per aumentarne la velocità e l'efficienza"]
+	quest.30B6642D59E6C527.title: "Supercritical Phase Shifter"
+	quest.38C1D47A2549E046.quest_desc: ["Altri upgrade, più specifici"]
+	quest.3E95D3931B3110F7.quest_desc: ["Eolico! Costante ed ecologico! Più in alto lo piazzi più produce!"]
+	quest.4F904D51652E1068.quest_desc: [
+		"&6&lVa in conflitto con il Gravitational Modulation Unit.&r"
+		""
+		"Utilizza solo uno dei due alla volta!"
+	]
+	quest.551A94A29007A8D5.quest_desc: [
+		"&6&lVa in conflitto con il Ore Refinement Unit.&r"
+		""
+		"Utilizza solo uno dei due alla volta!"
+	]
+	quest.672085BE4855F0FC.quest_desc: [
+		"I 5 cavi della Mekanism si dividono in"
+		""
+		"Universal - Energia"
+		"Logistical - Oggetti "
+		"Mechanical- Liquidi"
+		"Pressurized - Gas"
+		"Thermodynamic - Calore"
+		""
+		"Usa il Configurator per cambiare lo status del cavo."
+		""
+		"&lPotrai migliorare i tuoi cavi utilizzando gli alloy più avanzati!&r"
+	]
+	quest.6916D3B6B7A767C1.title: "Fusion Reactor"
+	quest.6EE713F4CE1B3ED0.quest_desc: [
+		"&6&lQUESTO REATTORE ESPLODE RILASCIANDO DELLE RADIAZIONI CHE PERSISTONO NEL TEMPO!!! COSTRUISCILO LONTANO DA CASA!&r"
+		""
+		"L'adapter serve per arrestare il reattore in determinate condizioni, come ad esempio temperatura troppo elevata!"
+	]
+	quest.6EE713F4CE1B3ED0.title: "Fission Reactor"
+	quest.7AE677843C09C061.quest_desc: ["Il pannello solare della Mekanism è autonomo ed ecologico, ma di notte non produrrà energia"]
+	quest.7AE677843C09C061.quest_subtitle: "TIP: i pannelli solari della Powah sono più economici"
+	quest.7C5C40E5751272C5.quest_desc: ["Creazione dello Steel della Mekanism!"]
+	quest.7C5C40E5751272C5.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
+	task.02373582EDA6B457.title: "Any #c:dusts/obsidian"
+	task.40429F6B19237131.title: "All Armor Upgrade"
+	task.44E1B6463F9FB034.title: "Pants Upgrade"
+	task.47BE4135DF692932.title: "Boots Upgrade"
+	task.70879A2D05C74983.title: "BodyArmor Upgrade"
+}

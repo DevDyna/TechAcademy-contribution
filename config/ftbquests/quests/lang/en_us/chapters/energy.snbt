@@ -1,0 +1,10 @@
+{
+	quest.71AE09BBC3246B9D.quest_desc: [
+		"In Minecraft moddato, l’energia segue vari sistemi, ma il più comune è il &cRedstone Flux (RF)&r. Forge Energy (FE) è lo standard introdotto da Minecraft Forge ed è equivalente a 1 RF = 1 FE. Altri sistemi, come Joule (J) di Mekanism o Energy Unit (EU) di IC2, possono avere conversioni diverse."
+		""
+		"RF/t (RF per tick) indica la velocità con cui l’energia viene generata, trasportata o consumata. Poiché Minecraft gira a 20 tick al secondo, una macchina che consuma 40 RF/t userà 800 RF al secondo. Se il generatore fornisce meno RF/t di quanto richiesto, la macchina rallenta o si ferma."
+		""
+		"L’energia viene generata da generatori o reattori, trasportata tramite cavi e immagazzinata in batterie o capacitori. Le macchine consumano RF/t per funzionare, e se l’energia è insufficiente rallentano o si fermano. Per un sistema efficiente, è importante bilanciare generazione e consumo. ⚡"
+	]
+	quest.71AE09BBC3246B9D.title: "INTRODUZIONE ALL'ENERGIA"
+}

@@ -1,0 +1,266 @@
+{
+	quest.0277EA11A4261E6E.quest_desc: ["Segui le istruzioni del Coke Oven per questa struttura multiblocco. Non puoi ne prendere ne mettere item in maniera automatica, dovrai creare la Blast avanzata!"]
+	quest.0277EA11A4261E6E.quest_subtitle: "TIP: non è l'unico modo per creare lo Steel"
+	quest.0277EA11A4261E6E.title: "Crude Blast Furnace"
+	quest.0301BA2BF08820F0.quest_desc: [
+		"Costosissima ma potente fornace multiblocco!"
+		""
+		"Permette la cottura contemporanea di più oggetti alla volta, ed in qualche caso permette di ottenere più materiali rispetto alla semplice fornace!"
+		""
+		"Oltre alla cottura permette di creare le leghe soppiantando il primitivo Klin."
+		""
+		"&lFai attenzione ti richiederà molta energia per funzionare al massimo regime, quindi provvedi ad avere importanti produttori di energia!&r"
+	]
+	quest.0301BA2BF08820F0.title: "Arc Furnace"
+	quest.031DE9A4341A95C6.quest_desc: [
+		"Non è l'unico combustibile utilizzabile all'interno del generatore."
+		""
+		"Consulta il manuale della mod per vedere anche gli altri!"
+	]
+	quest.03F047AC1F09EE0D.quest_desc: [
+		"Lo strumento principale della Immersive!"
+		""
+		"Lo si può utilizzare per dei crafting, per ruotare degli oggetti come i pistoni oppure per assemblare le strutture multiblocco di questa mod. "
+	]
+	quest.0451EEAAFA78C399.quest_desc: [
+		"Combina queste Conveyor particolari con quelle standard, creando una complicatissimo intreccio in giro per la tua base!"
+		""
+		"Queste Conveyor ti permettono di trasportare in verticale, inserire ed estrarre gli oggetti da un inventario."
+	]
+	quest.0451EEAAFA78C399.quest_subtitle: "Esistono anche altri varianti sta a te scoprirle!"
+	quest.0454312FBD654024.title: "Automated Workbench"
+	quest.07083255A5B3C248.title: "Resonanz Observer"
+	quest.071DB6AF939A3E3C.quest_desc: [
+		"Queste vele manderanno più veloce il tuo mulino, che produrrà più corrente!"
+		""
+		"Per applicarle bisogna piazzare prima il mulino per poi cliccarci sopra con queste vele nella mano."
+	]
+	quest.072307C843A753B0.quest_desc: [
+		"&lBasta utilizzare le mani lasciamo fare il lavoro alle macchine!&r"
+		""
+		"Questa macchina multiblocco ti permette di produrre in modo automatico, attraverso degli stampi, barre, piastre o rondelle!"
+		""
+		"In molti modpack questo metodo permette di risparmiare molti materiali rispetto al craftarli nella crafting table. Quindi attento e visualizza sempre i crafting nella JEI!"
+		""
+		"&6&lLo schema di come posizionare i vari blocchi che compongono questa o le altre macchine multiblocco è presente nel manuale della mod!&r"
+	]
+	quest.072307C843A753B0.title: "Metal Press"
+	quest.0A24CE3FEF1B3131.quest_desc: ["Una batteria più capiente!"]
+	quest.0AED47780569C643.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei pacchetti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Come i cavi di corrente ed energia ma per la tua rete della Applied Energistic 2."
+		""
+		"Questi cavi funzionano esattamente come i cavi della AE2 ma con lo stile della Immersive. Ottimi se ti vuoi una base in stile low tech!"
+	]
+	quest.0CFC75F98DF71CA1.quest_desc: [
+		"Questi oggetti permettono di propagare segnali di Redstone anziché dover tracciare quelle bruttissime strisce di Redstone come in Vanilla!"
+		""
+		"Il loro funzionamento è analogo a quello per i corrispettivi cavi, Relay e Connector per la corrente!"
+	]
+	quest.0CFC75F98DF71CA1.quest_subtitle: "Basta alla Redstone Vanilla!"
+	quest.0F871114B88D2297.quest_desc: ["Materiali di mezzo per produrre quelle che saranno i catalizzatori per avviare la super fornace della mod!"]
+	quest.121797E36578B6C6.quest_desc: ["Tavolo da lavoro utilizzati per poter fare alcuni crafting che non puoi fare nella normale crafting table vanilla oppure crafting che ti pemettono di risparmiare sui materiali!"]
+	quest.126BE832AFCAE3E5.quest_desc: [
+		"Questo macchinario permette di produrre l'Ethanol, uno dei due liquidi di base per la produzione di Bio Diesel."
+		""
+		"&lControlla sempre la JEI per vedere quale sia la miglior fonte di Plant Oil!&r"
+	]
+	quest.126BE832AFCAE3E5.title: "Industrial Fermenter"
+	quest.12A3B33CEFC94345.quest_desc: [
+		"Se sei stufo di segare il legno a mano utilizza questa sega industriale!"
+		""
+		"Questo macchinario oltre ad essere automatico ti permetterà di avere un bonus di produzione!"
+	]
+	quest.12A3B33CEFC94345.title: "Sawmill"
+	quest.137CCA74567106B7.quest_desc: ["Una batteria più capiente!"]
+	quest.1479C22D8B3A204D.title: "Silos"
+	quest.159AD21CB2A8EF34.quest_desc: ["Puoi trovare questo seme rompendo l'erba come faresti per trovare i vanillosi semi di grano!"]
+	quest.1640E08845D6EA1A.quest_desc: ["Usa l'acqua per far muovere il mulino e produrre corrente"]
+	quest.179AF11C02A204F1.quest_desc: [
+		"La Immersive ha una sua meccanica di produzione di minerali e questo macchinario è l'incipit del processo!"
+		""
+		"Il Drill permette di trovare, ma non di scavare, svariate tipologie di vene di minerali che la mod crea. "
+		""
+		"&lStai attento però a provare a scavare queste vene perché non le troverai! Le vene sono virtuali ovvero non sono fisicamente presenti nel mondo. Per estrarre i loro minerali avrai bisogno di altri macchinari!&r"
+	]
+	quest.1865986DABC2378D.quest_desc: ["Una batteria dove poter immagazzinare tutta la corrente che non serve ai tuoi macchinari."]
+	quest.1865986DABC2378D.quest_subtitle: "Tips: utilizzala come scorta di energia tra i tuoi produttori e i tuoi consumatori"
+	quest.188782D238B34E5D.quest_desc: [
+		"Primitiva struttura multiblocco che permette la produzione di leghe metalliche come bronzo, electrum, ecc."
+		""
+		"&lLa struttura è un semplice cubo 4x4 che se smartellato con l'Hammer verrà assemblato!&r"
+	]
+	quest.188782D238B34E5D.quest_subtitle: "Tips: esistono altri macchinari che hanno la stessa funzionalità"
+	quest.188782D238B34E5D.title: "Kiln"
+	quest.193D58BC69392224.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei pacchetti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Come i cavi di corrente ed energia ma per la tua rete della Refined Storage."
+		""
+		"Questi cavi funzionano esattamente come i cavi della RS ma con lo stile della Immersive. Ottimi se ti vuoi una base in stile low tech!"
+	]
+	quest.1B836FD68600D9B1.title: "Radio Tower"
+	quest.1C93AC966539482E.quest_desc: ["Catalizzatore indispensabile per produrre il Bio Diesel!"]
+	quest.1D33D7D49631B3C0.title: "Excavator"
+	quest.1FBDBCA15B8277B8.title: "Sawmill"
+	quest.2468030BF5117C30.quest_desc: [
+		"Dopo tanti passaggi è ora di produrre energia dal Bio Diesel!"
+		""
+		"Questo macchinario produce 4096 RF/t. "
+		""
+		"Uno di questi generatori ti permette di generare abbastanza corrente per far funzionare a massimo regime un Excavator!"
+	]
+	quest.2468030BF5117C30.quest_subtitle: "Per un mondo più pulito!"
+	quest.2468030BF5117C30.title: "Diesel Generator"
+	quest.24C5C528DE10D27E.quest_desc: ["Componente utilizzato per oggetti più avanzati della mod!"]
+	quest.24C5C528DE10D27E.quest_subtitle: "Tips: craftalo all'interno della Engineer's Workbench!"
+	quest.25151DB8D377874A.title: "Automated Workbench"
+	quest.25A9C0592E5F0810.quest_desc: ["Mi raccomando non metterlo nell'insalata!"]
+	quest.276EB545F588867C.title: "Altri Macchinari Utili"
+	quest.279F54BC047C6F48.title: "Assembler"
+	quest.284578823AAFA508.title: "Lightning Rod"
+	quest.28ACBEDEB9EADCF8.title: "Diesel Generator"
+	quest.2C42D9BCC40F4089.title: "Industrial Squeezer"
+	quest.2CD86B4F3D831CC3.quest_desc: ["Una struttura multiblocco per contenere i liquidi! Inserisci dall'alto e preleva dal basso, per esportare i fluidi devi dare un segnale di redstone alla parte inferiore."]
+	quest.2CD86B4F3D831CC3.quest_subtitle: "Tips: ci sono tank migliori e meno costose!"
+	quest.2CD86B4F3D831CC3.title: "Fluid Tank"
+	quest.328A9A7BFA21E5A4.quest_desc: [
+		"&6&lATTENTO ALLA SCOSSA!&r"
+		""
+		"Supporta tensioni di corrente più elevate rispetto ai precedenti cavi, Relay e Connector."
+		""
+		"&lIl loro funzionamento rimane invariato!&r"
+	]
+	quest.32CBB333005E6E8B.title: "Industrial Fermenter"
+	quest.369E55C04F19304B.title: "Bottling Machine"
+	quest.39C8CB9C30A1C8F2.quest_desc: ["I pilastri delle strutture multiblocco della Immersive!"]
+	quest.3B9131AB3330BA10.title: "Fluid Tank"
+	quest.3C213B51D3A10875.title: "Arc Furnace"
+	quest.3C508BEAD1B3C541.quest_desc: ["Materiale di scarto della Blast Furnace, puoi usarlo per creare mattoni o fertilizzante!"]
+	quest.3D77515C24637FB6.quest_desc: [
+		"Il Crusher ti permette di triturare ore o raw di minerali raddoppiando o applicando un bonus al prodotto in uscita!"
+		""
+		"Per poter inserire gli oggetti nel macchinario gettali nella sua tramoggia manualmente droppando (gli item) o con un qualsiasi trasportatore di item! (dalle Conveyor di vario genere ai cavi di altre mod)"
+	]
+	quest.3D77515C24637FB6.title: "Crusher"
+	quest.3E4B44324815E272.quest_desc: [
+		"Una farm automatica di crop se fornita di corrente ed acqua!"
+		""
+		"&lSe fornita anche di un fertilizzante la crescita dei crop verrà velocizzata, guarda la JEI per vedere il miglior fertilizzante!&r"
+	]
+	quest.3EDE44CE99410CFB.title: "Silos"
+	quest.456435F6E696A30D.quest_desc: ["Materiale di base per la produzione dell'acciaio ed anche ottimo carburante per le tue fornaci!"]
+	quest.4666C78B9DA30A75.title: "Crusher"
+	quest.466CF4DE820ADE53.title: "Bottling Machine"
+	quest.47CF47CD43214665.quest_desc: ["Strumento utile per produrre alcuni crafting ma soprattutto per rimuovere i cavi della corrente senza dover rompere i Relay e i Connector."]
+	quest.47E69F126EC4C351.quest_desc: [
+		"Supporta tensioni di corrente più elevate rispetto ai precedenti cavi, Relay e Connector."
+		""
+		"&lIl loro funzionamento rimane invariato!&r"
+	]
+	quest.48DFD0B139A8D005.quest_desc: [
+		"Per semplificare il gameplay della Immersive arriva in soccorso questa mod, in sintesi permette di posizionare automaticamente le strutture della &lImmersive Engineering&r"
+		""
+		"Sono delle particolari wand che permettono di autopiazzare tutti i blocchi necessari per buildare le strutture multiblocco della Immersive, usandone una su questo blocco verrà piazzata la struttura a patto che ci sia abbastanza spazio (incluse l'erbaccia di minecraft)"
+		""
+		"&l&6N.B.&r"
+		"- L'orientamento della struttura dipenderà dal lato del blocco cliccato, "
+		"-Tieni presente che il lato sul quale è presente il blocco principale (quello da smartellare) sarà il lato adiacente a questo controller. (Se vuoi saperlo prima controlla nella EMI/JEI o nel Engineer's Manual) "
+		"- Il controller non è necessario al funzionamento della struttura"
+		"- La lista dei materiali mancanti apparirà in chat"
+	]
+	quest.48DFD0B139A8D005.quest_subtitle: "La mod contro il tedio"
+	quest.49998CE5BC8C6866.quest_desc: ["Verisone avanzata dei cavi precedenti, che seguono la progrssione dei cavi della AE2."]
+	quest.49CD835D183DFFF5.quest_desc: ["I cavi normali se toccati provocano danni al giocatore, ma se isolati questo danno viene annullato ed il giocatore potrà giocare liberamente senza preoccuparsi di prendere la scossa!"]
+	quest.49F39660E049CAFE.title: "Resonanz Observer"
+	quest.4EFDD72A97AF45D9.title: "Fluid Mixer"
+	quest.50EBA1482411D792.title: "Fluid Mixer"
+	quest.5122AE8542B16C93.quest_desc: ["Una fibra vegetale, il cui utilizzo principale è la creazione di stringhe anche senza dover uccidere dei poveri ragnetti!"]
+	quest.55210EDA7DA00272.title: "Refinery"
+	quest.565C059562BD3746.quest_desc: ["Il Legno trattato dell'Immersive è alla base di tutti i suoi crafting"]
+	quest.5709173DE22411CF.title: "Metal Press"
+	quest.580869FDAF268E79.quest_desc: ["Un nuovo liquido che ti permette di trattare il legno!"]
+	quest.599C86EAC7020D7F.quest_desc: [
+		"Corpo centrale della draga! "
+		""
+		"Insieme alla Bucket Wheel ti permetterà di scavare le vene virtuali di minerali della mod."
+		""
+		"&lFai attenzione ti richiederà molta energia per funzionare al massimo regime, quindi provvedi ad avere importanti produttori di energia!&r"
+	]
+	quest.599C86EAC7020D7F.title: "Excavator"
+	quest.5B5E256017685138.quest_desc: ["Dopo aver trovato la vena giusta per le tue esigenze, sarà necessario iniziare a costruire l'imponente macchina per estrarre i minerali e questa è una delle sue parti."]
+	quest.5B5E256017685138.title: "Bucket Wheel"
+	quest.5D4F3CE1751B7CB9.quest_desc: [
+		"L'elettrodo da dover inserire all'interno dell'Arc Furnace. "
+		""
+		"&lSenza di questo la fornace non funzionerà!&r"
+	]
+	quest.5D4F3CE1751B7CB9.quest_subtitle: "Tips: in base a dove lo crafti avra più o meno durabilità!"
+	quest.5EF99A7E7246ECA8.quest_desc: ["Una volta creata la linea di produzione dei reagenti di base è ora di produrre il Bio Diesel!"]
+	quest.5EF99A7E7246ECA8.title: "Refinery"
+	quest.60280B472FF110B9.quest_desc: [
+		"Questo macchinario permette di produrre il Plant Oil, uno dei due liquidi di base per la produzione di Bio Diesel."
+		""
+		"&lControlla sempre la JEI per vedere quale sia la miglior fonte di Plant Oil!&r"
+		""
+		"Oltre a questo è necessaria per la creazione di un'altro prodotto per la creazione di uno se non il più avanzato macchinario della mod!"
+	]
+	quest.60280B472FF110B9.title: "Industrial Squeezer"
+	quest.6280EB5D107F6521.quest_desc: ["Questo macchinario permette l'estrazione di fluidi dal mondo come acqua e lava! "]
+	quest.6304E8E00E5A0F72.title: "Radio Tower"
+	quest.673C6730CE9B39D6.title: "Improved Blast Furnace"
+	quest.6886B94EC94A32A6.quest_desc: [
+		"Ti permette di convertire l'energia cinetica in energia elettrica!"
+		""
+		"Per utilizzarlo va piazzato nel punto centrale di un mulino a vento oppure ad acqua."
+	]
+	quest.69E68E05D8633D91.quest_desc: [
+		"Il tempo è denaro! "
+		""
+		"Posizionalo al lato della tua Blast Furnace e forniscigli della corrente per accorciare il tempo di produzione dell'acciao!"
+	]
+	quest.6A2AA5EF7C0908CA.quest_desc: ["Un generatore di energia passivo, che produce corrente se posizionato accanto a una fonte di calore fredda e una calda."]
+	quest.6A2AA5EF7C0908CA.quest_subtitle: "Esistono anche altri generatori di questo tipo"
+	quest.6A3E86E748063BD3.quest_desc: [
+		"Come prima, una struttura 3x3x3, ma con un hopper sopra!"
+		""
+		"Rispetto alla normale Blast Furnace questa può essere automatizzata, ovvero si può inserire ed estrarre con delle Conveyor o dei cavi i materiali di input ed di output."
+	]
+	quest.6A3E86E748063BD3.title: "Improved Blast Furnace"
+	quest.6CB9746C22539A8D.title: "Assembler"
+	quest.6DFAFF3F336D9002.quest_desc: [
+		"Strumenti fondamentali per il funzionamento della tua Metal Press!"
+		""
+		"Puoi applicarlo uno alla volta alla Metal Press, per poter produrre plate, wire e rod."
+	]
+	quest.6F0084A8D5D7B9BA.quest_desc: ["Primitivo ma bellissimo meccanismo per poter iniziare a trasportare i tuoi oggetti in giro per la tua base!"]
+	quest.70F4F17672E4FA3D.title: "Lightning Rod"
+	quest.718F8D8240CEBA59.title: "Crude Blast Furnace"
+	quest.758640628AFCFC68.quest_desc: ["Cavi che trasportano fluidi!"]
+	quest.7A02D59AAAC02A7F.quest_desc: ["Una lega metallica elettrizzante zzzzz!"]
+	quest.7AB83A6412BB0EFF.quest_desc: ["Energia dal vento! Gratuita! Sostenibile! Ecologica!"]
+	quest.7AEB0052AC1674E3.quest_desc: ["Mi raccomando di non berlo!"]
+	quest.7C65F764DB82D472.quest_desc: ["Uno degli oggetti di base per i crafting della mod! Esistono molte sue varianti compatibili anche con i crafting delle altre mod."]
+	quest.7C65F764DB82D472.quest_subtitle: "Tips: non solo con l'Hammer puoi produrre queste piastre"
+	quest.7DC731417C3441FB.quest_desc: ["I cavi normali se toccati provocano danni al giocatore, ma se isolati questo danno viene annullato ed il giocatore potrà giocare liberamente senza preoccuparsi di prendere la scossa!"]
+	quest.7DD157FC2E23127E.quest_desc: [
+		"Costruisci una struttura 3x3x3 e smartellala col martellozzo dell'Immersive!"
+		""
+		"{image:techacademy:textures/quests/coke_ie.png width:100 height:100 align:center}"
+		""
+		"Inserisci il coal o il blocco di coal per produrre Coal Coke e Creosote Oil!"
+	]
+	quest.7DD157FC2E23127E.title: "Coke Oven"
+	quest.7E2E259B5323CECC.quest_desc: [
+		"Per trasferire la corrente usa un LV Connector sul produttore e su dove vuoi farla arrivare collegando entrambi con un LV Wire. "
+		""
+		"Se il cavo non ci arriva usa gli LV Relay come ponte. Usa i tralicci (Post) per gestire il tuo sistema di cavi elettrici!"
+		""
+		"&lCiascun Relay supporta la connessione contemporanea di 12 Connector e 2 Relay!&r"
+	]
+	quest.7E2E259B5323CECC.quest_subtitle: "Ci sono cavi migliori, ma questi sono super belli"
+	task.17AAF4E8CA140719.title: "Electrum!"
+	task.202522DAF111E514.title: "Il Coke!"
+	task.701F125F96433E3F.title: "Acciaio!"
+}

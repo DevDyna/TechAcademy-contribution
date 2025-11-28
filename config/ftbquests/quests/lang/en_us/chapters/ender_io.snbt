@@ -1,0 +1,241 @@
+{
+	quest.0096459C6CC35353.quest_desc: [
+		"Questa spada ti permette di ricevere dall'uccisione dei mob ostili, come Zombie e Enderman, la loro testa."
+		""
+		"&lLa testa dei mob è utilizzata in alcuni crafting relativi ai macchinari per il farming per l'appunto dei mob!&r"
+		""
+		"La percentuale di ricevere una testa dall'uccisione del mob è del 7%."
+	]
+	quest.0096459C6CC35353.quest_subtitle: "Basta al complicato sistema Vanilla!"
+	quest.01D512051909ABE8.quest_desc: [
+		"Questo tipo speciale di vetro permette al solo giocatore di poterlo attraversare."
+		""
+		"Puoi creare una \"porta\" eterea per il giocatore, ma solido per un qualsiasi altro mob pacifico o ostile!"
+	]
+	quest.01D512051909ABE8.quest_subtitle: "Tips: utilizzalo per una farm di mob"
+	quest.07982A512AC5BBD6.quest_desc: ["Come il precedente ma più potente!"]
+	quest.080A9259205AF29D.quest_desc: ["Come il precedente ma più potente!"]
+	quest.0947A710B701B542.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.0A4756D348201EEF.quest_desc: ["Il powered Spawner è uno spawner che funziona a corrente e che può essere infuso dell'anima di un qualsiasi mob, intrappolabile in una Vial!"]
+	quest.0AE3FE47394FB216.quest_desc: [
+		"Le Grinding Ball sono dei modificatori che possono essere applicati al SAG Mill per avere dei bonus sull'output e sui consumi del macchinario stesso!"
+		""
+		"&lUtilizza la JEI per vedere tutti i modificatori di ciascuna tipologia di Grinding Ball,&r"
+	]
+	quest.0B17DF6EC2965A95.quest_desc: [
+		"Lega metallica finale della mod, ma che al momento non ha utilità, se non quella per il crafting delle Grinding Ball. "
+		""
+		"Si spera che nelle versioni successive vengano portate tutte quelle funzionalità che si avevano nelle vecchie versioni della Ender IO."
+	]
+	quest.0E8AD23F806E9510.quest_desc: [
+		"Ai sempre trovato fastidioso che gli Enderman si teletrasportino? Bhe questo oggetto è la soluzione che fa per te!"
+		""
+		"Piazzalo vicino alla tua farm di Enderman in modo tale che questi non si teletrasportino se attaccati o toccati dall'acqua."
+		""
+		"Gli Enderman rimmarranno comunque immuni alle frecce!"
+	]
+	quest.108CD9122209C7AD.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei pacchetti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Questi cavi funzionano esattamente come i cavi della AE2 ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
+	]
+	quest.12FC17E8AFB7388D.quest_desc: [
+		"Questo upgrade può essere piazzato solo negli Item Conduit e permette di aumentare il numero di item che il cavo può trasferire contemporaneamente."
+		""
+		"Questo upgrade permette di trasferire 8 oggetti alla volta!"
+	]
+	quest.158E1F90A8E37FA5.quest_desc: ["Come il precedente, ma permette di trasferire 16 oggetti alla volta!"]
+	quest.159A7663B99D6343.quest_desc: ["Utilizza questi Conduit per il trasporto di oggetti!"]
+	quest.18F3691400EBB051.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei pacchetti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Questi cavi funzionano esattamente come i Pressurized Tube della Mekanism, ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
+	]
+	quest.1A3DAF41BCB8484D.quest_desc: [
+		"Macchinario che utilizza l'xp per infondere degli oggetti!"
+		""
+		"Per fornire l'xp al macchinario dovrai prima inserire la tua xp in una tank o nell'XP Obelisk e poi utilizzare dei Fluid Conduit o un qualsiasi altro cavo per i fluidi per trasferire l'xp dalla tank al Soul Binder."
+	]
+	quest.1C2F1C4D5B2063BC.quest_desc: [
+		"Forse uno dei più interessanti macchinari della Ender IO."
+		""
+		"Permette di creare, senza combattere contro la fortuna, degli specifici libri incantati! Basterà munirsi di xp, un Book and Quill, dei lapis e di uno specifico materiale differente per ogni incantesimo."
+		""
+		"Utilizza la JEI per vedere tutti gli incantesimi disponibili!"
+	]
+	quest.1C2F1C4D5B2063BC.quest_subtitle: "Basta alla sfiga!"
+	quest.1CCF624F5168B4B8.quest_desc: [
+		"Questo blocco permette il teletrasporto tra due Anchor se mentre sei su una guardi l'altra e premi spazio! &lLa portata delle Anchor è di circa 200 blocchi.&r"
+		""
+		"Puoi rinominarle!"
+		""
+		"Più avanti con il gameplay di questa mod, potrai utilizzare la Staff of Traveling per andare da un'ancora all'altra anche se non sei sopra una delle due!"
+	]
+	quest.1E008F1E024B5C02.quest_desc: [
+		"Bellissima batteria modulare, ovvero è possibile ingrandire la batteria piazzando più blocchi di questo tipo uno vicino all'altro in modo da creare una grande e capiente batteria."
+		""
+		"&lIl bello delle batterie della Ender IO è la possibilità di visualizzare l'input e l'output della batteria, cliccando con tasto destro del mouse &6(un pò da lontano perché va in conflitto con la Carry On)&r, in modo tale da avere sempre sottocchio la propria produzione e consumo!&r"
+	]
+	quest.1F647089CF2B1896.quest_desc: [
+		"Un filtro da applicare ai tuoi Fluid Conduit."
+		""
+		"&lPermette di registrare in white o black list alcuni liquidi che si vuole o non si vuole estrarre o inserire!&r"
+		""
+		"Puoi specificare fino ad un massimo di 5 fluidi per filtro."
+	]
+	quest.20D6A80BDF4ADC05.quest_desc: ["Come il precedente, ma permette di trasferire 64 oggetti alla volta!"]
+	quest.213E530CC3BE8123.quest_desc: [
+		"Macchinario molto particolare della Ender IO, ma che allo stato attuale ha un solo crafting utilile. "
+		""
+		"Nelle vecchie versioni permetteva il crafting di particolari Capacitor potenziati!"
+	]
+	quest.24ECCA7C4D345B06.quest_desc: ["Semplice oggetto di tramite per crafting più avanzati!"]
+	quest.26F3D5A9AD611695.quest_desc: ["Come il tier precedente ma più capiente!"]
+	quest.2893F3421100DC31.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.2A097A41F0276F64.quest_desc: ["Funziona esattamente come un Basic Filter, ma permette di inserire fino ad un massimo di 10 oggetti rispetto ai soli 5 che puoi inserire nel Basic Filter."]
+	quest.2A30E39EE241DB85.quest_desc: [
+		"&6&lI Capacitor sono necessari affinché i macchinari della Ender IO possano funzionare!&r"
+		""
+		"In base al livello del Capacitor che si utilizza il macchinario andrà più o meno veloce."
+	]
+	quest.2A7DDC9A34478F21.quest_desc: ["Un semplice generatore di corrente che utilizza Coal, Charcoal o Coal Coke della Immersive!"]
+	quest.2FA751DE3D56EAFE.quest_desc: [
+		"Inizialmente questo materiale può essere ricavato accendendo del fuoco e aspettando che si spenga sopra ad un pezzo di Bedrock o di Deepslate."
+		""
+		"Se si utilizza la Bedrock si avra una chance di produrre fino ad un massimo di 3 pezzi alla volta mentre se si utilizza la Deepslate si ha un massimo di 1 pezzo!"
+		""
+		"Più avanti potrai farmare questo materiale all'interno del SAG Mill."
+	]
+	quest.2FA751DE3D56EAFE.quest_subtitle: "Materiale base della Ender IO!"
+	quest.371F58537BF0A606.quest_desc: [
+		"Questo macchinario ti permette di cuocere o produrre delle leghe metalliche tramite l'utilizzo di corrente elettrica!"
+		""
+		"&lNella modalità fornace cuoce tre oggetti alla volta. La sua velocità varia a seconda del Capacitor utilizzato!&r"
+	]
+	quest.387F3764A36F2E48.quest_desc: [
+		"Una delle due leghe metalliche più importanti!"
+		""
+		"Permette la creazione di tutti i macchinari relativi al farming dei mob, ma prima dovrai avventurarti nel Nether!"
+	]
+	quest.38E3542031CA172A.quest_desc: ["Oggetto piazzabile nel mondo che ti permette di immagazzinare e salvare dalle tue morti l'esperienza che hai accumulato nel tempo!"]
+	quest.39F12C708F1AF6FB.quest_desc: [
+		"Pannello solare di base molto economico ma che produce solamente 4 RF/t."
+		""
+		"&6&lQuesti pannelli si attaccano se posizionati uno di fianco all'altro creando un unico grande pannello. Quindi sarà necessario un solo cavo connesso ad una delle parti che compongono il pannello per estrarre l'energia prodotta dall'intero pannellone!&r"
+	]
+	quest.39F12C708F1AF6FB.quest_subtitle: "Fonte di energia rinnovabile e gratis!"
+	quest.3E2E090C6AC6DB12.quest_desc: ["Un semplice macchinario per ricaricare di corrente i tuoi strumenti che utilizzano energia elettrica!"]
+	quest.3F1D1142EE194CBF.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.41D88E62DFEE4B9E.quest_desc: ["Semplice oggetto di tramite per crafting più avanzati!"]
+	quest.43F6448510ECFB57.quest_desc: ["Come il precedente, ma permette di trasferire 32 oggetti alla volta!"]
+	quest.442AF1C736C7DB01.quest_desc: ["Come il Void Chassis!"]
+	quest.44A494578D0A64E4.quest_desc: [
+		"Materiale base per la creazione dei cavi della Ender IO."
+		""
+		"&6&lI cavi della Ender IO hanno la particolarità, rispetto alle altre mod, di poter essere piazzati nello stesso blocco anche se di tipo differente!&r"
+		""
+		"Questa funzionalità permette quindi di creare layout di farm molto compatte!"
+	]
+	quest.45670563892FAD33.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.497BC18BEC8F1121.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.49E23AE7C361B81E.quest_desc: [
+		"Hai una farm che produce esperienza e la getta nel mondo e non sai come raccoglierla in automatico?"
+		""
+		"Utilizza questo blocco per raccogliere tutta l'esperienza dal mondo in un'area delimitata!"
+	]
+	quest.4B3054591338224E.quest_desc: ["Serve per muoversi da una Travel Anchor all'altra senza essere sopra ad una delle due!"]
+	quest.4C6384327E162D3C.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.5226145F112A67FC.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.526E5AFE8E2AFCB1.quest_desc: ["Utilizza questi Conduit per il trasporto dei fluidi!"]
+	quest.54E5CEC907CECAFD.quest_desc: [
+		"Un filtro da applicare ai tuoi Chemical Conduit."
+		""
+		"&lPermette di registrare in white o black list alcuni gas che si vuole o non si vuole estrarre o inserire!&r"
+		""
+		"Puoi specificare fino ad un massimo di 5 gas per filtro."
+	]
+	quest.551E146F1600840D.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.5943C6B88D9D867A.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei pacchetti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Questi cavi funzionano esattamente come i cavi della Refined Storage ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
+	]
+	quest.59F4F016698AC7CE.quest_desc: [
+		"Come il precedente ma produce 64 RF/t per pannello!"
+		""
+		"&6&lQuesti pannelli si attaccano se posizionati uno di fianco all'altro creando un unico grande pannello. Quindi sarà necessario un solo cavo connesso ad una delle parti che compongono il pannello per estrarre l'energia prodotta dall'intero pannellone!&r"
+	]
+	quest.5A12AC9532E8111E.quest_desc: [
+		"&6&lBlocco immune all'esposione del Wither!&r"
+		""
+		"Può essere utilizzato per intrappolare ed uccidere il Wither per farmarlo."
+	]
+	quest.5BEE82A2248F0ECD.quest_desc: ["Come i precedenti ma con le funzionalità di un Dense Cable!"]
+	quest.5EE7A8609B93CBB4.quest_desc: ["Utilizza questi Conduit per il trasporto di energia elettrica!"]
+	quest.607EE09EB4BAA288.quest_desc: [
+		"&lMolte mod importanti hanno degli addon, ovvero dei pacchetti aggiuntivi che permettono di creare incastri e sinergie tra mod completamente differenti!&r"
+		""
+		"Questi cavi funzionano esattamente come i Thermodynamic Conductor della Mekanism, ma con lo stile e le funzionalità della Ender IO. Ottimi se ti serve passare molti tipi di cavi nello stesso blocco!"
+	]
+	quest.61460CF8728CC653.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.66C8FB0CE5A3AE73.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.672ECE27023A4051.quest_desc: [
+		"Un filtro da applicare ai tuoi Redstone Conduit."
+		""
+		"Ne esistono molti tutti con una funzionalità differente! Ad esempio questo presente nelle quest ti permette di creare un clock di redstone senza dover utilizzare i bruttissimi metodi Vanilla!"
+	]
+	quest.676897CC88987E9E.quest_desc: ["Come i precedenti ma con più capacità di trasferimento!"]
+	quest.6819AAE52E4F652E.quest_desc: [
+		"Un filtro da applicare ai tuoi Item Conduit."
+		""
+		"&lPermette di registrare in white o black list alcuni oggetti che si vuole o non si vuole estrarre o inserire!&r"
+		""
+		"Puoi specificare fino ad un massimo di 5 oggetti per filtro."
+	]
+	quest.6ACD92228D420EA1.quest_desc: [
+		"Come il precedente ma produce 16 RF/t per pannello!"
+		""
+		"&6&lQuesti pannelli si attaccano se posizionati uno di fianco all'altro creando un unico grande pannello. Quindi sarà necessario un solo cavo connesso ad una delle parti che compongono il pannello per estrarre l'energia prodotta dall'intero pannellone!&r"
+	]
+	quest.6AFC771583A1B78C.quest_desc: [
+		"Blocco base per la creazione di alcuni macchinari della Ender IO."
+		""
+		"&lMolte mod introducono questi tipi di blocchi per creare una progressione per la loro mod. Più è complicato/costoso il crafting di questi blocchi, più sarà potente/funzionale il macchinario!&r"
+	]
+	quest.6DFA2D6141B438C3.quest_desc: ["Come il tier precedente ma più capiente!"]
+	quest.6E8C7D306EC6162D.quest_desc: ["Lega metallica utile per i crafting della mod!"]
+	quest.6EBAEDE69B188AD3.quest_desc: [
+		"Particolare oggetto ottenuto tramite l'infusione dell'anima di un Villager con una Grinding Ball di Dark Steel."
+		""
+		"&lQuesto token permette il crafting di particolari tipi di vetro!&r"
+		""
+		"Esistono anche altri token, che si ottengono tramite l'infusione di altri tipi di anime."
+	]
+	quest.7261F2890B97E6B3.quest_desc: [
+		"Il SAG Mill non è altro che un maceratore, come ad esempio il Crusher della Immersive, ma molto più compatto!"
+		""
+		"Questo macchinario applica dei modificatori base ai suoi output. Possono essere migliorati se si utilizzano delle Grinding Ball!"
+		""
+		"&lAttenzione che le Grinding Ball hanno una percentuale per la quale possono essere consumate!&r"
+	]
+	quest.73150AFF0AF36C7D.quest_desc: [
+		"Questa boccettina ti permette di intrappolare al suo interno un qualsiasi mob, che non sia un l'Ender Dragon (ma il Wither si...)."
+		""
+		"Potrai quindi trasportare i mob da un posto all'altro molto facilmente!"
+		""
+		"Inoltre alcuni tipi di queste boccette riempite con l'anima di uno specifico mob possono essere utili in alcuni crafting. "
+	]
+	quest.760720DF39FE695D.quest_desc: [
+		"Hai una farm che getta oggetti nel mondo e non sai come raccoglierli in automatico?"
+		""
+		"Utilizza questo blocco per raccogliere tutti gli oggetti nel mondo in un'area delimitata!"
+	]
+	quest.79C3E4DCC14FE751.quest_desc: [
+		"Una delle due leghe metalliche più importanti!"
+		""
+		"Permette la creazione dei primi macchinari a corrente della Ender IO, per esempio il processamento degli ore."
+	]
+	quest.7B71585F49557256.quest_desc: ["Semplice oggetto di tramite per crafting più avanzati!"]
+	quest.7B911C5384D08884.quest_desc: ["Questo macchinario ti permette di produrre delle leghe metalliche tramite la combustione di un qualsiasi fuel adatto per una fornace Vanilla!"]
+	quest.7B911C5384D08884.quest_subtitle: "Il primo macchinario della Ender IO!"
+}

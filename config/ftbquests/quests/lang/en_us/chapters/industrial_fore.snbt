@@ -1,0 +1,21 @@
+{
+	quest.062609874E69872D.quest_desc: ["Trasforma il liquame in fertilizzante!"]
+	quest.0A18764B265CFAFF.quest_desc: ["Questo macchinario pianta sapling o crop nel blocco di terra appena sopra"]
+	quest.1C3BF5937425266D.quest_desc: ["Questo macchinario taglia gli alberi e raccoglie i crops maturi"]
+	quest.2E9648F3F7A3A080.quest_desc: ["Raccoglie liquame dagli animali sopra di esso"]
+	quest.3074481BB696C243.quest_subtitle: "TIP: ci sono placer che non richiedono corrente"
+	quest.376138FAD8EAC438.quest_desc: ["Nella Dissolution Chamber puoi creare gli addon ed i frame per i macchinari avanzati!"]
+	quest.4F7FF6E7F12B83C0.quest_desc: ["Cuoci la Dry Rubber per ottenere la Plastic"]
+	quest.51502D13AB1B2157.quest_desc: ["Permette di convertire il latex in Dry Rubber. Ti servirà acqua e corrente"]
+	quest.5424BD3317414183.quest_desc: ["Un generatore basico della Industrial"]
+	quest.62C3DD5C170B9991.quest_desc: ["Piazza il Fluid Extractor davanti un Log per prelevare il Latex."]
+	quest.62C3DD5C170B9991.quest_subtitle: "TIP: Prova l'acacia!"
+	quest.7879506F838D15BA.quest_desc: ["Usato per fertilizzare automaticamente sapling e crops"]
+	task.1254EE5A29E2C776.title: "Biofuel"
+	task.43F217F99B58A420.title: "Pink Slime"
+	task.4973E10437BA2BE7.title: "Latex"
+	task.5AE4C9F44C338149.title: "Ether Gas"
+	task.68C7810C69FF3A1B.title: "Sludege"
+	task.7156ED848E62007C.title: "Essence"
+	task.72144F2FC22BE47A.title: "Liquid Meat"
+}

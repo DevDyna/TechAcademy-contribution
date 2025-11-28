@@ -1,0 +1,15 @@
+{
+	quest.40D1AF04C0F70419.quest_desc: [
+		"Con una Quarry Card il Builder della RFTools diventa un Quarry!"
+		"Devi piazzare un inventario sopra al Builder per ottenerne i risultati."
+		""
+		"Questo quarry consuma non poca corrente, sappilo!"
+	]
+	quest.616B482B523020C6.quest_desc: [
+		"Appunto. Spiega i tag e i forge ore c:ores"
+		""
+		""
+		"*c:ores*"
+	]
+	task.430B442D80A570BD.title: "FTBULTIMINE"
+}

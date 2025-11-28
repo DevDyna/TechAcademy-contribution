@@ -1,0 +1,66 @@
+{
+	quest.0AA7A6C58D9F7C44.quest_desc: [
+		"È praticamente una stampante 3D, avendo l'item da duplicare in un Memory Chip presente nel network (e abbastanza matter del tipo necessario) è possibile duplicarlo potenzialmente all'infinito. "
+		""
+		"La duplicazione può partire dalla richiesta di un Terminal o posizionando un esemplare dell'item necessario nello slot a forma di infinito presente in questo macchinario"
+		""
+		"&l&6N.B.:&r"
+		"&6&oTutti i macchinari di questa mod sono strettamente legati al network, ergo funzionano solo se collegati fra loro dagli appositi cavi (correttamente alimentati)&r"
+	]
+	quest.0D6944E6EF8E2672.quest_desc: [
+		"Come per i cavi di &o&l&bRefined Storage&r e &o&l&bApplied Energistics&r, anche questi non sono specializzati: trasportano sia energia che dati all’interno della rete della mod, collegando tutti i macchinari tra loro."
+		""
+		"&o&l&6Inoltre in questa mod non esiste un blocco centrale, ergo il compito di convertire energia è tutto affidato a questi cavi, ai quali puoi collegare un qualsiasi altro cavo/fonte/storage di energia&r"
+	]
+	quest.0F77D28309B1C904.quest_desc: [
+		"Questa tank, al contrario di tutte le altre non conserva ne fluidi ne gas, ma bensì, Matter, un particolare tipo di \"oggetto\" aggiunto dalla mod."
+		""
+		"&lEsistono 8 Matter:&r"
+		"Earth, Nether, Organic, Ender, Metallic, Precious, Living e Quantum."
+		"&o&b(Ergo assicurati di avere almeno una Tank per ogni matter)&r"
+		""
+		"&l&6N.B.:&r"
+		"&6&oTutti i macchinari di questa mod sono strettamente legati al network, ergo funzionano solo se collegati fra loro dagli appositi cavi (correttamente alimentati)&r"
+	]
+	quest.13C1A962AA1A0E75.quest_desc: ["Questo invece è il blocco nel quale conservare i chip, per renderli a loro volta visibili al network della replicator"]
+	quest.1D3E5D9C58F7B370.quest_desc: [
+		"Un terminale che permette di visualizzare e richiedere la produzione di tutti i tipi di item presenti nel network al quale è collegato, "
+		""
+		"Inoltre sul lato mostra la lista di tutte le varie matter e la loro disponibilità"
+	]
+	quest.1EA9BD9B7B0FF462.quest_desc: ["Il sistema di memoria della mod, permette di conservare al suo interno i dati necessari per produrre 16 tipi di item diversi"]
+	quest.1EA9BD9B7B0FF462.quest_subtitle: "Microchip! disse il MicroBird"
+	quest.3686D28E40220B3B.quest_desc: ["Come la precedente ma voida l'eccesso."]
+	quest.3686D28E40220B3B.quest_subtitle: "Se guardi nell'abisso, l'abisso guarderà te"
+	quest.39D63DA796DDDCA9.quest_desc: [
+		"Il Raw Replica è il minerale principale della Mod, serve per realizzare il Replica Ingot, principale nonchè unico materiale della mod."
+		""
+		"&6&lSi trova unicamente nell'overworld sotto il livello della deepslate, o tramite qualche sistema di generazione ore "
+	]
+	quest.4295D6885065DDE2.quest_desc: [
+		"Questo macchinario permette di disgregare, un qualsiasi item compatibile con questa mod per ottenerne la o le matter che lo compongono"
+		""
+		"&l&6N.B.:&r"
+		"&6&oTutti i macchinari di questa mod sono strettamente legati al network, ergo funzionano solo se collegati fra loro dagli appositi cavi (correttamente alimentati)&r"
+	]
+	quest.67CF06B16501EB40.quest_desc: [
+		"Permette di analizzare quasi ogni tipo di item, salvandone il corrispettivo valore in matter all'interno di un Memory Chip"
+		""
+		"&o&3A volte potrebbe essere necessario fare più scansioni per memorizzare un dato oggetto, (in ogni caso sarà visibile quando l'item è stato memorizzato)"
+	]
+	quest.6950C9A89C1B8F90.quest_desc: [
+		"Questi due addon fanno da ponte tra 3 potentissimi Network di questo pack, ovvero permettono di collegare un Replication Network ad un Applied Energistics Network o ad un Refined Storage Network."
+		""
+		"Di conseguenza diventa possibile autocraftare gli oggetti replicabili direttamente da uno dei due Storage Network, in questo evitiamo di dover costruire complessi sistemi di specchi e leve per automatizzare uno o più replicator"
+	]
+	quest.6950C9A89C1B8F90.quest_subtitle: "Auto Replication?"
+	quest.6ECA3FCE2CD4F257.quest_desc: [
+		"Questa mod permette di replicare quasi ogni item presente nel pack, &opuoi rapidamente scoprire se un item è duplicabile leggendo l'ultima parte del tooltip che appare facendo semplicemente shift su di esso&r, "
+		""
+		""
+		"[\"Mentre per approfondire la mod con la sua guida interna puoi semplicemente posizionare il mouse su uno dei suoi item tenendo premuto il tasto \", {\"keybind\":\"key.guideme.guide\",\"bold\":true,\"color\":\"red\"}]"
+	]
+	quest.6ECA3FCE2CD4F257.quest_subtitle: "Duplicazione! (╯°□°)╯︵ ┻━┻"
+	task.11E763B7D414EA72.title: "La Replication Mod"
+	task.54762CBA29EE4B6F.title: "Replica Bridges"
+}

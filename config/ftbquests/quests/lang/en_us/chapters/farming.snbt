@@ -1,0 +1,12 @@
+{
+	quest.2BC513CCBE61F4B0.quest_desc: [
+		"QUESTA E' UNA PROVA PER VEDERE SE IL TESTO SI ALLARGA OPPURE NOOOOOOOOO!"
+		"{image:new:textures/quests/farm.png width:400 height:160 align:center}"
+	]
+	quest.2BC513CCBE61F4B0.title: "Farm di Legna"
+	quest.646D259A74A59660.quest_desc: [
+		"Grosse quantità di materiali sono necessari bla bla"
+		"sotto trovi degli esempi, che puoi unire o modificare in base a quello che hai imparato."
+	]
+	task.3007BF141E9AA55A.title: "cappello"
+}

@@ -1,0 +1,12 @@
+{
+	quest.07EF8759FDE967A0.quest_desc: ["Se posizionato sull'Inventory Connector permette di visualizzare e ricercare gli oggetti in tutti gli inventari adiacenti"]
+	quest.0C53BE97C97A90DD.quest_desc: [
+		"Ti permette di accedere all'inventario entro 64 blocchi da esso (shift+tasto destro del mouse per collegarlo all Terminal)."
+		"Se in presenza di un Beacon, in base al materiale, aumenta il raggio e permette lo scambio extra dimensionale (maggiori info col mouse sull'oggetto)"
+	]
+	quest.1DBD2374710BB50A.quest_desc: ["Ti permette di accedere all'inventario se entro un certo raggio"]
+	quest.54234D181E4E7FE5.quest_desc: ["Collega tutti gli inventari adiacenti in una grande area"]
+	quest.54234D181E4E7FE5.quest_subtitle: "TIP: non usare chest doppie!"
+	quest.6FD66F8843C74696.quest_desc: ["Come per la sua controparte normale, ma aggiunge una crafting table"]
+	task.38B7C89F231EAF05.title: "Any #sophisticatedstorage:base_tier_wooden_storage"
+}

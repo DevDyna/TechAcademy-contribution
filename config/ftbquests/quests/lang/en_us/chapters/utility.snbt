@@ -1,0 +1,302 @@
+{
+	quest.00017D40227B1EAF.title: "Mining"
+	quest.026404C1E714F6D2.quest_desc: ["In questo capitolo troverai tutti gli strumenti utili per giocare al modpack, indipendentemente dalla mod che li inserisce."]
+	quest.026404C1E714F6D2.quest_subtitle: "Tante piccole cose utili!"
+	quest.026404C1E714F6D2.title: "Utilità"
+	quest.07735D93EC888469.quest_desc: ["Una bussola che punta verso gli ore di metalli come Ferro, Oro e Stagno!"]
+	quest.079BB648273FA6EA.quest_desc: [
+		"Building Gadgets è una mod per Minecraft che introduce una serie di gadget avanzati per semplificare e migliorare il processo di costruzione delle strutture nel gioco."
+		""
+		"&lBuilding:&r"
+		"Consente di costruire strutture a distanza posando blocchi in serie (per esempio muri, colonne, scale, pavimenti, ecc.)."
+		"&lExchanging:&r "
+		"Simile al gadget di costruzione, permette però di sostituire blocchi già piazzati con altri del tipo selezionato."
+		"&lCopyPaste:&r "
+		"Consente di copiare un’area di costruzione (un volume di blocchi) e di incollarla in un’altra posizione."
+		"&lCutPaste:&r "
+		"Come il copia-incolla, ma sposta l’intera struttura da un punto all’altro cancellando l’originale (non serve fornire blocchi, perché l’edificio viene salvato nel gadget)."
+		"&lDestruction:&r "
+		"Elimina in un colpo tutti i blocchi in un’area selezionata facendoli sparire (i blocchi non rilasciano oggetti)."
+		""
+		"&6&lN.B.&r"
+		"[\"Molte funzioni avanzate (rotazione, specchio, ancoraggio, undo, ecc.) sono accessibili dal menu del gadget. \", {\"keybind\":\"key.buildinggadgets2.settings_menu\",\"bold\":true,\"color\":\"red\"}, \" mentre tieni il gadget in mano per aprire quel menu.\"]"
+		"&o(Per gli altri keybind controlla le impostazioni)&r"
+		""
+		"&4&lAttenzione&r"
+		"&4&oNon tutti i gadget dispongono della funzione undo, quindi poni sempre attenzione alle funzioni che eliminano blocchi&r"
+	]
+	quest.08BFDB6EF8EF076A.quest_desc: [
+		"[\"Strumento che permette di conservare 6 eventi affrontati dal player (morti, cambi di dimensione, respwan, ecc), con \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" tenendolo in mano si aprirà una GUI a ruota che mostrera suddetti eventi\"]"
+		""
+		"Con un click di &l&cLeft Button&r sopra si verrà teletrasportati alle coridnate (e dimensione) nel quale tale evento è stato registrato"
+		""
+		"&l&aConsiglio:&r Aprendo un inventario sarà possibile prendere questo item e cliccandolo con &l&cRight Button&r su un &oTempad&r, sarà possibile aggiungere una nuova app al suddetto Tempad, capace di conservare più eventi con una gui più comoda (navigabile con la &crotella del mouse&r"
+		""
+		"&l&6N.B.&r"
+		"Una volta selezionato un evento tutti quelli successivi ad esso verrano eliminati"
+	]
+	quest.08BFDB6EF8EF076A.quest_subtitle: "Back in the Future!"
+	quest.0959119DFCEAFCE5.quest_desc: ["Un semplice portafogli che permette di conservare più &oLocation Card&r"]
+	quest.0C556775EE7A95BF.quest_desc: ["Come l'ender chest ma per i fluidi"]
+	quest.0C556775EE7A95BF.quest_subtitle: "Ender anche per le Tank!"
+	quest.0E7A6596E86235B7.quest_desc: [
+		"Puoi craftare spugne moddate senza dover trovare prima le spugne vanilla!"
+		"E quest non si bagnano"
+	]
+	quest.0E7A6596E86235B7.quest_subtitle: "Anche per la lava!"
+	quest.0E7A6596E86235B7.title: "Nuove Spugne"
+	quest.1057F43698D74246.title: "Inventario"
+	quest.114992D32397A35D.quest_desc: ["Una bussola che punta verso gli ore di gemme come Diamanti, Smeraldi e Quarzo!"]
+	quest.136483920DF38D4D.quest_desc: [
+		"Un Jetpack di ferro che ti permette di volare e scendere dolcemente. Va caricato e non annulla i danni da caduta!"
+		""
+		"[\"\", {\"keybind\":\"keybind.ironjetpacks.engine\",\"bold\":true,\"color\":\"red\"}, \" - Attiva il Jetpack\"]"
+		""
+		"[\"\", {\"keybind\":\"keybind.ironjetpacks.hover\",\"bold\":true,\"color\":\"red\"}, \" - Attiva l'Hover\"]"
+	]
+	quest.136483920DF38D4D.quest_subtitle: "Si Volaaa!"
+	quest.13B66212938DF616.quest_desc: [
+		"Si effettivamente è una mezza vanillata, ma con la &l&cPen&r (e la &l&cQuill&r che consuma la redsone presente in inventario):"
+		" "
+		"1. Permette di &ogestire MOLTO meglio&r la redstone"
+		"2. Permette di piazzarla in &overticale&r sui muri"
+		"e 3. In più Aggiunge delle varianti di &l&cButton&r e &l&cLever&r che non fanno mai male, con qualche Gate (qui chiamati &l&cRelay&r) e una gestione della redstone wireless tramite il &l&cRemote&r, che in un mondo di macchine gestibili via redstone, può essere una manna dal cielo, soprattutto per alcune automazioni"
+		""
+		"&l&6N.B.:&r"
+		"&6Per maggiori informazioni leggere il tooltip presenti per ogni item&r"
+	]
+	quest.13B66212938DF616.quest_subtitle: "Vanillata?"
+	quest.1930C82242954EB8.quest_desc: [
+		"Una evoluzione delle Cell, può essere piazzata in world e generare lentamente, di conseguenza è affetta da strumenti di time speed come la Industrial Souls"
+		""
+		"&l&6N.B.&r"
+		"[\"Ha bisogno di un po di Chronons, per iniziare a funzionare, nello specifico, quella di una battery, per dargli questi C iniziali \", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"}, \" + \" ,{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" sul Metronome, solo dopo di cio la gui sarà accessibile\"]"
+	]
+	quest.1930C82242954EB8.quest_subtitle: "\"Blocchiamo\" il tempo"
+	quest.1D88AEF0C8273271.quest_desc: ["Caricata nel &oTempad&r con la &oWorkstation&r, permette di usare la funzione multiplayer di tracciamento dei player"]
+	quest.21FA1ED194A0764B.quest_desc: ["Queste chest funzionano come Ender Chest, ma è possibile cambiare la frequenza per avere infiniti collegamenti!"]
+	quest.21FA1ED194A0764B.quest_subtitle: "Come le Ender Chest ma meglio!"
+	quest.23E97256E02EC67F.quest_desc: ["Come per le DimensionalChest, ma per i liquidi!"]
+	quest.23E97256E02EC67F.quest_subtitle: "Come le Ender Tank ma meglio!"
+	quest.252D419ECFE18368.quest_desc: ["[\"Cliccando con \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" su un \",{\"text\":\"Timedoor Maker\",\"italic\":true},\" è possibile registrare la sua posizione per poi usarla con il \",{\"text\":\"Time Door Projector\",\"italic\":true}]"]
+	quest.2A36296B241E8B50.quest_desc: [
+		"Versione rudimentale di un Tempad con &oLocation Card&r e &oTimedoor Maker&r, permettei di aprire dei teleport verso specifiche posizioni"
+		""
+		""
+		"&l&6N.B.&r"
+		"[\"Per usarlo, va piazzato con il \", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"}, \" + \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" poi \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" sul blocco piazzato con una card gia registrata in mano e poi nuovamente \", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"}, \" + \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" ma a mani vuote e per aprire una Time Door \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" con questo blocco in mano, ripetendo questo ad ogni nuova destinazione\"]"
+	]
+	quest.2A36296B241E8B50.quest_subtitle: "Teleport Semplice"
+	quest.2B3B6327C5E26C31.title: "Esplorazione"
+	quest.2BE0A92298701AD6.quest_desc: [
+		"La Fionda Slime ti sparerà nella direzione opposta a quella in cui guardi."
+		"I piedini di Slime invece ti negheranno il danno da caduta facendoti rimbalzare!"
+	]
+	quest.2BE0A92298701AD6.quest_subtitle: "Boing!"
+	quest.2D8B2704F5C9101D.quest_desc: [
+		"I construction stick, sono una reinterpretazione di una classica mod, la Construction Wand."
+		""
+		"[\"In sintesi aggiunge una serie di stick che permettono di semplificare il building, permettendo di piazzare più blocchi seguendo una logica di \\\"similarità\\\", ovvero putando con lo stick su un blocco e premendo \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" verrano piazzati tanti blocchi dello stesso tipo quanti ve ne sono nell'invetario (il limite massimo varia con il tier dello stick). In alternativa posizionando un blocco nella seconda mano, succedera la stessa cosa ma piazzando il blocco nella suddetta mano.\"]"
+		"{@pagebreak}"
+		"I tier sono: "
+		"&lWooden, Copper, Iron, Diamond e Netherite&r;"
+		"Con rispettivamente i seguenti limiti di blocchi piazzabili per singola azione: "
+		"&l3, 9, 27, 128, 1024&r"
+		""
+		"Esistono poi vari template:"
+		"&lAngel&r - per piazzare blocchi a mezzaria"
+		"&lDestruction&r - per permettere al contrario la distruzione dei blocchi"
+		"&lReplacement&r - per rimpiazzare i blocchi con quelli presenti nella seconda mano"
+		"&lUnbreakable&r - per rendere lo stick indistruttibile"
+		"(&6&oin realtà blocca il consumo, ergo applicarlo su oggetti semi rotti, non cancellerà la barra della durabilità&r)"
+		"&lBattery&r - per poter ricaricare lo stick, sostituisce in toto la durabilità"
+		""
+		"&6&lN.B.&r"
+		"Tutti i template si applicano nella Smithing Table, per ulteriori informazioni, leggere i tooltip e/o usare la JEI/EMI"
+	]
+	quest.2DB96A67331326EE.quest_desc: ["Questa mod ti permette di creare dei cubi in una dimensione a se per isolare le tue farm e far laggare di meno il mondo principale."]
+	quest.31323BC0226896DB.quest_desc: [
+		"Con questa cell è possibile conservare l'unita energia aggiunta da questa mod."
+		"Il Cronons (C)!"
+		"Questo modello specifico conserva fino a 2kC"
+	]
+	quest.31323BC0226896DB.quest_subtitle: "Conversa il tempo!"
+	quest.374D57DA9C3F0651.quest_desc: [
+		"La Cosmetic Armor ti permette di indossare la tua armatura preferità al di sopra di effettivamente protettiva."
+		"&l&6Come dice il nome è solo Cosmetica non ha nessun effetto se non quello grafico&r"
+		""
+		"Si apre e chiude da qui:"
+		"{image:techacademy:textures/quests/ch_utilita/cosmetic_armor1.png width:180 height:100 align:center}"
+		""
+		"e fa apparire questi slot:"
+		"{image:techacademy:textures/quests/ch_utilita/cosmetic_armor2.png width:180 height:35 align:center}"
+		"inoltre come puoi vedere in ogni slot e sotto il player sono presenti dei piccoli pulsatini che ti permettono di nascondere il pezzo corrispondente di armatura"
+	]
+	quest.374D57DA9C3F0651.quest_subtitle: "Proteggiti con stile"
+	quest.380394D639A20604.quest_desc: ["[\"Questa postazione PC in realtà è una Worksation per modificare i Tempad, usando il \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" su di esso con un Tempad in mano sarà possibile usarlo, modificare alcune sue impostazioni, e aggiungervi alcuni upgrade, (che a loro volta adranno caricati nello stesso modo con il quale viene piazzato il pad), appariranno poi dentro il pad sottoforma di nuove App\"]"]
+	quest.380394D639A20604.quest_subtitle: "Moddiamo il Tempad!"
+	quest.3997E027E7AC3CDA.quest_desc: [
+		"Il glider è un deltaplano che ti permette di planare premendolo col tasto destro del mouse. Non puoi darti spinta con i razzi come con l'Elytra quindi dovrai trovare un modo per lanciarti verso l'alto (o puoi semplicemente saltare da un'altura!)"
+		""
+		"ATTENTO ALL'ATTERRAGGIO!"
+	]
+	quest.3997E027E7AC3CDA.quest_subtitle: "Si Planaaa!"
+	quest.3D027FE28407BE47.quest_desc: ["Caricata nel &oTempad&r con la &oWorkstation&r, permette di consutare la guida in game direttamente da una nuova app nel pad"]
+	quest.3D027FE28407BE47.quest_subtitle: "Conoscenza!"
+	quest.3E448A3D92E6A738.quest_desc: [
+		"Due mod tanto semplici quanto utili, aggiungono dei semplici overlay, che il player può decidere di far apparire a piacimento, molto simili a quelli vanilla, ma fatti mooolto meglio."
+		""
+		"{@pagebreak}"
+		"Il primo mostra i livelli di luce, molto utile per capire se in una certa zona i mob possono spwanare"
+		"&oSe non contiamo i mob con spawn speciali&r, possiamo riassuemre che nelle &4zone rosse&r i mob ostili possono spawnare sempre, in &6quelle arancioni&r solo di notte e in &2quelle verdi&r mai, (condizioni invertite per i passivi)"
+		"Qui puoi vedere le 3 modalità possibili, rispettivamente carpter, numbers e cross:"
+		"{image:techacademy:textures/quests/ch_utilita/lighty.png width:340 height:150 align:center}"
+		""
+		"[\"Puoi far apparire l'overlay con \", {\"keybind\":\"key.lighty.toggle\",\"bold\":true,\"color\":\"red\"}, \" e modificare i config (tra i quali il tipo di overlay) con \", {\"keybind\":\"key.lighty.enable\",\"bold\":true,\"color\":\"red\"}]"
+		""
+		"&l&6N.B.:&r"
+		"&o&6Nella visualizzazione a numeri il primo numero indica la luce che \"arriva\" dal cielo, mentre il secondo la luce effettiva presente sul blocco&r"
+		""
+		"{@pagebreak}"
+		""
+		"Il secondo invece mostra i limiti dei chunk, utilissimo per piazzare al meglio i macchinari e i chunk loader, ed evitare spiacevoli incidenti durante l'esplorazione o peggio il viaggio in altre dimensioni"
+		""
+		"[\"Con \", {\"keybind\":\"key.moreoverlays.chunkbounds.desc\",\"bold\":true,\"color\":\"red\"}, \" puoi ciclare tra le seguenti modalità:\"]"
+		"&lNone:&r L'overlay è spento"
+		"&lCorners:&r Mostra solo gli angoli dei chunk"
+		"&lGrid:&r L'overlay mostra i bordi del chunk in cui sei"
+		"&lRegion:&r L'overlay mostra i bordi di una regione &o(un altro tipo di sezioni di un mondo MC, vedila come un chunk di chunk)&r"
+		""
+		"{image:techacademy:textures/quests/ch_utilita/moover_chunk.png width:340 height:150 align:center}"
+	]
+	quest.3E448A3D92E6A738.quest_subtitle: "Overlay per Tutti!"
+	quest.3E7BD3614FDEEA89.quest_desc: ["Come il Location Broadcaster, ma con un sistema di filtri per decidere chi può vedere la tua posizione"]
+	quest.3E7BD3614FDEEA89.quest_subtitle: "Solo Multiplayer"
+	quest.3EE2140A162AC595.quest_desc: [
+		"Ispirato dalla seria Marvel Loki, ecco la Tempad, una mod che integra un sistema di teletrasporto bilanciato da un gameplay"
+		""
+		"Al contrario delle altre mod qui presenti è leggermente più articolata, di conseguenza una volta completata questa quest, apparira un ramo per aiutarti anche in questa mod"
+		""
+		"Eventualmente come reward c'è anche la guida in game offerta dalla mod stessa"
+	]
+	quest.3EE2140A162AC595.quest_subtitle: "Teletrasporto!"
+	quest.3EE2140A162AC595.title: "Tempad"
+	quest.4126BFCBAACD2D34.quest_desc: ["Esattamente come le cell ma capace di conservare fino a 6kC"]
+	quest.4126BFCBAACD2D34.quest_subtitle: "Più tempo!"
+	quest.4126CBC11328CBE3.quest_desc: ["Materiale avanzato della mod, permette di craftare tutti gli oggetti avanzati "]
+	quest.44D92E29481B532D.quest_desc: ["Come il Timedoor Maker, ma con qualche customizzazione in più"]
+	quest.4AA3E2D1088D7DD2.quest_desc: [
+		"La Curio è un mod che permette di indossare tutta una serie di accessori, con particolari effetti o funzioni, senza occupare uno slot dell'invetario"
+		""
+		"&l&6N.B.&r"
+		"Indicativamente per capire se qualche item può essere messo nella curio basta guardare il suo tooltip e vedere se sotto il nome appare:"
+		"\"&6Slot:&r &e<Slot della Curio usabile>&r\""
+		""
+		"Si apre e chiude da qui:"
+		"{image:techacademy:textures/quests/ch_utilita/curio1.png width:180 height:100 align:center}"
+		""
+		"{@pagebreak}"
+		"E da accesso a tutti questi slot, dentro i quali puoi inserire ogni oggeto che nel proprio tooltip abbia il nome corrispondente:"
+		""
+		"{image:techacademy:textures/quests/ch_utilita/curio2.png width:40 height:180 align:center}"
+	]
+	quest.4AA3E2D1088D7DD2.quest_subtitle: "Un curio per ghermirli e nel buio incatenarli"
+	quest.4BB89DEFA8F9BE7A.quest_desc: ["Questa torciona impedisce lo spawn naturale dei mostri nell'area intorno a te. Mobspawner ed altri spawner funzionano indipendentemente!"]
+	quest.4D53AECA4628A9F8.quest_desc: [
+		"Questo strumento, che va caricato, ti permette di diventare più piccolo o più grande."
+		""
+		"[\"\", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" - Seleziona la grandezza\"]"
+		""
+		"[\"\", {\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"},\" + \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" - Diventi della grandezza selezionata\"]"
+	]
+	quest.4E1AA8914722A796.quest_desc: ["Questo è un semplice item da tenere in Inventario o nella buble che genere pochi C nel tempo"]
+	quest.4E1AA8914722A796.quest_subtitle: "Crea il tempo!"
+	quest.54B60B7B6E583E0A.quest_desc: [
+		"Versione base del Tempad, se hai gia usato il sistema rudimentale con le card (e hai delle card o un card wallet in invetario) i vecchi teleport verrano copiati direttamente nel Tempad."
+		""
+		"Senza nessuna modifica, ha 3 app, la prima mostra la lista di tutti i teleport possibili, la seconda permette di registrare nuovi teleport senza nessun blocco di support in world, la terza sono i setting"
+		""
+		"Un altra app viene aggiunta tramite un &oTime Twister&r (vedi la sua quest)"
+	]
+	quest.54B60B7B6E583E0A.quest_subtitle: "Fenomentali Poteri Cosmici"
+	quest.555A38A59CCEBB90.quest_desc: ["Il Mining Helmet conferisce NightVision, purtroppo, ha una durabilità che si consuma nel tempo (mettilo nel tuo backpack per non consumarlo involontariamente!)"]
+	quest.5AAD4C27702802ED.quest_desc: ["Una bussola che punta verso gli ore di minerali come Carbone e Redstone"]
+	quest.5E17D3F50B5F74BE.quest_desc: ["[\"Permette al Player con questo item di essere tracciato dal altri player con i tempad potenziati dal \", {\"text\":\"Player Teleport Upgrade\", \"bold\":true,\"italic\":true}, \", con il \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" è possibile accenderlo e spegnerlo (rosso spento, verde acceso)\"]"]
+	quest.5E17D3F50B5F74BE.quest_subtitle: "Solo Multiplayer"
+	quest.5E3FBAB7569120A1.quest_desc: ["[\"Una Base per Time Door, con il \", {\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"}, \" è possibile applicare delle personalizzazioni\"]"]
+	quest.61542E7DFF31CC4E.quest_desc: ["Come il generator ma capace di generare più C"]
+	quest.61542E7DFF31CC4E.quest_subtitle: "Ancora più tempo!"
+	quest.6207BB30921AB150.quest_desc: [
+		"Una semplice mod che aggiunge un sistema di Backup automatici &o(ogni 90 Minuti di default)&r, è possibile ripristinare un &lBackup&r comodamente dal menu dei save &o(o mondi che dir si voglia)&r"
+		""
+		"Ovviamente ci sono anche dei comandi in game che permettono di utilizzare manualmente le funzione offerte, il comando base è &l&3/backup&r al quale si deve aggiugnere uno dei seguenti sottocomandi:"
+		""
+		"&3&lconfig&r: Per accedere al menu generico dei config"
+		"(&oaccessibile anche dall'invetario in alto a sinsitra&r)"
+		"&3&lclientconfig&r: Per accedere direttamente ai config del client"
+		"&3&lserverconfig&r: Per accedere direttamente ai del server"
+		"&3&lsize&r: Per controllare la sitazione spazi e peso del mondo"
+		"&3&lstart&r: Per avviare manualmente un backup"
+		"(&o&6utilissimo prima di fare qualche cazz... qualcosa di pericoloso per il mondo&r)"
+		"&3&lstatus&r: Per controllare lo stato della mod (&oin relazione al mondo attuale&r)"
+		"&3&ltime&r: Per vedere a che ora sarà avviato il prossimo backup automatico"
+		"&4&lreset&r: Per resettare la mod in caso di gravi problematiche, da usare con &l&4ESTREMA ATTENZIONE&r"
+	]
+	quest.6207BB30921AB150.quest_subtitle: "Houston abbiamo un problema! Oh forse no ¬‿¬?!"
+	quest.64C4A69B7AB2378C.quest_desc: ["Permette di scegliere qualsiasi struttura presente nel gioco, e di puntarvici. Per un esplorazione dannatamente più comoda"]
+	quest.66847BC40D0AA886.quest_desc: ["Se vuoi che le tue farm continuino a funzionare quando sei lontano, devi piazzare un Chunk Loader per tenere caricata l'area. ChunkLoader migliori ti permettono di caricare aree più vaste."]
+	quest.66847BC40D0AA886.title: "Chunk Loader"
+	quest.740F8E1306C59A5B.quest_desc: [
+		"Questa scala si estenderà verso il basso fino al suo limite e fintanto che non incontra blocchi."
+		"La sua versione inverted fa esattamente contrario quindi piazzandola si estende verso l'alto."
+	]
+	quest.7440C240D230129F.quest_desc: ["Il Jetpack della Mekanism funziona come gli altri jetpack, ma consuma Hydrogen"]
+	quest.7440C240D230129F.quest_subtitle: "Si Volaaa! Ma meglio!"
+	quest.758C7AAFB2F22843.title: "Building"
+	quest.76F9153BE0B4ECAA.quest_desc: [
+		"La Jade è tra tutte la miglior mod Quality of Life che possa essistere, fa una singola cosa ma la fa benissimo."
+		""
+		"In poche parole fornisce un piccolo pop up che di default appare nella parte alta dello schermo che ti mostra le principali caratteristiche del blocco/fluido/entità che stai guardando. "
+		""
+		"{@pagebreak}"
+		"Ad esempio il contenuto di una chest, o la vita di un mob, inoltre si integra con non poche mod, di conseguenza ci sono uno svariato numero di popup specifici (energie, fluidi, capienza percentuale, ecc ecc), ecco alcuni esempi:"
+		""
+		""
+		"{image:techacademy:textures/quests/ch_utilita/jade.png width:250 height:130 align:center}"
+	]
+	quest.76F9153BE0B4ECAA.quest_subtitle: "Un grande occhio, senza palpebre, avvolto nelle fiamme"
+	quest.779BFD2E2084F806.quest_desc: ["Tramite una combinazione di colori permette di collegare 2 o più chest fra loro"]
+	quest.779BFD2E2084F806.quest_subtitle: "Come quella vanilla ma meglio!"
+	quest.789925C15DEDACB0.title: "Gestione del mondo"
+	quest.7E0734D239A3F437.quest_desc: ["Permette di scegliere qualsiasi bioma presente nel gioco, e di puntarvici. Per un esplorazione dannatamente più comoda"]
+	quest.7E0734D239A3F437.quest_subtitle: "Trova il tuo bioma preferito!"
+	quest.7F9AA4440D7DD770.quest_desc: [
+		"La Extreme Sound Muffler è una mod estremamente comoda in un pack di Minecraft, permette di silenziare selettivamente ogni suono del gioco."
+		"&oMacchinari rumorosi?&r - &lNessun problema!&r"
+		"&oFarm di mob?&r - &lCome se non fosse neanche li!&r"
+		""
+		"Si apre da qui"
+		"{image:techacademy:textures/quests/ch_utilita/esm1.png width:180 height:100 align:center}"
+		""
+		"{@pagebreak}"
+		"e ti da accesso a questa schermata:"
+		"{image:techacademy:textures/quests/ch_utilita/esm2.png width:180 height:130 align:center}"
+		"&l&41&r. Frecce per scorrere la lista (va bene anche la rotella del mouse)"
+		"&l&42.&r Selettori delle anchor (da qui puoi creare fino a 10 anchor posizionanodle man mano nel luogo in cui le attivi per silenziare alcuni suoni solo in alcune zone)"
+		"&l&43.&r Lista dei suoni silenziabili, in ordine abbiamo il nome interno del suono, il tasto per mutare ed il tasto per far partire il suono."
+		"&l&44. &rPulsante che ti permette di cambiare lista tra suoni recenti e tutti i suoni presenti nel gioco, utile se conosci gia il suono che vuoi mutare, o se vuoi essere sicuro di star cercando solo tra i suoni che hai gia sentito recentemente"
+		"&l&45.&r Barra di ricerca"
+		"&l&46.&r Pulsante per cancellare ogni tipo di silenziamento"
+		"&l&47.&r Pulsante per \"mettere in pausa\", qualsiasi silenziamneto"
+		""
+		"&l&6Extra.&r Quando silenzi un suono apparirà una piccola barra verticale all'inizio del nome, facendola scorrere da sinistra a destra potrai scegliere il volume a cui il gioco farà partire quelo suono, utile ad esempio per macchinari rumorosi, ma che possono essere pericolosi come quelli della Penumaticraft"
+	]
+	quest.7F9AA4440D7DD770.quest_subtitle: "Experience Tranquility"
+	task.00997334514B9B73.title: "Construction Stick"
+	task.2EF352E7901876EC.title: "Sound Muffler"
+	task.3022E7906134C94D.title: "Cosmetic Armor"
+	task.3496ABB17B61CB7F.title: "FTB Backup"
+	task.53BE758F47EC1A89.title: "Lighty \\& More Overlays"
+	task.57BC88E4E838A94B.title: "Curio"
+	task.7BB709BE90F9ABE0.title: "Jade"
+}

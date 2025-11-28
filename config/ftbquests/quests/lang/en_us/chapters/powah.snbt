@@ -1,0 +1,50 @@
+{
+	quest.03C5C074DF15F357.quest_desc: [
+		"Un metodo di crafting particolare che fonde oggetti per ottenerne di nuovi."
+		"L'automatizzazione è complessa e la spiegheremo in seguito"
+	]
+	quest.325C115E99FD5FB2.quest_desc: ["Questi sono i produttori di corrente della Powah, li trovi in ordine dal più facile al più difficile dall'alto verso il basso"]
+	quest.325C115E99FD5FB2.title: "Produttori di Energia"
+	quest.34FF34BE6EECC2BA.quest_desc: [
+		"Questa mod fa dei tier uno dei suoi punti forti."
+		""
+		"In base al tipo di macchinario, al salire del tier, aumenta la produzione di energia, la velocità di craft, la velocità di spostamento, ecc. "
+		""
+		"Inoltre tutti i materiali per craftare macchinari di tier avanzati possono essere solo prodotti dalla sua \"Crafting Table\" ovvero l'Energizing Orb."
+		""
+		"Di conseguenza dovrai partire dai Macchinari Basic per arrivare ad avere quelli di tier più avanzato. Per maggiori informazioni, avanza nelle quest che ti spiegheranno tutto."
+	]
+	quest.3C018F69792DA825.quest_desc: [
+		"Ti permette di trasferire corrente wireless (anche tra dimensioni diverse) tra due EnderCell con la stessa frequenza (il numero sotto, più è alto il tier e più frequenze potrai selezionare)"
+		""
+		"&l&6N.B.&r"
+		"&lPER FARLA FUNZIONARE, DEVI INSERIRE UNA STORAGE CELL O UNA BATTERY PER DARE CAPIENZA ALLA FREQUENZA SELEZIONATA.&r"
+	]
+	quest.3C018F69792DA825.quest_subtitle: "TIPS: esistono altri metodi per l'energia wireless!"
+	quest.5C66F1791DA3294B.quest_desc: ["Sblocca il tier Hardened"]
+	quest.5F5B866003531CC7.quest_desc: [
+		"Le Rod sono essenziali per dare energia all'Energizing Orb"
+		""
+		"&l&6N.B.&r"
+		"&l&4NON&r &fInquadrare questo blocco mentre la gui di minecraft è disattivata, (&l&cF1&r&f), a causa di un bug il gioco potrebbe crashare&r"
+	]
+	quest.5F5B866003531CC7.quest_subtitle: "TIP: devono essere posizionati su cavi energetici!"
+	quest.701784AC3B7CC50E.quest_desc: ["Preleva (o inserisce) energia dalla (o nella) Ender Cell con la stessa frequenza ."]
+	quest.7A8569C741A8FBF5.title: "Gestione dell'Energia"
+	task.0B520B0BB9FE1577.title: "Solar_panel"
+	task.0F21F865C2FACAEC.title: "Energizing Rod"
+	task.14B62843831E78A5.title: "Furnator"
+	task.17C4426FF8A56FE3.title: "Reactor"
+	task.1D67FA394D2E0D9E.title: "Ender Gate"
+	task.1EAD344B2E94CFE5.title: "Energy Discharger"
+	task.299C7CBAC17DB778.title: "Ender Cell"
+	task.419E28A877014FB3.title: "Player Transmitter"
+	task.43A5CB757177296A.title: "Energy Cable"
+	task.4D9421B724C163E4.title: "Energy Hopper"
+	task.52D9EB8933E76802.title: "Thermo Generator"
+	task.53D871E0EBD6D628.title: "Energy Cell"
+	task.6409A7003ED335DF.title: "Basic Capacitor"
+	task.68554C29758C64DC.title: "Battery"
+	task.6F66FF677464938C.title: "I Tier"
+	task.75392F411A1D608E.title: "Magmator"
+}

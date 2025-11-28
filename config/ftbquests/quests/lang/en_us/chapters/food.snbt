@@ -1,0 +1,12 @@
+{
+	quest.33ADB31A4679D6B3.quest_desc: [
+		"Metti gli ingredienti dei piatti in questa nuova padella e impugna la tua spatula per iniziare il minigioco della cucina, rischi di bruciare tutto, ma puoi ottenere più porzioni dello stesso piatto!"
+		""
+		"{image:techacademy:textures/quests/cooking_mama.png width:160 height:100 align:center}"
+	]
+	quest.33ADB31A4679D6B3.title: "Cooking Mama!"
+	quest.720769427EB6CB28.title: "Cibo per il Cuore"
+	task.1919E95E131A22BF.title: "Any #c:tools/knife"
+	task.34EA039F7E38C90F.title: "Cibo Automatico"
+	task.448E50457CD32AE7.title: "Cuoco Provetto"
+}
