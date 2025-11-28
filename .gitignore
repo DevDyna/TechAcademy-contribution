@@ -55,3 +55,20 @@ config/screenshot_viewer-client.toml
 config/fabric/indigo-renderer.properties
 config/iris.properties
 .launchconfiguration.json
+configureddefaults/README.md
+/dynamic-data-pack-cache
+/dynamic-resource-pack-cache
+deleted_files.txt
+/essential/cosmetic-cache
+/essential/cache
+/essential/libraries
+/essential/loader
+/essential/lwjgl3-natives
+/essential/screenshot-cache
+/essential/Essential (neoforge_1.21.1).jar
+/essential/Essential (neoforge_1.21.1).jar.meta
+/essential/screenshot-checksum-caches.json
+/essential/version.json
+config/ftbquests/quests/lang/*.snbt
+config/ftbquests/quests/lang/recovery/*.snbt
+config/ftbquests/quests/lang/**/*.snbt_merged
