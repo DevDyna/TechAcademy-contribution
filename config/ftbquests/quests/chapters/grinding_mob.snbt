@@ -134,7 +134,7 @@
 			id: "63EAC47299F440D1"
 			tasks: [{
 				id: "4A6989657C85F796"
-				item: { count: 1, id: "enderio:empty_soul_vial" }
+				item: { count: 1, id: "enderio:soul_vial" }
 				type: "item"
 			}]
 			x: 4.5d

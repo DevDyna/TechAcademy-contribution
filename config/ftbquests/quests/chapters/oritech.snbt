@@ -231,7 +231,7 @@
 			tasks: [{
 				count: 6L
 				id: "3450995A9E76EA5F"
-				item: { count: 3, id: "oritech:item_pipe" }
+				item: { count: 1, id: "oritech:item_pipe" }
 				type: "item"
 			}]
 			x: -11.5d
@@ -244,17 +244,15 @@
 				count: 8
 				id: "17B595AA00B253FC"
 				item: {
-					components: {
-						"ftbquests:missing_item": "oritech:insulated_wire"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "immersiveengineering:raw_nickel"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "64CD7756FEE08F94"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:wires/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				count: 5L
+				id: "628452874FFEFFE5"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:ingots/nickel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -368,7 +366,7 @@
 			tasks: [
 				{
 					id: "681941EDE846D71E"
-					item: { count: 3, id: "minecraft:quartz" }
+					item: { count: 1, id: "minecraft:quartz" }
 					type: "item"
 				}
 				{
@@ -672,7 +670,7 @@
 			tasks: [{
 				count: 6L
 				id: "683F052EE4A6115A"
-				item: { count: 6, id: "oritech:energy_pipe" }
+				item: { count: 1, id: "oritech:energy_pipe" }
 				type: "item"
 			}]
 			x: -12.5d

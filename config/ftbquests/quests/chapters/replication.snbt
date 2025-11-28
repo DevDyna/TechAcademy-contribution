@@ -64,7 +64,7 @@
 				item: { count: 1, id: "replication:matter_tank" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -95,7 +95,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0D6944E6EF8E2672"]
@@ -115,7 +115,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -202,12 +202,24 @@
 			id: "6950C9A89C1B8F90"
 			min_width: 350
 			tasks: [{
-				id: "1DB3DEA7675F0B4D"
-				item: { count: 1, id: "rep_ae2_bridge:rep_ae2_bridge" }
+				id: "54762CBA29EE4B6F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(replication_rs2_bridge:rep_rs2_bridge)item(rep_ae2_bridge:rep_ae2_bridge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F77D28309B1C904"]
+			id: "3686D28E40220B3B"
+			min_width: 300
+			tasks: [{
+				id: "34627C9B89DB48CF"
+				item: { count: 1, id: "replication_matter_overflow:matter_void" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
 		}
 	]
 }

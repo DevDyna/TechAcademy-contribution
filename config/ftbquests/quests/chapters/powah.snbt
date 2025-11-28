@@ -301,6 +301,7 @@
 				id: "powah:wrench"
 			}
 			id: "34FF34BE6EECC2BA"
+			min_width: 300
 			shape: "square"
 			size: 2.0d
 			tasks: [{

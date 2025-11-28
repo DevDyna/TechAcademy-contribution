@@ -332,6 +332,7 @@
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
 			id: "29541D1F71E6A026"
+			min_width: 300
 			rewards: [{
 				id: "3B2DD11757F0F153"
 				item: {
@@ -652,6 +653,7 @@
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
 			id: "2B9C12EC646BE10D"
+			min_width: 300
 			rewards: [{
 				id: "6BFA1362F8FCB1AE"
 				item: {
@@ -688,6 +690,9 @@
 			}]
 			shape: "gear"
 			tasks: [{
+				icon: {
+					id: "minecraft:bedrock"
+				}
 				id: "66E273FD0D2EB565"
 				observe_type: 0
 				timer: 0L
@@ -700,6 +705,7 @@
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
 			id: "377CBAEB1D5FE594"
+			min_width: 300
 			rewards: [{
 				id: "08E382A159D87E86"
 				item: {
@@ -878,6 +884,7 @@
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
 			id: "2471B86146F5F9C9"
+			min_width: 300
 			rewards: [{
 				count: 8
 				id: "2F0F1757CE580FBF"
@@ -920,6 +927,7 @@
 		{
 			dependencies: ["3A06DAA6736EF1D4"]
 			id: "0D2519C47F64E33F"
+			min_width: 300
 			shape: "gear"
 			tasks: [{
 				id: "6C7D9791EAA96579"

@@ -31,7 +31,7 @@
 			tasks: [{
 				count: 15L
 				id: "0E8AEFE55D8E23E6"
-				item: { count: 14, id: "immersiveengineering:cokebrick" }
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -198,7 +198,7 @@
 			tasks: [{
 				count: 4L
 				id: "0DF08E1EDC758BD4"
-				item: { count: 4, id: "immersiveengineering:windmill_sail" }
+				item: { count: 1, id: "immersiveengineering:windmill_sail" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -262,7 +262,7 @@
 				{
 					count: 4L
 					id: "65948649A41CC337"
-					item: { count: 4, id: "immersiveengineering:treated_fence" }
+					item: { count: 1, id: "immersiveengineering:treated_fence" }
 					type: "item"
 				}
 			]
@@ -620,7 +620,7 @@
 			tasks: [{
 				count: 4L
 				id: "583B0C37F3A82476"
-				item: { count: 8, id: "immersiveengineering:alloybrick" }
+				item: { count: 1, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -646,7 +646,7 @@
 				{
 					count: 2L
 					id: "238945A2D6450694"
-					item: { count: 2, id: "immersiveengineering:conveyor_basic" }
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 					type: "item"
 				}
 				{
@@ -704,7 +704,7 @@
 			}]
 			tasks: [{
 				id: "66D23D86D3C02093"
-				item: { count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1074,7 +1074,7 @@
 				{
 					count: 5L
 					id: "10E5B2BD3E4BF1C0"
-					item: { count: 10, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
@@ -1085,19 +1085,19 @@
 				{
 					count: 5L
 					id: "7B2DAE3B569E556F"
-					item: { count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "32493A311A04CD55"
-					item: { count: 8, id: "immersiveengineering:steel_fence" }
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "667BD086F774CFE5"
-					item: { count: 9, id: "minecraft:hopper" }
+					item: { count: 1, id: "minecraft:hopper" }
 					type: "item"
 				}
 			]
@@ -1152,37 +1152,37 @@
 				{
 					count: 17L
 					id: "7D5C019D343B4F59"
-					item: { count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "2A4171FB0B1008C8"
-					item: { count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_steel" }
 					type: "item"
 				}
 				{
 					count: 14L
 					id: "0F0288849396D086"
-					item: { count: 14, id: "immersiveengineering:slab_sheetmetal_steel" }
+					item: { count: 1, id: "immersiveengineering:slab_sheetmetal_steel" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "68236D16F6F1A521"
-					item: { count: 6, id: "immersiveengineering:storage_steel" }
+					item: { count: 1, id: "immersiveengineering:storage_steel" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "261DEB653394325F"
-					item: { count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "482EF4715B5A03A5"
-					item: { count: 5, id: "immersiveengineering:heavy_engineering" }
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 					type: "item"
 				}
 				{
@@ -1198,7 +1198,7 @@
 				{
 					count: 5L
 					id: "0C2723B137722AE3"
-					item: { count: 10, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 			]
@@ -1234,18 +1234,18 @@
 				{
 					count: 2L
 					id: "20212E3D4D9750B2"
-					item: { count: 2, id: "immersiveengineering:fluid_pipe" }
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 					type: "item"
 				}
 				{
 					id: "211C3EA1ABA59EBC"
-					item: { count: 2, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "219089D7C09EC268"
-					item: { count: 4, id: "immersiveengineering:wooden_barrel" }
+					item: { count: 1, id: "immersiveengineering:wooden_barrel" }
 					type: "item"
 				}
 				{
@@ -1261,13 +1261,13 @@
 				{
 					count: 3L
 					id: "42B4D074A0A4E49F"
-					item: { count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "2E032B5F09806FB4"
-					item: { count: 3, id: "immersiveengineering:steel_fence" }
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
 					type: "item"
 				}
 			]
@@ -1373,25 +1373,25 @@
 				{
 					count: 6L
 					id: "546472B61AA38371"
-					item: { count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "3DAF3ADAEB430A03"
-					item: { count: 16, id: "immersiveengineering:sheetmetal_steel" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_steel" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "072907AA9B5E0A6A"
-					item: { count: 3, id: "immersiveengineering:radiator" }
+					item: { count: 1, id: "immersiveengineering:radiator" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "17D1B41D59223254"
-					item: { count: 9, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
@@ -1402,7 +1402,7 @@
 				{
 					count: 2L
 					id: "5275A3F65521E525"
-					item: { count: 4, id: "immersiveengineering:heavy_engineering" }
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 					type: "item"
 				}
 			]
@@ -1439,13 +1439,13 @@
 				{
 					count: 5L
 					id: "624236D51F3438FD"
-					item: { count: 5, id: "immersiveengineering:storage_steel" }
+					item: { count: 1, id: "immersiveengineering:storage_steel" }
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "1D3049F954B8D932"
-					item: { count: 15, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 			]
@@ -1494,13 +1494,13 @@
 				{
 					count: 5L
 					id: "4C77DD2ADF438138"
-					item: { count: 5, id: "immersiveengineering:fluid_pipe" }
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "6A1B0073910073B9"
-					item: { count: 2, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
@@ -1511,7 +1511,7 @@
 				{
 					count: 8L
 					id: "369CB877A9500637"
-					item: { count: 8, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
@@ -1522,7 +1522,7 @@
 				{
 					count: 4L
 					id: "37EF82298AED1388"
-					item: { count: 4, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 			]
@@ -1559,25 +1559,25 @@
 				{
 					count: 5L
 					id: "72171113E692DC25"
-					item: { count: 5, id: "immersiveengineering:fluid_pipe" }
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "21C56FC2B26CC8F1"
-					item: { count: 5, id: "immersiveengineering:radiator" }
+					item: { count: 1, id: "immersiveengineering:radiator" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "44E0E997E35F215E"
-					item: { count: 4, id: "immersiveengineering:generator" }
+					item: { count: 1, id: "immersiveengineering:generator" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "736D583F08FE36D4"
-					item: { count: 8, id: "immersiveengineering:heavy_engineering" }
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 					type: "item"
 				}
 				{
@@ -1588,7 +1588,7 @@
 				{
 					count: 6L
 					id: "3A13DE8C54D9C8C5"
-					item: { count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 			]
@@ -1633,7 +1633,7 @@
 				{
 					count: 2L
 					id: "5E5ED23BDB3AF328"
-					item: { count: 2, id: "immersiveengineering:fluid_pipe" }
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 					type: "item"
 				}
 				{
@@ -1649,19 +1649,19 @@
 				{
 					count: 4L
 					id: "62F4B73D7B7E649E"
-					item: { count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "1935FA46E1C5FB9D"
-					item: { count: 3, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "55EA61E1435D5538"
-					item: { count: 2, id: "minecraft:cauldron" }
+					item: { count: 1, id: "minecraft:cauldron" }
 					type: "item"
 				}
 			]
@@ -1772,19 +1772,19 @@
 				{
 					count: 4L
 					id: "2CBA5574F9AA552C"
-					item: { count: 4, id: "immersiveengineering:conveyor_basic" }
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "708E70232987C0C5"
-					item: { count: 3, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "03D26CA037E6DFC7"
-					item: { count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
@@ -1800,7 +1800,7 @@
 				{
 					count: 4L
 					id: "07597916C1EC3B31"
-					item: { count: 4, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
@@ -2155,19 +2155,19 @@
 				{
 					count: 3L
 					id: "59C2F6CBFE60B8D6"
-					item: { count: 3, id: "immersiveengineering:fluid_pipe" }
+					item: { count: 1, id: "immersiveengineering:fluid_pipe" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "640FE79011E6F65F"
-					item: { count: 4, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "03EC846AF27D5B95"
-					item: { count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
@@ -2178,7 +2178,7 @@
 				{
 					count: 5L
 					id: "238A85D6D13DA8A7"
-					item: { count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
@@ -2329,7 +2329,7 @@
 				{
 					count: 2L
 					id: "590C871DC72F7DD9"
-					item: { count: 2, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
@@ -2340,19 +2340,19 @@
 				{
 					count: 2L
 					id: "57B3812DC6E25EDA"
-					item: { count: 2, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "510968A578023994"
-					item: { count: 3, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "23368FCD0CBCC420"
-					item: { count: 3, id: "immersiveengineering:conveyor_basic" }
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 					type: "item"
 				}
 			]
@@ -2736,13 +2736,13 @@
 				{
 					count: 50L
 					id: "711008B15EEDD554"
-					item: { count: 50, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "1A1F8A1D8257A1A4"
-					item: { count: 4, id: "immersiveengineering:treated_fence" }
+					item: { count: 1, id: "immersiveengineering:treated_fence" }
 					type: "item"
 				}
 			]
@@ -2779,31 +2779,31 @@
 				{
 					count: 5L
 					id: "1BEF0BD99AA51B51"
-					item: { count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0A877D96470F8E57"
-					item: { count: 4, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "5AC1FDAC45E5DF1E"
-					item: { count: 4, id: "immersiveengineering:conveyor_basic" }
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "13D1E0D0F9D80BA9"
-					item: { count: 2, id: "immersiveengineering:heavy_engineering" }
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "3CEE6D0C7F5FF27D"
-					item: { count: 2, id: "immersiveengineering:slab_treated_wood_horizontal" }
+					item: { count: 1, id: "immersiveengineering:slab_treated_wood_horizontal" }
 					type: "item"
 				}
 				{
@@ -2854,37 +2854,37 @@
 				{
 					count: 9L
 					id: "3722C7B6A3A560CA"
-					item: { count: 9, id: "immersiveengineering:sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "73BB36923FF6507F"
-					item: { count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "6A32F94C101223CB"
-					item: { count: 6, id: "immersiveengineering:slab_sheetmetal_iron" }
+					item: { count: 1, id: "immersiveengineering:slab_sheetmetal_iron" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "3C39F6F716EA552B"
-					item: { count: 2, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "2762A5B85D6ACD2A"
-					item: { count: 2, id: "immersiveengineering:rs_engineering" }
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "558384DC40A2DE9D"
-					item: { count: 2, id: "immersiveengineering:conveyor_basic" }
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
 					type: "item"
 				}
 			]
@@ -2929,25 +2929,25 @@
 				{
 					count: 20L
 					id: "5B33707A58D5E22D"
-					item: { count: 20, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "004B848AB26A360A"
-					item: { count: 9, id: "immersiveengineering:concrete" }
+					item: { count: 1, id: "immersiveengineering:concrete" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "3875EF48271F4116"
-					item: { count: 5, id: "immersiveengineering:steel_window" }
+					item: { count: 1, id: "immersiveengineering:steel_window" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "2512298380EB8476"
-					item: { count: 3, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
@@ -2958,7 +2958,7 @@
 				{
 					count: 2L
 					id: "4819AF2136D0EAAB"
-					item: { count: 2, id: "immersiveengineering:resonanz_engineering" }
+					item: { count: 1, id: "immersiveengineering:resonanz_engineering" }
 					type: "item"
 				}
 				{
@@ -2969,7 +2969,7 @@
 				{
 					count: 4L
 					id: "4A0D60A9EFF3CC5B"
-					item: { count: 4, id: "immersiveengineering:steel_fence" }
+					item: { count: 1, id: "immersiveengineering:steel_fence" }
 					type: "item"
 				}
 			]
@@ -3015,49 +3015,49 @@
 				{
 					count: 76L
 					id: "190BB5500C413DAE"
-					item: { count: 76, id: "immersiveengineering:sheetmetal_aluminum" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_aluminum" }
 					type: "item"
 				}
 				{
 					count: 90L
 					id: "0839F90A1739499B"
-					item: { count: 90, id: "immersiveengineering:concrete" }
+					item: { count: 1, id: "immersiveengineering:concrete" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "7575FA85F6203AFF"
-					item: { count: 16, id: "immersiveengineering:slab_sheetmetal_aluminum" }
+					item: { count: 1, id: "immersiveengineering:slab_sheetmetal_aluminum" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "69E8915AAA23CE01"
-					item: { count: 2, id: "immersiveengineering:radiator" }
+					item: { count: 1, id: "immersiveengineering:radiator" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "7ADB1BFC496D012E"
-					item: { count: 6, id: "immersiveengineering:alu_fence" }
+					item: { count: 1, id: "immersiveengineering:alu_fence" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7D033E02E1A307A4"
-					item: { count: 2, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "48B7510480F110FE"
-					item: { count: 4, id: "immersiveengineering:sheetmetal_steel" }
+					item: { count: 1, id: "immersiveengineering:sheetmetal_steel" }
 					type: "item"
 				}
 				{
 					count: 11L
 					id: "583487FFFF8E0E39"
-					item: { count: 11, id: "immersiveengineering:rs_engineering" }
+					item: { count: 1, id: "immersiveengineering:rs_engineering" }
 					type: "item"
 				}
 			]
@@ -3103,37 +3103,37 @@
 				{
 					count: 4L
 					id: "4E66FE9644870699"
-					item: { count: 4, id: "immersiveengineering:capacitor_hv" }
+					item: { count: 1, id: "immersiveengineering:capacitor_hv" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "629CF0C14DC8B53B"
-					item: { count: 3, id: "immersiveengineering:coil_hv" }
+					item: { count: 1, id: "immersiveengineering:coil_hv" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "38691E9B32A9C8BE"
-					item: { count: 4, id: "immersiveengineering:light_engineering" }
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "743061BD55E44F7E"
-					item: { count: 8, id: "immersiveengineering:coil_lv" }
+					item: { count: 1, id: "immersiveengineering:coil_lv" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "4EE32747D315D2AC"
-					item: { count: 4, id: "immersiveengineering:steel_scaffolding_standard" }
+					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "3032D1F31AAF308B"
-					item: { count: 4, id: "immersiveengineering:treated_fence" }
+					item: { count: 1, id: "immersiveengineering:treated_fence" }
 					type: "item"
 				}
 			]

@@ -3482,7 +3482,7 @@
 				{
 					count: 4L
 					id: "2326A09067FE3DC3"
-					item: { count: 4, id: "ae2:spatial_pylon" }
+					item: { count: 1, id: "ae2:spatial_pylon" }
 					type: "item"
 				}
 			]

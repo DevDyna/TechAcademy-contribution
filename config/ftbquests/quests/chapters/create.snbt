@@ -209,7 +209,7 @@
 				}
 				{
 					id: "602A6B1D9A2E11A4"
-					item: { count: 8, id: "create:white_sail" }
+					item: { count: 1, id: "create:white_sail" }
 					type: "item"
 				}
 			]

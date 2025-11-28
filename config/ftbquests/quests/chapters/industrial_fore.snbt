@@ -12,10 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5424BD3317414183"
-				"024338359C75CD80"
-			]
+			dependencies: ["024338359C75CD80"]
 			icon: {
 				id: "industrialforegoing:latex_processing_unit"
 			}
@@ -48,6 +45,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["62C3DD5C170B9991"]
 			id: "5424BD3317414183"
 			rewards: [{
 				id: "71027B2BC9F1E5A0"
@@ -62,7 +60,7 @@
 				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
