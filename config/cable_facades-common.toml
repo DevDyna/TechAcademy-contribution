@@ -20,3 +20,5 @@ lastConfigVersion = 0
 added_blocks = ["refinedstorage:cable", "refinedstorage:importer", "refinedstorage:exporter", "toms_storage:inventory_cable", "industrialforegoingsouls:soul_network_pipe", "industrialforegoingsouls:soul_surge"]
 #List of blocks from the previous version. Do not modify manually.
 last_version_blocks = []
+#Whether new blocks for the config should be fetched from the network.
+auto_update_config = true
