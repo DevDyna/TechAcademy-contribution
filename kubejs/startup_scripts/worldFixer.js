@@ -14,7 +14,8 @@ StartupEvents.registry('block', event => {
     "railcraft:lead_ore",
     "railcraft:saltpeter_ore",
     "railcraft:minecart_rolling_stock",
-    "railcraft:quarried_stone"
+    "railcraft:quarried_stone",
+    "biomeswevegone:skyrise_vale"
   ];
 
   blocchiDaSostituire.forEach(bid => {
