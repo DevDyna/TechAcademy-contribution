@@ -14,27 +14,21 @@
 		{
 			dependencies: ["5E68C97FCEDE57A9"]
 			id: "2FA74528348FA5D9"
-			rewards: [{
-				id: "616C070E66278882"
-				item: {
-					count: 1
-					id: "hostilenetworks:blank_data_model"
-				}
-				type: "item"
-			}]
+			min_width: 400
 			shape: "square"
 			size: 2.0d
 			tasks: [{
-				id: "7B5B34B461523FA7"
-				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				id: "4FC92E75F1F92912"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["786452B4388E25B4"]
 			id: "7AF7468A8624E5D2"
+			min_width: 400
 			rewards: [{
 				id: "573716C9397DCCA0"
 				item: {
@@ -48,7 +42,7 @@
 				item: { count: 1, id: "hostilenetworks:sim_chamber" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -68,11 +62,11 @@
 				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["2FA74528348FA5D9"]
+			dependencies: ["51C1B4B190A4C1E0"]
 			id: "786452B4388E25B4"
 			rewards: [{
 				count: 16
@@ -88,7 +82,7 @@
 				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -108,7 +102,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -7.5d
 		}
 		{
@@ -134,7 +128,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -7.5d
 		}
 		{
@@ -154,7 +148,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -7.5d
 		}
 		{
@@ -174,7 +168,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -7.5d
 		}
 		{
@@ -194,7 +188,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: -7.5d
 		}
 		{
@@ -214,7 +208,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -7.5d
 		}
 		{
@@ -234,7 +228,7 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
@@ -248,7 +242,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:prediction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
@@ -260,8 +254,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:end_prediction)item(hostilenetworks:nether_prediction)item(hostilenetworks:overworld_prediction))", "minecraft:custom_name": "\"Generalized Prediction\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7BB83DDA5A5EA2E9"]
@@ -271,20 +265,228 @@
 				id: "5CB05CAACB4B92BD"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["34BFB0DFBAA8FD92"]
 			id: "3DCDB13967F5C2D9"
+			min_width: 400
 			optional: true
 			tasks: [{
 				id: "3FCC64828C154C9A"
 				item: { count: 1, id: "hostilenetworks:fab_directive" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3C4B1CC118CC84AA"
+				"7AF7468A8624E5D2"
+			]
+			id: "088ED2952B5452B8"
+			tasks: [{
+				id: "3DBE8825C7348379"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v1" }
+				type: "item"
+			}]
+			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2FA74528348FA5D9"]
+			id: "3C4B1CC118CC84AA"
+			tasks: [{
+				id: "0264DF8B59C92BF1"
+				item: { count: 1, id: "extrahnn:blank_extra_data_model" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3C4B1CC118CC84AA"
+				"34BFB0DFBAA8FD92"
+			]
+			id: "4DA0AB76489A9D80"
+			tasks: [{
+				id: "5FB3FE3124DB6F52"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v1" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["088ED2952B5452B8"]
+			id: "34C7A22E1228988F"
+			tasks: [{
+				id: "7D2659238798D807"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v2" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34C7A22E1228988F"]
+			id: "56C83FF006779121"
+			tasks: [{
+				id: "7C0DE5D8F678FA3D"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v3" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56C83FF006779121"]
+			id: "56AB7227DF05C64C"
+			tasks: [{
+				id: "4109B387B4958CDC"
+				item: { count: 1, id: "extrahnn:ultimate_sim_chamber_v4" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DA0AB76489A9D80"]
+			id: "26B3862D6A9A08FA"
+			tasks: [{
+				id: "4F644063A8512073"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v2" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26B3862D6A9A08FA"]
+			id: "4E1376E724F617F2"
+			tasks: [{
+				id: "4F446CBCC310850F"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v3" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E1376E724F617F2"]
+			id: "7A3B9F75B1CB336C"
+			tasks: [{
+				id: "693A4D97ADEB806F"
+				item: { count: 1, id: "extrahnn:ultimate_loot_fabricator_v4" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C4B1CC118CC84AA"]
+			id: "18CF9E74CF4AF909"
+			rewards: [{
+				id: "54C7F0C8DD3C8A33"
+				item: {
+					count: 1
+					id: "extrahnn:upgrade_speed"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12BB0E9157828136"
+				item: { count: 1, id: "extrahnn:upgrade_speed" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C4B1CC118CC84AA"]
+			id: "7C00A9826D558B07"
+			tasks: [{
+				id: "2C15FBECBF3B4D62"
+				item: { count: 1, id: "extrahnn:upgrade_module_stack" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C4B1CC118CC84AA"]
+			id: "7FC4EB01BEF98950"
+			tasks: [{
+				id: "4B55A22B9113B56F"
+				item: { count: 1, id: "extrahnn:upgrade_data_kill" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C4B1CC118CC84AA"
+				"3DCDB13967F5C2D9"
+			]
+			id: "63BE141162850E13"
+			min_width: 400
+			tasks: [{
+				id: "32954A4073FE33D3"
+				item: { count: 1, id: "extrahnn:setting_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C4B1CC118CC84AA"]
+			id: "44A0F4F0301428F6"
+			min_width: 400
+			tasks: [{
+				id: "2E3D69B2AE14C4E0"
+				item: { count: 1, id: "extrahnn:merger_camera" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"51C1B4B190A4C1E0"
+				"44A0F4F0301428F6"
+			]
+			id: "68395D61D0A8810A"
+			tasks: [{
+				id: "04E10EA89E2B6C91"
+				item: { count: 1, id: "extrahnn:simulator_modeling" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FA74528348FA5D9"]
+			id: "51C1B4B190A4C1E0"
+			min_width: 400
+			rewards: [{
+				id: "70AA898B48C01BA6"
+				item: {
+					count: 1
+					id: "hostilenetworks:blank_data_model"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "218D86C1476CAA53"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
 		}
 	]
 }

@@ -1,9 +1,114 @@
 {
+	quest.088ED2952B5452B8.quest_desc: [
+		"Una versione avanzata della &l&#00a27aSimulation Chamber&r base, possiede anche più slot di output rispetto ad essa."
+		""
+		"Usa più energia ma al contempo è capace di creare 4 &lPredictions&r alla volta."
+		""
+		"&6&lN.B.: Non si puo usare con i modelli base, ma solo con i modelli combinati introdotti da questo add-on.&r"
+	]
 	quest.11C0A65737D20782.quest_desc: ["Sono scarti della &l&9Simulation Chamber&r che permettono di craftare alcuni blocchi o item appartenenti alla dimensione corrispondente"]
-	quest.2FA74528348FA5D9.quest_desc: ["Clicca con un Model Framework col tasto destro su un mob e quando cambia forma, inseriscilo nel Deep Learner. Ora puoi uccidere i mostri e farlo livellare."]
-	quest.3DCDB13967F5C2D9.quest_desc: ["Usando questo item è possibile copiare la configurazione di un loot fabricator, per applicarla poi a molti altri loot fabricator"]
+	quest.18CF9E74CF4AF909.quest_desc: ["Upgrade per il &l&#906da4Simulator Modeling&r, per ogni upgrade inserito il tempo di dimezza Ma il consumo di energia raddoppia."]
+	quest.26B3862D6A9A08FA.quest_desc: [
+		"Una versione avanzata dell'&l&#318263Ultimate Loot Fabricator V1&r."
+		""
+		"Usa più energia ma al contempo è più veloce a produrre drop."
+	]
+	quest.2FA74528348FA5D9.quest_desc: [
+		"[\"Clicca con un Model Framework con \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"},\"tasto destro su un mob e quando cambia forma, inseriscilo nel Deep Learner.\"]"
+		""
+		"Ora puoi uccidere i mostri e farlo livellare (circa), per capire cosa altro fare procedi nelle quest."
+	]
+	quest.34BFB0DFBAA8FD92.quest_desc: ["Produce drop, in numero variabile, a partire da una &lPrediction&r"]
+	quest.34C7A22E1228988F.quest_desc: [
+		"dUna versione avanzata dell'&l&#318263Ultimate Simulation Chamber V1&r."
+		""
+		"Usa più energia ma al contempo è capace di creare 16 &lPredictions&r alla volta."
+		""
+		"&6&lN.B.: Non si puo usare con i modelli base, ma solo con i modelli combinati introdotti da questo add-on.&r"
+	]
+	quest.3791A9EB5FCA88CB.quest_desc: ["Queste sono una serie di prediction (e di conseguenza model) consigliate, possono tornare utili per farmare cose altrimenti difficili (o vanillose) da farmare"]
+	quest.3C4B1CC118CC84AA.quest_desc: ["Una versione avanzata del Framework di base, esattamente come il framework di base, è un core item dell'addon. Permette la crezione degli &l&#ea986cExtra Model&r, utilizzabili poi in una &l&#00a27aUltimate Simulation Chamber&r."]
+	quest.3DCDB13967F5C2D9.quest_desc: [
+		"Usando questo item è possibile copiare la configurazione di un loot fabricator, per applicarla poi a molti altri loot fabricator"
+		""
+		"[\"- \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"},\" su un fabricator per copiare la configurazione\"]"
+		"[\"- \",{\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"},\" + \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"},\" su un fabricator per applicare la configurazione\"]"
+	]
 	quest.3DCDB13967F5C2D9.quest_subtitle: "Farmare su larga scala"
+	quest.44A0F4F0301428F6.quest_desc: [
+		"Permette di unire più modelli base di livello &l&6Self Aware&r per ottenere un modello multiplo chiamato &l&#ea986cExtra Model&r."
+		""
+		"I livelli di questi nuovi tipi di model sono:"
+		"- &l&bAutonoumus&r: Bassa probabilità di ottenere &lPredictions&r"
+		"- &l&3Intelligent&r: Maggiore possibilità di ottenere &lPredictions&r"
+		"- &l&cAdvanced&r: Maggiore possibilità di ottenere &lPredictions&r"
+		"- &l&4Synthetic&r: Maggiore possibilità di ottenere &lPredictions&r"
+		"- &l&5Omnipotent&r: Produce sempre &lPredictions&r"
+	]
+	quest.4DA0AB76489A9D80.quest_desc: [
+		"Una versione avanzata del &l&#fc7700Loot Fabricator&r base."
+		""
+		"Usa più energia ma al contempo è più veloce a produrre drop."
+	]
+	quest.4E1376E724F617F2.quest_desc: [
+		"Una versione avanzata dell'&l&#e9273eUltimate Loot Fabricator V2&r."
+		""
+		"Usa più energia ma al contempo è più veloce a produrre drop."
+	]
+	quest.51C1B4B190A4C1E0.quest_desc: [
+		"Il &l&#ad00fbDeep Learner&r è il dispositivo che allena i &l&#00fcbeData Model&r: lo tieni in mano o nello slot curio e, mentre uccidi i mob associati ai modelli inseriti, questi accumulano &o&9Data&r e salgono di livello. Per inserire in esso i &l&#00fcbeData Model&r basta aprire il Deep Learner come un qualsiasi item interagibile in minecraft"
+		"[\"Ovvero usando il \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"},\"\"]"
+		""
+		"I livelli sono:"
+		"- &l&8Faulty&r: Nessuna probabilità di ottenere &lPredictions&r"
+		"- &l&aBasic&r: Maggiore possibilità di ottenere &lPredictions&r"
+		"- &l&9Advanced&r: Maggiore possibilità di ottenere &lPredictions&r"
+		"- &l&dSuperior&r: Maggiore possibilità di ottenere &lPredictions&r"
+		"- &l&6Self Aware&r: Produce sempre &lPredictions&r"
+	]
+	quest.56AB7227DF05C64C.quest_desc: [
+		"Una versione avanzata dell'&l&#6f92fcUltimate Simulation Chamber V3&r."
+		""
+		"Usa più energia ma al contempo è capace di creare 64 &lPredictions&r alla volta."
+		""
+		"&6&lN.B.: Non si puo usare con i modelli base, ma solo con i modelli combinati introdotti da questo add-on.&r"
+	]
+	quest.56C83FF006779121.quest_desc: [
+		"Una versione avanzata dell'&l&#e9273eUltimate Simulation Chamber V2&r."
+		""
+		"Usa più energia ma al contempo è capace di creare 32 &lPredictions&r alla volta."
+		""
+		"&6&lN.B.: Non si puo usare con i modelli base, ma solo con i modelli combinati introdotti da questo add-on.&r"
+	]
+	quest.63BE141162850E13.quest_desc: [
+		"Una Versione Avanzata della &l&#61d5fcFarbication Directive&r, esattamente come il base, ma funziona anche con i &l&#fc7700Ultimate Loot Fabricator&r."
+		""
+		"[\"- \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"},\" su un fabricator per copiare la configurazione\"]"
+		"[\"- \",{\"keybind\":\"key.sneak\",\"bold\":true,\"color\":\"red\"},\" + \",{\"keybind\":\"key.use\",\"bold\":true,\"color\":\"red\"},\" su un fabricator per applicare la configurazione\"]"
+	]
+	quest.68395D61D0A8810A.quest_desc: ["Macchinario che permette di allenare i &l&#00fcbeData Model&r, senza uccidere nessun Mob e senza generare &lPredictions&r a vuoto, ma a discapito di Tanta energia."]
+	quest.786452B4388E25B4.quest_desc: ["Un materiale essenziale per la &l&#00a27aSimulation Chamber&r, possiamo considerarla quasi come un fuel."]
+	quest.7A3B9F75B1CB336C.quest_desc: [
+		"Una versione avanzata dell'&l&#6f92fcUltimate Loot Fabricator V3&r."
+		""
+		"Usa più energia ma al contempo è più veloce a produrre drop."
+	]
+	quest.7AF7468A8624E5D2.quest_desc: [
+		"Con un &l&#00fcbeModel&r di almeno livello &l&aBasic&r e un afflusso costante di Matrix, sarà possibile produrre Predictions."
+		""
+		"La quantità generata varia in base al livello del &l&#00fcbeModel&r. Le &lPrediction&r possono poi essere convertite nei drop del mob associato."
+		""
+		"Ad ogni iterazione, il macchinario produce anche uno scarto: una &lGeneralized Prediction&r."
+		""
+		"Queste possono comunque avere una loro utilità, quindi potrebbe essere conveniente conservarne una certa quantità oppure eliminarle quando necessario."
+		""
+		"Da notare che ogni iterazione aumenta gradualmente la quantità di Data e, nel lungo periodo, il livello del &l&#00fcbeModel&r."
+		""
+		"&6&lN.B.: Una Simulation Chamber piena di Prediction o &lGeneralized Prediction smette di funzionare, interrompendo il ciclo di produzione.&r"
+	]
 	quest.7BB83DDA5A5EA2E9.quest_desc: ["In base al mob corrispondente permettono di generare uno o più dei suoi drop usando il &l&9Loot Fabricator&r"]
+	quest.7C00A9826D558B07.quest_desc: ["Permette di portare un model direttamente al modello successivo ma usando 10000000 FE/T"]
+	quest.7FC4EB01BEF98950.quest_desc: ["Upgrade per il &l&#906da4Simulator Modeling&r, per ogni upgrade inserito raddoppia il numero di &o&9Data&r aggiunti al model."]
 	task.4CADDE2AE7A15590.title: "Le Predictions"
 	task.5CB05CAACB4B92BD.title: "Prediction Consigliate"
 }
