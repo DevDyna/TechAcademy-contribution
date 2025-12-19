@@ -1,8 +1,8 @@
-const langs = [
+const tooltipLangs = [
   "en_us",
   "it_it"
 ];
-const tooltipsLangs = {
+const tooltipsStrings = {
   //-------------------------------------------// compact machines
   "machine.compactmachines.colossal": [
     "Compact Machine - Colossal - (13x13x13) ",
@@ -59,17 +59,35 @@ const tooltipsLangs = {
     "Shift-Right Click on a block to pick-up as item form",
     "Shift-Right Click su un blocco per prenderlo in forma di item",
   ],
+  //-------------------------------------------// unfixable problem with replicaAE2bridge
+  "item.techacademy.replica_ae2bridge.tip1": [
+    "§c§lWARNING: May cause CRASHES and FREEZES§r",
+    "§c§lATTENZIONE: Può causare CRASH e FREEZE§r",
+  ],
+  "item.techacademy.replica_ae2bridge.tip2": [  
+    "§c§lplacing this block in a compact machine!§r",
+    "§c§lpiazzando questo blocco in una compact machine!§r",
+  ],
+  //-------------------------------------------// extra hostile neural network stacking problem
+  "item.techacademy.extrahann_upgrade.tip1": [
+    "§e§lWARNING: Using more than one upgrade§r",
+    "§e§lATTENZIONE: Usare più di un upgrade§r",
+  ],
+  "item.techacademy.extrahann_upgrade.tip2": [
+    "§e§lwill not increase anything, use only one!§r",
+    "§e§lnon aumenterà nulla, usane solo uno!§r",
+  ],
 }
 
-langs.forEach((lang, langIndex) => {
+guiLangs.forEach((lang, langIndex) => {
   ClientEvents.lang(lang, (event) => {
-    let tooltipText;
-    Object.keys(tooltipsLangs).forEach((entry) => {
-      if (typeof tooltipsLangs[entry][langIndex] === "")
-        tooltipText = "MISSING TRANSLATION";
+    let text;
+    Object.keys(tooltipsStrings).forEach((entry) => {
+      if (typeof tooltipsStrings[entry][langIndex] === "")
+        text = "MISSING TRANSLATION";
       else
-        tooltipText = tooltipsLangs[entry][langIndex];
-      event.add(entry, tooltipText);
+        text = tooltipsStrings[entry][langIndex];
+      event.add(entry, text);
     });
   });
 })
