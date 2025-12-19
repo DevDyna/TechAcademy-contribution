@@ -56,16 +56,15 @@
 	]
 	quest.136483920DF38D4D.quest_subtitle: "Si Volaaa!"
 	quest.13B66212938DF616.quest_desc: [
-		"Si effettivamente è una mezza vanillata, ma con la &l&cPen&r (e la &l&cQuill&r che consuma la redsone presente in inventario):"
+		"La redstone è figa ma la fisica vanilla fa cagare? Ben detto! Ed è qui che ci viene in soccorso, la cara vecchia &l&#FF050AProject Red&r"
 		" "
-		"1. Permette di &ogestire MOLTO meglio&r la redstone"
-		"2. Permette di piazzarla in &overticale&r sui muri"
-		"e 3. In più Aggiunge delle varianti di &l&cButton&r e &l&cLever&r che non fanno mai male, con qualche Gate (qui chiamati &l&cRelay&r) e una gestione della redstone wireless tramite il &l&cRemote&r, che in un mondo di macchine gestibili via redstone, può essere una manna dal cielo, soprattutto per alcune automazioni"
-		""
-		"&l&6N.B.:&r"
-		"&6Per maggiori informazioni leggere il tooltip presenti per ogni item&r"
+		"1. Permette di &ogestire MOLTO meglio&r la redstone, addio 15 blocchi di segnale, benvenuto raggio infinito (ovviamente è sempre possibile giocare con i livelli di redstone ma in altri modi)."
+		"2. Permette di piazzarla in &#FF050Averticale&r sui muri, e di avere linee parallele senza che si toccano grazie ai cavi isolati, per i più tecnici si arriva addirittura ai cavi multiplexati"
+		"3. Poi aggiunge un infinità di gate dai classici or, not ed and, a quelli più particolari come sensori, repeater maggiorati, e molto altro. Ed per chi vuole c'è anche la possibilità di creare gate custom."
+		"4. In più aggiunge tutta una serie di oggetti e blocchi funzionali che spaziano dai tool, all'esplorazione, all'illuminazione, secondari rispetto a tutto l'ambito redstone ma comunque molto validi"
 	]
-	quest.13B66212938DF616.quest_subtitle: "Vanillata?"
+	quest.13B66212938DF616.quest_subtitle: "Redstone Vanilla?"
+	quest.13B66212938DF616.title: ""
 	quest.1930C82242954EB8.quest_desc: [
 		"Una evoluzione delle Cell, può essere piazzata in world e generare lentamente, di conseguenza è affetta da strumenti di time speed come la Industrial Souls"
 		""

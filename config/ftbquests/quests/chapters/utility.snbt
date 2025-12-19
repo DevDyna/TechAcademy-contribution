@@ -862,7 +862,7 @@
 		{
 			dependencies: ["758C7AAFB2F22843"]
 			icon: {
-				id: "redstonepen:quill"
+				id: "projectred_transmission:red_insulated_wire"
 			}
 			id: "13B66212938DF616"
 			min_width: 350
@@ -876,8 +876,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "02CFE51A4F0B3A89"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(redstonepen))", "minecraft:custom_name": "\"Restone Pen\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "4889722429F1F2F3"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(projectred_core)mod(projectred_expansion)mod(projectred_exploration)mod(projectred_fabrication)mod(projectred_illumination)mod(projectred_integration)mod(projectred_transmission))", "minecraft:custom_name": "\"Project Red\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.0d
