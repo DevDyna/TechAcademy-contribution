@@ -146,6 +146,9 @@
   "oritech": {
     "machine_core_controller": true
   },
+  "mekajadeupgrade": {
+    "upgrades": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
