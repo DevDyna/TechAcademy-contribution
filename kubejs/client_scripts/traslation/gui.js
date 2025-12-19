@@ -1,27 +1,33 @@
-const guiLangs = {
-  _key: [
-    //-------------------------------------------// buttons
-    "techacademy.continue_button.key",
-    "techacademy.continue_button_hover.key"
-  ],
-  en_us: [
-    //-------------------------------------------// buttons
+const guiLangs = [
+  "en_us",
+  "it_it"
+];
+
+const guiStrings ={
+  //-------------------------------------------// continue button
+  "techacademy.continue_button.key": [
     "Continue",
-    "Enter in",
-  ],
-  it_it: [
-    //-------------------------------------------// buttons
     "Continua",
+  ],
+  "techacademy.continue_button_hover.key": [
+    "Enter in",
     "Entra in"
   ],
-};
+}
 
-//Convert all _key traslation keys on virtual lang files to reduce multiple json
-Object.keys(guiLangs).forEach((entry) => {
-  if (entry == "_key") return;
-  ClientEvents.lang(entry, (event) => {
-    guiLangs._key.forEach((key, index) => {
-      event.add(key, guiLangs[entry][index]);
+
+guiLangs.forEach((lang, langIndex) => {
+  ClientEvents.lang(lang, (event) => {
+    let text;
+    Object.keys(guiStrings).forEach((entry) => {
+      if (typeof guiStrings[entry][langIndex] === "")
+        text = "MISSING TRANSLATION";
+      else
+        text = guiStrings[entry][langIndex];
+      event.add(entry, text);
     });
   });
-});
+})
+
+
+

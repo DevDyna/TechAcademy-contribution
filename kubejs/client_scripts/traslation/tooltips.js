@@ -1,70 +1,76 @@
+const langs = [
+  "en_us",
+  "it_it"
+];
 const tooltipsLangs = {
-  _key: [
-    //-------------------------------------------// compact machines
-    "machine.compactmachines.colossal",
-    "machine.compactmachines.giant",
-    "machine.compactmachines.large",
-    "machine.compactmachines.normal",
-    "machine.compactmachines.small",
-    "machine.compactmachines.soaryn",
-    "machine.compactmachines.farming",
-    "machine.compactmachines.tiny",
-    //-------------------------------------------// kubejs oredic
-    "item.techacademy.ore_dictionary.tooltip1",
-    "item.techacademy.ore_dictionary.tooltip2",
-    //-------------------------------------------// easy mods
-    "item.techacademy.easy_villagers.desc",
-    "item.techacademy.easy_piglins.desc",
-    //-------------------------------------------// newblock
-    "item.techacademy.newblock.tip",
-  ],
-  en_us: [
-    //-------------------------------------------// compact machines
+  //-------------------------------------------// compact machines
+  "machine.compactmachines.colossal": [
     "Compact Machine - Colossal - (13x13x13) ",
+    "Compact Machine - Colossal - (13x13x13) ",
+  ],
+  "machine.compactmachines.giant": [
     "Compact Machine - Giant - (11x11x11)",
+    "Compact Machine - Giant - (11x11x11)",
+  ],
+  "machine.compactmachines.large": [
     "Compact Machine - Large - (9x9x9)",
+    "Compact Machine - Large - (9x9x9)",
+  ],
+  "machine.compactmachines.normal": [
     "Compact Machine - Normal - (7x7x7)",
+    "Compact Machine - Normal - (7x7x7)",
+  ],
+  "machine.compactmachines.small": [
     "Compact Machine - Small - (5x5x5)",
+    "Compact Machine - Small - (5x5x5)",
+  ],
+  "machine.compactmachines.soaryn": [
     "Compact Machine - Soaryn - (45x45x45)",
+    "Compact Machine - Soaryn - (45x45x45)",
+  ],
+  "machine.compactmachines.farming": [
     "Compact Machine - Farming - (21x11x21)",
+    "Compact Machine - Farming - (21x11x21)",
+  ],
+  "machine.compactmachines.tiny": [
     "Compact Machine - Tiny - (3x3x3)",
-    //-------------------------------------------// kubejs oredic
+    "Compact Machine - Tiny - (3x3x3)",
+  ],
+  //-------------------------------------------// kubejs oredic
+  "item.techacademy.ore_dictionary.tooltip1": [
     "Allows you to §oconvert§r an item in its §ounified version§r based on its tags",
-    "§e§lUseful after updates in case of pack changes at the unification system§r",
-    //-------------------------------------------// easy mods
-    "Shift-Right Click on a villager to pick-up as item form",
-    "Shift-Right Click on a piglin during you are holding something of gold to pick-up as item form",
-    //-------------------------------------------// newblock
-    "This texture may change in the future",
-  ],
-  it_it: [
-    // to traslate (?)
-    //-------------------------------------------// compact machines
-    "Compact Machine - Colossal - (13x13x13) ",
-    "Compact Machine - Giant - (11x11x11)",
-    "Compact Machine - Large - (9x9x9)",
-    "Compact Machine - Normal - (7x7x7)",
-    "Compact Machine - Small - (5x5x5)",
-    "Compact Machine - Soaryn - (45x45x45)",
-    "Compact Machine - Farming - (21x11x21)",
-    "Compact Machine - Tiny - (3x3x3)",
-    //-------------------------------------------// kubejs oredic
     "Permette di §oconvertire§r un elemento nella sua versione §ounificata§r in base ai suoi tag",
-    "§e§lUtile dopo gli aggiornamenti, in caso di modifiche del pacchetto nel sistema di unificazione§r",
-    //-------------------------------------------// easy mods
-    "Shift-Right Click su un villico per prenderlo in forma di item",
-    "Shift-Right Click su un piglin nel mentre hai qualcosa di oro per prenderlo in forma di item",
-    //-------------------------------------------// newblock
-    "Questa texture potrebbe cambiare in futuro",
   ],
-};
+  "item.techacademy.ore_dictionary.tooltip2": [
+    "§e§lUseful after updates in case of pack changes at the unification system§r",
+    "§e§lUtile dopo gli aggiornamenti, in caso di modifiche del pacchetto nel sistema di unificazione§r",
+  ],
+  //-------------------------------------------// easy mods
+  "item.techacademy.easy_villagers.desc": [
+    "Shift-Right Click on a villager to pick-up as item form",
+    "Shift-Right Click su un villico per prenderlo in forma di item",
+  ],
+  "item.techacademy.easy_piglins.desc": [
+    "Shift-Right Click on a piglin to pick-up as item form",
+    "Shift-Right Click su un piglin per prenderlo in forma di item",
+  ],
+  //-------------------------------------------// newblock
+  "item.techacademy.newblock.tip": [
+    "Shift-Right Click on a block to pick-up as item form",
+    "Shift-Right Click su un blocco per prenderlo in forma di item",
+  ],
+}
 
-//Convert all _key traslation keys on virtual lang files to reduce multiple json
-Object.keys(tooltipsLangs).forEach((entry) => {
-  if (entry == "_key") return;
-  ClientEvents.lang(entry, (event) => {
-    tooltipsLangs._key.forEach((key, index) => {
-      event.add(key, tooltipsLangs[entry][index]);
+langs.forEach((lang, langIndex) => {
+  ClientEvents.lang(lang, (event) => {
+    let tooltipText;
+    Object.keys(tooltipsLangs).forEach((entry) => {
+      if (typeof tooltipsLangs[entry][langIndex] === "")
+        tooltipText = "MISSING TRANSLATION";
+      else
+        tooltipText = tooltipsLangs[entry][langIndex];
+      event.add(entry, tooltipText);
     });
   });
-});
+})
+
