@@ -58,9 +58,9 @@
 	quest.13B66212938DF616.quest_desc: [
 		"La redstone è figa ma la fisica vanilla fa cagare? Ben detto! Ed è qui che ci viene in soccorso, la cara vecchia &l&#FF050AProject Red&r"
 		" "
-		"1. Permette di &ogestire MOLTO meglio&r la redstone, addio 15 blocchi di segnale, benvenuto raggio infinito (ovviamente è sempre possibile giocare con i livelli di redstone ma in altri modi)."
-		"2. Permette di piazzarla in &#FF050Averticale&r sui muri, e di avere linee parallele senza che si toccano grazie ai cavi isolati, per i più tecnici si arriva addirittura ai cavi multiplexati"
-		"3. Poi aggiunge un infinità di gate dai classici or, not ed and, a quelli più particolari come sensori, repeater maggiorati, e molto altro. Ed per chi vuole c'è anche la possibilità di creare gate custom."
+		"1. Permette di gestire &l&#FF050AMOLTO&r meglio la redstone, addio 15 blocchi di segnale, benvenuto raggio infinito (ovviamente è sempre possibile giocare con i livelli di redstone ma in altri modi)."
+		"2. Permette di piazzarla in &l&#FF050Averticale&r sui muri, e di avere linee parallele senza che si toccano grazie ai cavi isolati, per i più tecnici si arriva addirittura ai cavi multiplexati"
+		"3. Poi aggiunge un infinità di &l&#FF050Agate&r dai classici or, not ed and, a quelli più particolari come sensori, repeater maggiorati, e molto altro. E per chi vuole c'è anche la possibilità di creare gate custom."
 		"4. In più aggiunge tutta una serie di oggetti e blocchi funzionali che spaziano dai tool, all'esplorazione, all'illuminazione, secondari rispetto a tutto l'ambito redstone ma comunque molto validi"
 	]
 	quest.13B66212938DF616.quest_subtitle: "Redstone Vanilla?"
