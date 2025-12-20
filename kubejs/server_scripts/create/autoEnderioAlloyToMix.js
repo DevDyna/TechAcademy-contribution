@@ -2,7 +2,8 @@ ServerEvents.recipes((event) => {
   event.forEachRecipe({ type: "enderio:alloy_smelting" }, (recipe) => {
     if (
       !recipe.getId().includes("kjs:") &&
-      !recipe.getId().includes("oritech:compat/")
+      !recipe.getId().includes("oritech:compat/") &&
+      !recipe.getId().includes("productivebees:")  //unitl component will be handled
     ) {
       let originalRecipe = JSON.parse(recipe.json);
 
@@ -37,12 +38,10 @@ ServerEvents.recipes((event) => {
 
       finalrecipe["results"].push({
         count: result["count"],
-        item: {
-          id:
-            "id" in result
-              ? getItemOutput(result["id"]).getId()
-              : getTagOutput(result["tag"]).getId(),
-        },
+        id:
+          "id" in result
+            ? getItemOutput(result["id"]).getId()
+            : getTagOutput(result["tag"]).getId(),
       });
 
       // esclusione brass gia presente

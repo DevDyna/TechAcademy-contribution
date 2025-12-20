@@ -6,8 +6,8 @@ ServerEvents.recipes((event) => {
     ) {
       let originalRecipe = JSON.parse(recipe.json);
 
-      let result = immersiveOutputHelper(originalRecipe);
       let inputs = immersiveInputHelper(originalRecipe);
+      let result = immersiveOutputHelper(originalRecipe);
 
       let finalrecipe = {
         type: "create:mixing",
@@ -31,16 +31,14 @@ ServerEvents.recipes((event) => {
 
       finalrecipe["results"].push({
         count: result["count"],
-        item: {
-          id:
-            "item" in result
-              ? result["item"]
-              : AlmostUnified.getTagTargetItem(result["tag"]).getId(),
-        },
+        id:
+          "item" in result
+            ? getItemOutput(result["item"]).getId()
+            : getTagOutput(result["tag"]).getId(),
       });
 
       // esclusione brass gia presente
-      if (finalrecipe["results"][0]["item"]["id"].includes("brass") !== true) {
+      if (finalrecipe["results"][0]["id"].includes("brass") !== true) {
         event.custom(finalrecipe);
       }
     }
