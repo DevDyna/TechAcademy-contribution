@@ -1,6 +1,5 @@
 const itemsToRemove_compactmachines = [
   'compactmachines:machine',
-  'compactmachines:spatial_workbench',
   'compactmachines:solid_wall',
   'compactmachines:new_machine[compactmachines:room_template="compactmachines:empty",compactmachines:machine_color="#FFFFFF"]',
 ];
