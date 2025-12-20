@@ -98,16 +98,21 @@ function getUnifiedSubTags(_tag) {
  * @returns {Object[]} An array of objects, each with a key-value pair mapping a subtag of `_tagA` to a subtag of `_tagB`.
  */
 function getAtoB(_tagA, _tagB) {
-  let result=[];
+  let result = [];
   getUnifiedSubTags(_tagA).forEach((mtA) => {
-    let material = `${mtA}`.split("/")[1]
-    if (getUnifiedSubTags(_tagB).some(mtB => `${mtB}`.includes(`${_tagB}/${material}`))){
-      result.push({"input": mtA, "output": `${_tagB}/${material}`});
-    } else if (getSubTags(_tagB).some(mtB => `${mtB}`.includes(`${_tagB}/${material}`))){
-      result.push({"input": mtA, "output": `${_tagB}/${material}`});
+    let material = `${mtA}`.split("/")[1];
+    if (
+      getUnifiedSubTags(_tagB).some((mtB) => {
+        return `${mtB}` == `${_tagB}/${material}`;
+      })
+    ) {
+      result.push({ input: mtA, output: `${_tagB}/${material}` });
+    } else if (
+      getSubTags(_tagB).some((mtB) => `${mtB}` == `${_tagB}/${material}`)
+    ) {
+      result.push({ input: mtA, output: `${_tagB}/${material}` });
     }
-    
-  })
+  });
   return result;
 }
 
@@ -122,9 +127,28 @@ function getAtoB(_tagA, _tagB) {
  * @returns {boolean} True if the item exists, false otherwise.
  */
 function itemExists(_id) {
-  return ! (`${Item.of(_id)}`.includes("minecraft:air"));
+  // try {
+  //   return ! (`${Item.of(_id)}`.includes("minecraft:air"));
+  // } catch (e) {
+  //   return false;
+  // }
+  return Item.exists(_id);
 }
 
+
+/**
+ * Checks if the specified item is equivalent to "minecraft:air" or "minecraft:barrier".
+ *
+ * This function determines whether the given item is equivalent to "minecraft:air" or "minecraft:barrier",
+ * indicating that it is not a valid item. It returns true if the item is equivalent to either of these,
+ * and false otherwise.
+ *
+ * @param {string} _item - The item to check for nullity (e.g., "minecraft:stone").
+ * @returns {boolean} True if the item is equivalent to "minecraft:air" or "minecraft:barrier", false otherwise.
+ */
+function isNullItem(_item){
+  return `${_item}`.includes("air") || `${_item}`.includes("minecraft:barrier");
+}
 
 /**
  * Retrieves the target item associated with the specified tag or, if the tag does not correspond to an item, the first item ID associated with the tag.
@@ -136,7 +160,7 @@ function getTagOutput(_tag){
   let targetItem = AlmostUnified.getTagTargetItem(_tag);
   let altItem = Item.of(Ingredient.of(`#${_tag}`).itemIds[0]);
 
-  return !targetItem.id.includes("air") ? targetItem : altItem
+  return !isNullItem(targetItem) ? targetItem : altItem
   
 }
 
@@ -156,7 +180,7 @@ function getItemOutput(_item){
   let targetItem = AlmostUnified.getVariantItemTarget(_item);
   let altItem = Item.of(_item)
   
-  return !targetItem.id.includes("air") ? targetItem : altItem
+  return !isNullItem(targetItem) ? targetItem : altItem
   
 }
 

@@ -14,7 +14,8 @@ ServerEvents.recipes((event) => {
       !recipe.getId().includes("kjs:") &&
       !recipe.getId().includes("/inverse/") &&
       !recipe.getId().includes("/gem/") &&
-      !recipe.getId().includes("compat/")
+      !recipe.getId().includes("compat/")&&
+      !recipe.getId().includes("productivebees:") //unitl component will be handled
     ) {
       let originalRecipe = JSON.parse(recipe.json);
       let output = originalRecipe["results"][0];
@@ -23,7 +24,7 @@ ServerEvents.recipes((event) => {
         let target = AlmostUnified.getVariantItemTarget(
           Item.of(output["id"])
         ).id;
-        target = target.includes("minecraft:air") ? output["id"] : target;
+        target = isNullItem(target) ? output["id"] : target;
 
         event.recipes.enderio.alloy_smelting(
           //output
