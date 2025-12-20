@@ -72,3 +72,9 @@ deleted_files.txt
 config/ftbquests/quests/lang/*.snbt
 config/ftbquests/quests/lang/recovery/*.snbt
 config/ftbquests/quests/lang/**/*.snbt_merged
+config/brandon3055/contributors.json
+config/brandon3055/contributors.json.etag
+config/brandon3055/hud_settings.json
+oeb/oeb_global_replacement_cache.dat
+oei/global_replacement_cache.dat
+oei/oei_global_replacement_cache.dat
